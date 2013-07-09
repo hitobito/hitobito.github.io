@@ -1,0 +1,53 @@
+.partner-list {
+  @include clearfix; 
+  @include reset-list;
+  margin-bottom: 40px;
+}
+
+.partner-puzzle, 
+.partner-jubla {
+
+  @include at-breakpoint($breakTablet) {
+    float: left;
+    width: columns(3, 6);
+    margin-left: gutter(6); 
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.partner-item {
+  display: block;
+  margin-top: 40px;
+
+  @include at-breakpoint($breakDesktop oldie) {
+    @include span-columns(4, 12);
+    margin-left: 0;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    line-height:200px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  img { 
+    vertical-align:middle;
+  }
+}
+
+.partner-you {
+  @include at-breakpoint($breakTablet) {
+    clear: both;
+  }
+  @include at-breakpoint($breakDesktop oldie) {
+    clear: none;
+    @include omega;
+  }
+}

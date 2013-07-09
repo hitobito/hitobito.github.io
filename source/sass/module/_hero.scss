@@ -1,0 +1,18 @@
+.hero-title {
+
+  @include at-breakpoint($breakTablet) {
+    @include span-columns(4, 6);
+    @include push(1);
+  }
+}
+
+.hero-illus {
+  margin-top: 30px;
+  @include at-breakpoint($breakTablet) {
+    width: 100%;
+  }
+
+  @include at-breakpoint($breakDesktop oldie) {
+    width: columns(10, 12);
+  }
+}

@@ -1,0 +1,274 @@
+// Typography
+// Super basic typography styles
+// =================================================================================
+
+// Setup your baseline, selection and links
+// Vertical rhythm
+@include establish-baseline($base-font-size);
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: $baseFontFamily;
+  color: $fontColor;
+  background-color: $backgroundColor;
+}
+
+#{headings(all)}, p{
+  @include flow;
+}
+
+/* 	SELECTION
+	----------------- */
+@include selection($black, $white);
+
+/* 	LINKS
+	----------------- */
+a {
+	color: $linkColor;
+  
+  @include transition-property(background-color, border-color, color);
+  @include transition-duration(0.3s);
+
+	&:visited {
+		color: $linkColor;
+	}
+	&:hover {
+		color: $linkHover;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+}
+
+.link-wac {
+  display: block;
+  margin-top: 20px;
+  margin-left: 9px;
+  @include opacity(0.5);
+  @include single-transition(opacity, 0.3s);
+
+  &:hover {
+    @include opacity(1);
+  }
+}
+
+/* 	HEADING
+	----------------- */
+#{headings(all)} {
+	font-family: $headingFontFamily;
+	font-weight: 400;
+
+  @include flow;
+}
+
+h1 {
+	@include adjust-font-size-to(36px, 2);
+  margin-bottom: $base-line-height;
+
+  @include at-breakpoint($breakDesktop oldie) {
+    @include adjust-font-size-to(48px, 2);
+  }
+}
+
+h2 {
+	@include adjust-font-size-to(24px, 1);
+  font-weight: 700;
+}
+
+h3 {
+  @include adjust-font-size-to(20px, 1);
+  font-weight: 700;
+}
+
+h4 {
+	font-size: 1em; //16px;
+	line-height: 1.5em;
+}
+
+h5 {
+	font-size: 0.875em; //14px;
+	line-height: 1.5em;
+}
+
+h6 {
+	font-size: 0.875em; //14px;
+	line-height: 1.5em;
+}
+
+/* 	TEXT ELEMENT
+	----------------- */
+em {
+	font-style: italic;
+}
+
+b,
+strong {
+	font-weight: 400;
+}
+
+small {
+	font-size: 0.875em;
+}
+
+cite {
+	font-style: normal;
+}
+
+dfn {
+	font-style: italic;
+	font-weight: bold;
+}
+
+sub,
+sup {
+	font-size: 0.75em;
+	line-height: 0;
+	position: relative;
+}
+
+sup {
+	top: -0.5em;
+	vertical-align: sub;
+}
+
+sub {
+	bottom: -0.25em;
+	vertical-align: super;
+}
+
+abbr,
+acronym {
+	font-size: 0.9em;
+	text-transform: uppercase;
+	border-bottom: 1px dotted $borderColor;
+	cursor: help;
+}
+
+del {
+	color: $grayDark;
+	text-decoration: line-through;
+	vertical-align: baseline;
+}
+
+pre {
+	background: #ffff99;
+	border-bottom: 1px solid $borderColor;
+	border-top: 1px solid $borderColor;
+	color: #990;
+	margin: 1.5em 0;
+	padding: rhythm(.5) rhythm(.3);
+	@include force-wrap;
+}
+
+code {
+	background: #ffff99;
+	color: #990;
+	font-size: 0.688em; // 11px;
+	line-height: 1.2em;
+	padding: rhythm(.2);
+}
+
+ins {
+	text-decoration: underline;
+}
+
+mark {
+	background: #ff0;
+	color: #990;
+	font-size: 11px;
+}
+
+/* 	BLOCKQUOTE
+	----------------- */
+blockquote {
+	border-left: 3px solid $grayLighter;
+	color: $grayDark;
+	font-style: italic;
+	margin: rhythm() 0;
+	padding-left: rhythm(.8);
+
+	em,
+	i,
+	cite {
+		font-style: normal;
+	}
+	cite {
+		display: block;
+		padding: 10px 0 0 20px;
+		position: relative;
+		&:before {
+			content: '\2014';
+			left: 0;
+			position: absolute;
+		}
+	}
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+
+address {
+	display: block;
+	margin: 0 0 1.5em;
+	font-style: italic;
+}
+
+/* 	LISTS
+	----------------- */
+.no-list {
+	@include reset-list-style;
+	padding: 0;
+}
+ul,
+ol {
+	margin: 1em 0;
+	padding: 0 0 0 rhythm(1.5);
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+ol ol {
+	list-style: upper-alpha;
+}
+
+ol ol ol {
+	list-style: lower-roman;
+}
+
+ol ol ol ol {
+	list-style: lower-alpha;
+}
+
+li ul,
+li ol {
+	margin: 0;
+}
+
+dl {
+	margin: 0 1.625em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 1.625em;
+}
+
+.center {
+  text-align: center;
+}

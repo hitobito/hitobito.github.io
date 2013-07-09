@@ -1,0 +1,39 @@
+.features-list {
+  @include reset-list;
+  @include clearfix;
+}
+
+.features-item {
+  display: block;
+  margin-top: 40px;
+
+  font-family: $headingFontFamily;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  @include at-breakpoint($breakTablet) {
+    float: left;
+    width: columns(2, 6);
+    margin-left: gutter(6); 
+    margin-top: 0;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  @include at-breakpoint($breakDesktop oldie) {
+    float: left;
+    width: columns(4, 12);
+    margin-left: gutter(12); 
+    margin-top: 0;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}

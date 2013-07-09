@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/*
+Theme Name  :  Hitobito - PRINT
+Version     :  1.0
+Author      :  Fritsch Pierre
+Author URL  :  http://www.wearecube.ch
+Mixed with  :
+*  SMACSS   (http://smacss.com/)
+*  Compass  (http://compass-style.org/)
+*  Susy     (http://susy.oddbird.net/)
+*/
+
+
+/*  GENERIC
+  ----------------- */
+
+// Init Colors, remove shadows and backgrounds
+// @see  http://www.sanbeiji.com/archives/953
+* {
+  color: #000 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  -ms-filter: none !important;
+      filter: none !important;
+  background-color: transparent !important;
+}
+
+// Remove margin and width in <body>
+// Init font
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  font-size: 12pt;
+}
+
+// Titles followed by content
+// @note  just on Opera and IE 8+.
+// @see   http://en.wikipedia.org/wiki/Comparison_of_layout_engines_%28Cascading_Style_Sheets%29#cite_ref-75 */
+h1, h2, h3, h4, h5, h6 {
+  page-break-after: avoid;
+}
+
+h1, h2, h3, h4, h5, h6,
+blockquote,
+code, pre,
+tr,
+img {
+  page-break-inside: avoid;
+}
+
+// Minimum lines before next page
+// @note  Doesn't work on Firefox
+p {
+  orphans: 3;   // bas de page
+  widows: 3;  // haut de page
+}
+
+// Repeat table header on different pages
+thead {
+  display: table-header-group;
+}
+
+// Links underlign
+a:link {
+  text-decoration: underline;
+}
+
+// Links + URL (but not the anchors)
+a[href]:after {
+  content: " (" attr(href) ")";
+}
+
+a[href^="#"]:after {
+  content: "";
+}
+
+// Abbreviations
+abbr[title]:after {
+  content: " (" attr(title) ")";
+}
+
+// Image width
+img {
+  max-width: 100% !important;
+}
+
+/*  SPECIFIC
+  ----------------- */
+
+//Remove some elements
+/**
+header, nav, footer,
+.nav, .breadcrumb, .btn-toolbar {
+  display: none;
+}
+*/
+
+//Réinitialiser les marges et la largeur du conteneur principal.
+/**
+.content {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+}
+*/
+
+// Linéariser certains éléments de contenu
+/**
+.classe-a-remplacer, #identifiant-a-remplacer {
+  float: none;
+}
+
+.classe-a-remplacer, #identifiant-a-remplacer {
+  position: static;
+}
+*/
+
+// Remplacer un arrière-plan par une bordure
+/**
+.classe-a-remplacer, #identifiant-a-remplacer {
+  border: 1px solid MediumPurple;
+  color: MediumPurple;
+  background-color: transparent;
+}
+*/
+
+// Remplacer une image par sa description détaillée
+/**
+.classe-a-remplacer img,
+#identifiant-a-remplacer img {
+  display: none;
+}
+
+.classe-a-remplacer .visually-hidden,
+.classe-a-remplacer .visually-hidden caption,
+#identifiant-a-remplacer .visually-hidden,
+#identifiant-a-remplacer .visually-hidden caption {
+  position: static;
+  clip: auto;
+}
+*/

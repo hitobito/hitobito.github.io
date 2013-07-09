@@ -1,0 +1,100 @@
+.desc-header {
+  @include clearfix;
+}
+
+.desc-title {
+  @include adjust-font-size-to(40px, 2);
+  
+  font-weight: 400;
+  margin-bottom: $base-line-height;
+
+  @include at-breakpoint($breakTablet) {
+    @include adjust-font-size-to(48px, 2);
+  }
+}
+
+.desc-teaser {
+  @include at-breakpoint($breakDesktop oldie) {
+    @include span-columns(4, $breakDesktop);
+  }
+}
+
+.desc-slider {
+  @include clearfix;
+  text-align: center;
+  margin-top: 30px;
+
+  @include at-breakpoint($breakDesktop oldie) {
+    margin-top: 0;
+    @include span-columns(7 omega , $breakDesktop);
+  }
+}
+
+.desc-teaser,
+.desc-item {
+  text-align: center;
+  @include at-breakpoint($breakTablet oldie) {
+    text-align: left;
+  }
+}
+
+.desc-list {
+  @include at-breakpoint($breakDesktop oldie) {
+    @include clearfix;
+  }
+}
+
+.desc-item {
+  @include clearfix;
+  margin-top: 40px;
+
+  
+  @include at-breakpoint($breakDesktop oldie) {
+    @include span-columns(6, 12);
+  }
+
+  &.is-even {
+    @include at-breakpoint($breakDesktop oldie) {
+      @include omega;
+    }
+  }
+}
+
+.desc-screenshot {  
+  @include at-breakpoint($breakTablet) {
+    @include span-columns(3, $breakTablet);
+  }
+  @include at-breakpoint($breakDesktop oldie) {
+    @include span-columns(3, 6);
+  }
+}
+
+.desc-screenshot-frame {
+  line-height: 0;
+  max-width: 200px;
+
+  margin: 0 auto 20px;
+  @include border-radius(100%);
+  border: 6px solid $orangeDark;
+
+  img {
+    width: 100%;
+    @include border-radius(100%);  
+  }
+}
+
+.desc-text {
+  @include at-breakpoint($breakTablet oldie) {
+    @include span-columns(3 omega, 6);
+  }
+}
+
+.desc-highlight {
+  padding: $base-line-height 30px;
+  background-color: $orangeDark;
+  @include border-radius(4px);
+
+  @include at-breakpoint($breakDesktop oldie) {
+    margin: 0 0 0 30px;
+  }
+}

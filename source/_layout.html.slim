@@ -1,0 +1,54 @@
+doctype html
+/[if IE 7]
+  | <html lang="en" class="no-js ie7 oldie">
+/[if IE 8]
+  | <html lang="en" class="no-js ie8 oldie">
+/[if gt IE 8] <!
+html lang="en" class="no-js"
+  /! <![endif]
+  head
+    meta charset="utf-8"
+    title Hitobito - Die Open Source Webapplikation für das Verwalten von Mitgliedern, Events und mehr...
+
+    meta content="initial-scale = 1.0" name="viewport"
+    meta content="Mitglieder zentral online verwalten" name="description"
+
+    / Icons
+    link href="images/favicon.ico" rel="shortcut icon"
+    link href="images/apple-touch-icon.png" rel="apple-touch-icon"
+    link href="images/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57"
+    link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"
+    link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"
+
+    / Styles
+    link href="http://fonts.googleapis.com/css?family=Quicksand:400,700|Varela+Round" rel="stylesheet" type="text/css"
+    link href="stylesheets/screen.css" rel="stylesheet" media="screen"
+    link href="stylesheets/print.css" rel="stylesheet" media="print"
+    /[if IE]
+      | <link href="stylesheets/ie.css" rel="stylesheet" media="screen">
+
+    / Scripts
+    script src="javascripts/vendor/modernizr-2.6.2.min.js"
+
+  body role="document"
+
+    /[if lt IE 7]
+      p.center
+        | Be warned, you are using an outdated browser.
+        br
+        | Please
+        a href="http://browsehappy.com/" upgrade your browser
+
+    #page
+      == yield
+    / end #page
+
+    / Scripts
+    script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"
+    script window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.8.2.min.js"><\/script>')
+    script src="javascripts/vendor/responsiveslides.min.js"
+    script src="javascripts/vendor/jquery.lightbox.min.js"
+
+    script src="javascripts/retina.js"
+    script src="javascripts/plugins.js"
+    script src="javascripts/main.js"

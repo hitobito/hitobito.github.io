@@ -1,0 +1,70 @@
+// Reset CSS
+// Simpler version of Normalize.css
+// =================================================================================
+
+body,
+figure {
+    margin: 0;
+}
+
+article, aside, details, figcaption, figure, footer,
+header, hgroup, nav, section, summary {
+    display: block;
+}
+
+audio, canvas, video {
+    @include inline-block;
+}
+
+audio:not([controls]),
+[hidden] {
+    display: none;
+    height: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+input[type="radio"] { 
+    vertical-align: text-bottom;
+}
+
+input[type="checkbox"] { 
+    vertical-align: text-bottom; 
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

@@ -1,0 +1,70 @@
+// Variable
+// Setup your global variable
+// =================================================================================
+
+// Grid & baseline setup
+// ------------------
+
+// Basic Grid
+// ------------------
+$total-columns:       4;
+$column-width:        3.75em;
+$gutter-width:        1em;
+$grid-padding:        $gutter-width;
+
+$breakTablet:         6;
+$breakDesktop:        12;
+
+$show-grid-backgrounds: false;
+
+
+// Typography
+// ------------------
+$base-font-size:       16px;
+$base-line-height:     24px;
+$arial:                Arial, "Helvetica Neue", Helvetica, sans-serif;
+$headingFontFamily:    'Quicksand', $arial;
+$baseFontFamily:       'Varela Round', $arial;
+
+// Global Palettes
+// ------------------
+
+// Grays
+// -------------------------
+$black:                 #4A4A4A;
+$grayDarker:            #797E89;
+$grayDark:              #9B9B9B;
+$gray:                  #D8DBE1;
+$grayLight:             #E8EBF0;
+$grayLighter:           #F8F9FA;
+$white:                 #fff;
+
+// Colors
+// ----------------------------
+$blue:                  #50B8B7;
+$blueDark:              #329897;
+$blueDarker:            #40A3A2;
+
+$green:                 #8DB850;
+$greenDark:             #73A131;
+$greenDarker:           #5F822C;
+
+$orange:                #DC795B;
+$orangeDark:            #C75B3B;
+$purple:                #925D97;
+$purpleDark:            #6F4073;
+
+// Layout Palettes
+// -------------------------
+$backgroundColor:       $grayLight;
+$borderColor:           $grayLighter;
+$fontColor:             $grayDark;
+$altColor:              $gray;
+
+// Link Palettes
+// -------------------------
+$linkColor:             $fontColor;
+$linkHover:             $black;
+$linkVisited:           darken($linkHover, 5%);
+$linkFocus:             $linkHover;
+$linkActive:            lighten($linkColor, 10%);
