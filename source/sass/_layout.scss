@@ -70,6 +70,18 @@
 #info {
   background: $purple;
   color: white;
+
+  a {
+    color: adjust-saturation(lighten($purple, 40%), 30%);
+
+    &:visited {
+      color: adjust-saturation(lighten($purple, 40%), 30%);
+    }
+    &:hover,
+    &:focus {
+      color: white;
+    }
+  }
 }
 
 #partner {
@@ -81,5 +93,5 @@
   text-align: center;
   @include adjust-font-size-to(14px);
 
-  
+
 }

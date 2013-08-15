@@ -1,5 +1,5 @@
 .info-text {
-  padding: 40px 0;
+  padding: 40px 0 20px;
   text-align: center;
 
   @include at-breakpoint($breakTablet oldie) {
@@ -23,6 +23,7 @@
     margin-bottom: 0;
     @include border-radius(0);
     @include span-columns(4 omega, 12);
+    min-height: 430px;
   }
 
   img {
@@ -32,4 +33,13 @@
   .btn {
     margin: 40px 0;
   }
+}
+
+.info-source-img {
+  float: left;
+  width: 2em;
+  margin-right: 0.5em;
+}
+.info-source-link {
+  line-height: 2em;
 }

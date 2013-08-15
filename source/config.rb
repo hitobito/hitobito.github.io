@@ -23,3 +23,5 @@ relative_assets = true
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 preferred_syntax = :scss
+
+fireapp_build_path = "../public"
