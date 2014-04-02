@@ -67,19 +67,24 @@
   color: white;
 }
 
+
+#hosting {
+  background: $orangeDark;
+  color: white;
+  text-align: center;
+
+  @include at-breakpoint($breakTablet oldie) {
+    text-align: left;
+  }
+}
+
 #info {
   background: $purple;
   color: white;
-
   a {
-    color: adjust-saturation(lighten($purple, 40%), 30%);
-
-    &:visited {
-      color: adjust-saturation(lighten($purple, 40%), 30%);
-    }
-    &:hover,
-    &:focus {
-      color: white;
+    color: #EECFF1;
+    &:hover {
+      color: white
     }
   }
 }

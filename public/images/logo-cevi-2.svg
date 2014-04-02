@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="198px" viewBox="0 0 300 198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>logo-cevi-2</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-651.000000, -3787.000000)">
+            <g id="veci_logo_rvb-+-CEVI-REGION" sketch:type="MSLayerGroup" transform="translate(669.000000, 3829.000000)">
+                <g id="veci_logo_rvb" transform="translate(0.298400, 37.864172)" sketch:type="MSShapeGroup">
+                    <g id="Group">
+                        <path d="M0.3567422,28.2217414 C0.262236516,27.868382 0.204762315,27.504482 0.171249661,27.1355627 L7.55509269,34.4978871 C3.56256267,33.0764184 1.08212359,30.9248074 0.3567422,28.2217414 L0.3567422,28.2217414 L0.3567422,28.2217414 Z" id="Shape" fill="#00499A"></path>
+                        <path d="M47.6957117,53.1658733 C42.5260497,54.6504179 37.3438204,55.5707921 32.4508054,55.9382057 L50.7530711,74.1860756 L57.2513422,49.9794478 C54.3742809,51.1041079 51.2011353,52.1595016 47.6957117,53.1658733 L47.6957117,53.1658733 L47.6957117,53.1658733 Z" id="Shape" fill="#D60038"></path>
+                        <path d="M63.9877208,22.9737179 C57.3195405,27.3219464 49.1556904,31.0635076 41.5620582,33.2433941 C31.1191801,36.2420974 20.4882961,37.1706698 12.3688503,35.7992269 L-0.0333450906,23.433654 L68.8237643,4.95489583 L63.9877208,22.9737179 L63.9877208,22.9737179 Z" id="Shape" fill="#D60038"></path>
+                        <path d="M74.0964777,36.0108745 C68.8804007,42.3833909 60.5248583,46.9591615 47.0251235,50.8357421 C33.254774,54.7892855 19.5150886,54.667149 12.022497,50.5247122 C9.38555384,49.0671045 7.73254219,47.2276946 7.10954195,45.0595198 L3.16024326,35.2755455 C3.30887188,35.3657258 3.4575005,35.4574119 3.60562643,35.5390593 C11.6883758,40.0079186 26.856203,40.0417153 42.2467217,35.6227145 C54.5606112,32.0867777 67.4732043,24.9300777 74.0961426,18.0291953 L74.0961426,36.0108745 L74.0964777,36.0108745 L74.0964777,36.0108745 Z" id="Shape" fill="#003973"></path>
+                        <path d="M50.7530711,7.32032946 L2.65906152,20.1498539 C7.60921562,13.0953806 19.2305662,6.15518023 32.6696431,2.29666909 C36.4458489,1.21249806 44.8858432,-0.149408137 50.7530711,0.0692664823 L50.7530711,7.32032946 L50.7530711,7.32032946 Z" id="Shape" fill="#003973"></path>
+                    </g>
+                </g>
+                <text id="CEVI-REGION" sketch:type="MSTextLayer" font-family="Ornitons-Serial" font-size="10.8" font-weight="bold" letter-spacing="2.7" fill="#000000">
+                    <tspan x="50.4761905" y="11">CEVI REGION</tspan>
+                    <tspan x="50.4761905" y="25">WINTHERTHUR-SCHAFFAUSEN</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
