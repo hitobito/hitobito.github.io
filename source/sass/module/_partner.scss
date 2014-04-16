@@ -16,7 +16,7 @@
   }
   @include at-breakpoint($breakDesktop oldie) {
     @include span-columns(4, 12);
-    &:nth-child(3n) {
+    &.is-third {
       @include omega;
     }
   }
@@ -35,14 +35,3 @@
     vertical-align:middle;
   }
 }
-
-
-// .partner-item.is-third {
-//   @include at-breakpoint($breakTablet) {
-//     clear: both;
-//   }
-//   @include at-breakpoint($breakDesktop oldie) {
-//     clear: none;
-//     @include omega;
-//   }
-// }
