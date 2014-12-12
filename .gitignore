@@ -1,2 +1,7 @@
-source/.sass-cache
-logs/
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+Gemfile.lock
+*.log

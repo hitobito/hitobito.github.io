@@ -1,0 +1,31 @@
+// IE styles
+// Conditional class for IE, put all styles inside the .oldie
+// =================================================================================
+
+@import "compass";
+@import "susyone";
+@import "base/variable";
+
+// Hackz for ie6/7 //
+//  ----------------- */
+table button,
+table input {
+  *overflow: auto;
+}
+//  ----------------- */
+
+.ie7 {
+  #demo {
+    overflow: hidden;
+  }
+}
+
+.ie8 {
+
+}
+
+.oldie {
+  .container {
+    @include set-container-width(12, static);
+  }
+}

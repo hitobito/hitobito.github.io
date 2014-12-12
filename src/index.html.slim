@@ -1,0 +1,243 @@
+doctype html
+/[if IE 7]
+  | <html lang="en" class="no-js ie7 oldie">
+/[if IE 8]
+  | <html lang="en" class="no-js ie8 oldie">
+/[if gt IE 8] <!
+html lang="en" class="no-js"
+  /! <![endif]
+  head
+    meta charset="utf-8"
+    title hitobito - Online Open Source Mitgliederverwaltung, Lager, Events, Mailinglisten
+
+    meta content="initial-scale = 1.0" name="viewport"
+    meta content="Die Open Source Mitgliederverwaltung für Organisationen mit komplexen Strukturen und Berechtigungen. Verwalten Sie online Ihre Mitglieder, Lager, Events und mehr..." name="description"
+    meta content="Online, Open Source, Vereinsverwaltung, Mitgliederverwaltung, Kursverwaltung, Eventverwaltung, Vereine, Events, Mitglieder, Kurs" name="Keywords"
+
+    / Icons
+    link href="images/favicon.ico" rel="shortcut icon"
+    link href="images/apple-touch-icon.png" rel="apple-touch-icon"
+    link href="images/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57"
+    link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"
+    link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"
+
+    / Styles
+    link href="http://fonts.googleapis.com/css?family=Quicksand:400,700|Varela+Round" rel="stylesheet" type="text/css"
+    link href="styles/main.css" rel="stylesheet" media="screen"
+    link href="styles/print.css" rel="stylesheet" media="print"
+    /[if IE]
+      | <link href="styles/ie.css" rel="stylesheet" media="screen">
+
+    / Scripts
+    script src="javascripts/vendor/modernizr-2.6.2.min.js"
+
+    /Google+
+    link href="https://plus.google.com/108865436255615110323" rel="publisher"
+
+  body role="document"
+
+    /[if lt IE 7]
+      p.center
+        | Be warned, you are using an outdated browser.
+        br
+        | Please
+        a href="http://browsehappy.com/" upgrade your browser
+
+    #page
+
+      #header role="banner"
+        .container
+          a.logo href="index.html"
+            img src="images/logo.svg" alt="hitobito"
+          p Die Open Source Webapplikation für das Verwalten von Mitgliedern, Events und mehr...
+
+      #main role="main"
+        section#hero
+          .container
+            h1.hero-title Mitglieder zentral online verwalten
+            img.hero-illus src="images/hero.png" alt="Schöne auf Desktop und Tablet"
+
+        section#features
+          .container
+            ul.features-list
+              li.features-item
+                img src="images/feature-central.svg" alt="Zentralisieren"
+                p
+                  | Mitglieder zentral
+                  br
+                  | online verwalten
+              li.features-item
+                img src="images/feature-event.svg" alt="Planen"
+                p
+                  | Lager und events
+                  br
+                  | verwalten
+              li.features-item
+                img src="images/feature-mail.svg" alt="In Kontakt bleiben"
+                p
+                  |Newsletter und
+                  br
+                  | Mailingsystem
+
+        section#demo
+          .container
+            img.demo-man src="images/demo-man.svg" alt="Try it now!"
+            .demo-calltoaction
+              p.demo-teaser Gwundrig? Testen Sie die Demoversion von hitobito
+              a.demo-btn href="http://demo.hitobito.ch/" target="_blank"
+                h2 Demoversion testen
+                span Kostenlos und ohne Registrierung
+
+        section#description
+          .container
+            .desc-header
+              .desc-teaser
+                h2.desc-title Was kann hitobito?
+                p
+                  | Der Zugriff auf die Datenbank erfolgt über einen gängigen Web-Browser. Somit sind Sie unabhängig vom Betriebssystem und haben von überall Zugriff auf Ihre Daten. Die Bedienung der Applikation ist intuitiv und einfach.
+
+              .desc-slider
+                ul.rslides
+                  li
+                    img src="images/slide01.png" alt="Abonnent erstellen"
+                  li
+                    img src="images/slide02.png" alt="Region detail"
+                  li
+                    img src="images/slide03.png" alt="Region berarbeiten"
+
+            .desc-list
+              .desc-item
+                .desc-screenshot
+                  a.lightbox href="images/desc-mitglied-zoom.png"
+                    .desc-screenshot-frame
+                      img src="images/desc-mitglied.png" alt="Mitglieder zentral online verwalten"
+                .desc-text
+                  h3 Mitglieder zentral online verwalten
+                  p Die Datenbank bietet die Möglichkeit zentral alle Mitglieder zu verwalten. Die Personen können ihre Daten selbst aktualisieren.
+
+              .desc-item.is-even
+                .desc-screenshot
+                  a.lightbox href="images/desc-newsletter-zoom.png"
+                    .desc-screenshot-frame
+                      img src="images/desc-newsletter.png" alt="Newsletter und Mailingssystem"
+                .desc-text
+                  h3 Newsletter und Mailingssystem
+                  p Mailinglisten lassen sich flexibel zusammenstellen und verwalten. Für einen Postversand lassen sich die Adressdaten einfach exportieren und z.B. als Etiketten drucken.
+
+              .desc-item
+                .desc-screenshot
+                  a.lightbox href="images/desc-rollen-zoom.png"
+                    .desc-screenshot-frame
+                      img src="images/desc-rollen.png" alt="Flexible Rollen und Berechtigungen"
+                .desc-text
+                  h3 Flexible Rollen und Berechtigungen
+                  p Abhängig von den Strukturen werden den Benutzern Rollen zugewiesen. Diese Rollen definieren, wer wo auf welche Daten Zugriff hat.
+
+              .desc-item.is-even
+                .desc-screenshot
+                  a.lightbox href="images/desc-vereinstrukturen-zoom.png"
+                    .desc-screenshot-frame
+                      img src="images/desc-vereinstrukturen.png" alt="Komplexe Vereinsstrukturen abbilden"
+                .desc-text
+                  h3 Komplexe Vereinsstrukturen abbilden
+                  p Komplexe hierarchische Strukturen können in der Lösung einfach und komplett abgebildet werden.
+
+              .desc-item
+                .desc-screenshot
+                  a.lightbox href="images/desc-events-zoom.png"
+                    .desc-screenshot-frame
+                      img src="images/desc-events.png" alt="Lager und Events verwalten"
+                .desc-text
+                  h3 Lager und Events verwalten
+                  p Anlässe und Kurse können einfach im System verwaltet werden. Wer auf welcher Hierarchiestufe Anlässe erstellen kann, wird über die Rolle der Mitglieder direkt gesteuert.
+
+        section#hosting
+          .container
+            .info-text
+              h2 Individuelle Anpassungen und Hosting
+              p Puzzle ITC passt hitobito auf Ihre Bedürfnisse an und übernimmt auf Wunsch den Betrieb und Support Ihrer individuellen Lösung.
+
+        section#info
+          .container
+            .info-text
+              h2 Gemeinschaftslösung
+              p
+                | hitobito ist ein Open Source Partnerprojekt von Jungwacht Blauring Schweiz und Puzzle ITC. Ziel ist es, die Datenbank gemeinsam mit weiteren Partnern auszubauen – ganz im Sinne des Grundsatzes vom Geben und Nehmen. Lesen Sie dazu auch den Artikel
+                '
+                a href="http://www.netzwoche.ch/de-CH/News/2013/08/08/Vereinsverwaltung-mit-der-Community.aspx" "Vereinsverwaltung mit der Community"
+                |  in der Netzwoche
+
+              h2 Open Source
+              p
+                | Der Quellcode von hitobito ist
+                '
+                a href="https://github.com/hitobito/hitobito" target="_blank" auf Github
+                |  unter der GNU Affero General Public License veröffentlicht. Die zugrunde liegenden Softwarekomponenten (Ruby on Rails, MySQL Datenbank, ...) sind Open Source und basieren auf offenen Standards und Schnittstellen.
+
+              p
+                a.info-source-link href="https://github.com/hitobito/hitobito" target="_blank"
+                  img.info-source-img src="images/logo-github.svg" alt="GitHub"
+                  | https://github.com/hitobito/hitobito
+
+            .info-contact
+              a href="mailto:kunz@puzzle.ch"
+                img src="images/info-contact.svg" alt="Weitere informationen?"
+              p Kontaktieren Sie den Lösungsverantwortlichen
+              a.btn.btn-purple href="mailto:kunz@puzzle.ch" André Kunz
+
+      #footer role="contentinfo"
+        section#partner
+          .container
+            ul.partner-list
+              li.partner-item
+                a href="http://www.puzzle.ch/"
+                  img src="images/logo-puzzle.svg" alt="Puzzle ITC"
+                  span.partner-text
+                  | lorem
+              li.partner-item
+                a href="http://www.jubla.ch/"
+                  img src="images/logo-jubla.svg" alt="Jungwacht Blauring Schweiz"
+                  span.partner-text
+                  | lorem
+              li.partner-item.is-third
+                a href="http://www.pbs.ch/"
+                  img src="images/logo-pbs.png" alt="Pfadibewegung Schweiz (PBS)"
+                  span.partner-text
+                  | lorem
+              li.partner-item
+                a href="http://www.cevi-zhshgl.ch/"
+                  img src="images/logo-cevi-1.svg" alt="CEVI ZH-SH-GL"
+                  span.partner-text
+                  | lorem
+              li.partner-item
+                a href="http://www.cevi.ws/"
+                  img src="images/logo-cevi-2.svg" alt="CEVI Winterthur Schaffhausen"
+                  span.partner-text
+                  | lorem
+              li.partner-item.is-third
+                a href="mailto:kunz@puzzle.ch"
+                  img src="images/logo-you.svg" alt="Sie?"
+
+        section#legal
+          p
+            | &copy;
+            '
+            a href="http://www.puzzle.ch/" Puzzle ITC
+            |  2013
+          p
+            a.link-wac href="http://www.wearecube.ch/" title="Design und Realisierung: We Are Cube.³"
+              img src="images/logo-wac.svg" alt="Design und Realisierung: We Are Cube.³"
+
+        / end #content
+      / end #main
+    / end #page
+
+    / Scripts
+    script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"
+    script window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.8.2.min.js"><\/script>')
+    script src="javascripts/vendor/responsiveslides.min.js"
+    script src="javascripts/vendor/jquery.lightbox.min.js"
+
+    script src="javascripts/retina.js"
+    script src="javascripts/plugins.js"
+    script src="javascripts/main.js"
