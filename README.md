@@ -7,6 +7,7 @@ You'll need to have the following items installed before continuing.
   * [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
   * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
   * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
+  * Bundler 'gem install bundler'
 
 ## Quickstart
 
