@@ -331,17 +331,17 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
-    'useminPrepare',
+    // 'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
     'copy:dist',
-    'usemin',
+    // 'usemin',
     'htmlmin'
   ]);
 
   grunt.registerTask('default', [
     'newer:jshint',
-    'test',
+    // 'test',
     'build'
   ]);
 };
