@@ -50,10 +50,14 @@
 
     a {
       display: block;
+      min-height: 3.500em;
       padding: 1em 1.667em;
       background-color: #697388;
       text-decoration: none;
       color: #F8F9F9;
+      @include at-breakpoint(27.5em $breakTablet 55.938em) {
+        min-height: 6.500em;
+      }
     }
     .is-small {
       font-size: 0.667em;
