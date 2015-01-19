@@ -10,11 +10,13 @@
   @include reset-list;
   padding-top: 20px;
   padding-bottom: 40px;
+  text-align: center;
 }
 
 .partner-item {
   display: block;
   margin-top: 20px;
+  text-align: left;
 
   @include at-breakpoint(27.5em $breakTablet 55.938em) {
     @include span-columns(3, 6);
@@ -28,43 +30,67 @@
     @include span-columns(6, 12);
   }
 
-  .partner-item-img {
-    @include box-sizing(border-box);
-    display: block;
-    width: 100%;
-    height: 200px;
-    padding: 20px;
-    line-height:200px;
-    text-align: center;
-    text-decoration: none;
-    background: white;
-  }
   img {
     max-height: 100%;
   }
 
-  .partner-item-text {
-    display: block;
-    margin: 0;
-    @include adjust-font-size-to(24px, 1);
-
-    a {
-      display: block;
-      min-height: 3.500em;
-      padding: 1em 1.667em;
-      background-color: #697388;
-      text-decoration: none;
-      color: #F8F9F9;
-      @include at-breakpoint(27.5em $breakTablet 55.938em) {
-        min-height: 6.500em;
-      }
-    }
-    .is-small {
-      font-size: 0.667em;
-    }
-  }
-
   &:hover .partner-item-text a {
     background-color: #313845;
+  }
+}
+.partner-item-img,
+.partner-contact-img {
+  @include box-sizing(border-box);
+  display: block;
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  line-height:200px;
+  text-align: center;
+  text-decoration: none;
+}
+.partner-item-img {
+  background: white;
+}
+.partner-item-text, 
+.partner-contact-text {
+  display: block;
+  margin: 0;
+  @include adjust-font-size-to(20px, 1);
+
+  @include at-breakpoint($breakDesktop oldie) {
+    @include adjust-font-size-to(24px, 1);
+  }
+
+  a {
+    display: block;
+    min-height: 3em;
+    padding: 1em;
+    text-decoration: none;
+    color: #F8F9F9;
+    @include at-breakpoint(27.5em $breakTablet) {
+     min-height: 5em;
+    }
+    @include at-breakpoint($breakDesktop oldie) {
+      padding: 1em 1.667em;
+      min-height: 2em;
+    }
+  }
+  .is-small {
+    font-size: 0.667em;
+  }
+}
+.partner-item-text a {
+  background-color: #697388;
+}
+.partner-contact{
+  display: inline-block;
+  margin-top: 20px;
+
+  @include at-breakpoint(27.5em $breakTablet 55.938em) {
+    width: columns(3,6);
+  }
+  @include at-breakpoint($breakDesktop oldie) {
+    width: columns(6, 12);
   }
 }
