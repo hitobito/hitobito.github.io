@@ -27,4 +27,4 @@ And you're set!
 ## Directory Structure
 
   * `src`: The sources to modify the site
-  * `dist`: The generated files, for deploying
+  * `public`: The generated files, for deploying, has to be checked in, since we deploy via git
