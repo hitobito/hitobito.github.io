@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>icon-previous</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard 1" transform="translate(-1387.000000, -359.000000)" fill="#FFFFFF">
+            <path d="M1404.08464,368.449886 L1405.43992,369.727128 C1405.7189,369.990046 1405.89168,370.309867 1405.96243,370.645883 C1406.08361,371.215152 1405.91181,371.828904 1405.44473,372.269091 L1404.08464,373.550867 L1394.61264,382.47746 C1393.8738,383.173752 1392.66152,383.17612 1391.91536,382.472924 L1390.56008,381.195684 C1389.81647,380.494887 1389.81177,379.354412 1390.55527,378.653721 L1398.67623,371.000378 L1390.55527,363.347034 C1389.81643,362.650742 1389.81392,361.508267 1390.56008,360.805071 L1391.91536,359.527832 C1392.65898,358.827034 1393.86913,358.822604 1394.61264,359.523295 L1404.08464,368.449886 Z M1404.08464,368.449886" id="previous" transform="translate(1398.000000, 371.000000) rotate(-180.000000) translate(-1398.000000, -371.000000) "></path>
+        </g>
+    </g>
+</svg>

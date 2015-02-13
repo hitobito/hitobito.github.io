@@ -18,7 +18,7 @@ module.exports = function (grunt) {
   // Configurable paths for the application
   var appConfig = {
     src: 'src',
-    dist: 'dist'
+    dist: 'public'
   };
 
   // Define the configuration for all the tasks
@@ -70,7 +70,7 @@ module.exports = function (grunt) {
         // Change this to '0.0.0.0' to access the server from outside.
         hostname: 'localhost',
         livereload: 35729,
-        base: 'dist'
+        base: 'public'
       },
       livereload: {
         options: {
