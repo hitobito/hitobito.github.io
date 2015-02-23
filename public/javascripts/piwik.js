@@ -3,7 +3,7 @@ _paq.push(['setDoNotTrack', true]);
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function() {
-  var u="//piwik.puzzle.ch/";
+  var u="https://piwik.puzzle.ch/";
   _paq.push(['setTrackerUrl', u+'piwik.php']);
   _paq.push(['setSiteId', 1]);
   var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
