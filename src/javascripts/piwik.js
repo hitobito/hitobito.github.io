@@ -1,4 +1,5 @@
 var _paq = _paq || [];
+_paq.push(['setDoNotTrack', true]);
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function() {
