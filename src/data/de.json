@@ -1,5 +1,4 @@
 {
-  "lang"                : "de",
   "tagline"             : "Die Open Source Webapplikation für das Verwalten von Mitgliedern, Events und mehr...",
   "warning"             : "Be warned, you are using an outdated browser.<br />Please <a href=\"http://browsehappy.com\">upgrade your browser</a>",
   "hero-title"          : "Mitglieder zentral online verwalten",
@@ -21,5 +20,4 @@
   "desc-item4-text"     : "Komplexe hierarchische Strukturen können in der Lösung einfach und komplett abgebildet werden.",
   "desc-item5-title"    : "Lager und Events verwalten",
   "desc-item5-text"     : "Anlässe und Kurse können einfach im System verwaltet werden. Wer auf welcher Hierarchiestufe Anlässe erstellen kann, wird über die Rolle der Mitglieder direkt gesteuert."
-
 }
