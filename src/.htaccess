@@ -1,0 +1,5 @@
+RewriteCond %{HTTP:Accept-Language} ^en [NC]
+RewriteRule ^$ /en/ [L,R=301]
+
+#For every other language (including English :)) use English
+RewriteRule ^$ /de/ [L,R=301]

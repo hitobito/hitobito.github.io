@@ -11,6 +11,7 @@ module.exports = function (grunt) {
 
   // Load grunt tasks automatically
   require('load-grunt-tasks')(grunt);
+  grunt.loadNpmTasks('assemble' );
 
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
@@ -36,17 +37,13 @@ module.exports = function (grunt) {
           livereload: '<%= connect.options.livereload %>'
         }
       },
-      jsTest: {
-        files: ['test/spec/{,*/}*.js'],
-        tasks: ['newer:jshint:test', 'karma']
-      },
       sass: {
         files: ['<%= yeoman.src %>/styles/{,*/}*.{scss,sass}'],
         tasks: ['sass']
       },
-      slim: {
-        files: ['<%= yeoman.src %>/**/*.slim'],
-        tasks: ['slim', 'htmlmin']
+      assemble: {
+        files: ['<%= yeoman.src %>/**/*.hbs', '<%= yeoman.src %>/**/*.json'],
+        tasks: ['assemble']
       },
       gruntfile: {
         files: ['Gruntfile.js']
@@ -77,11 +74,6 @@ module.exports = function (grunt) {
           open: true
         }
       },
-      test: {
-        options: {
-          port: 9001
-        }
-      },
       dist: {
         options: {
           open: true,
@@ -94,7 +86,8 @@ module.exports = function (grunt) {
     jshint: {
       options: {
         jshintrc: '.jshintrc',
-        reporter: require('jshint-stylish')
+        reporter: require('jshint-stylish'),
+        force: true
       },
       all: {
         src: [
@@ -158,18 +151,29 @@ module.exports = function (grunt) {
       }
     },
 
-    slim: {
+    assemble: {
       options: {
-        pretty: true
+        flatten: true,
+        layout: '<%= yeoman.src %>/template/layout.hbs',
+        data: '<%= yeoman.src %>/data/**/*.json',
+        partials: '<%= yeoman.src %>/partials/*.hbs',
       },
       dist: {
+        options:{
+          plugins: ['assemble-contrib-permalinks'],
+          permalinks: {
+            structure: ':language/index.html'
+          }
+        },
         files: [{
           expand: true,
-          cwd: '<%= yeoman.src %>',
-          src: ['{,*/}*.slim', '!_{,*/}*.slim'],
-          dest: '<%= yeoman.dist %>',
-          ext: '.html'
+          cwd: '<%= yeoman.src %>/pages/',
+          src: ['*.hbs'],
+          dest: '<%= yeoman.dist %>/'
         }]
+      },
+      home: {
+        files: {'<%= yeoman.dist %>/index.html': '<%= yeoman.src %>/index.hbs'}
       }
     },
 
@@ -192,14 +196,6 @@ module.exports = function (grunt) {
       html: '<%= yeoman.src %>/index.html',
       options: {
         dest: '<%= yeoman.dist %>',
-        flow: {
-          // html: {
-          //   steps: {
-          //     js: ['uglifyjs']
-          //   },
-          //   post: {}
-          // }
-        }
       }
     },
 
@@ -280,7 +276,7 @@ module.exports = function (grunt) {
         'sass',
         'copy:dist',
         'imagemin',
-        'slim'
+        'assemble'
       ],
       test: [
         'sass'
@@ -288,16 +284,8 @@ module.exports = function (grunt) {
       dist: [
         'sass',
         'imagemin',
-        'slim'
+        'assemble'
       ]
-    },
-
-    // Test settings
-    karma: {
-      unit: {
-        configFile: 'test/karma.conf.js',
-        singleRun: true
-      }
     },
   });
 
@@ -321,27 +309,17 @@ module.exports = function (grunt) {
     grunt.task.run(['serve:' + target]);
   });
 
-  grunt.registerTask('test', [
-    'clean:server',
-    'concurrent:test',
-    'autoprefixer',
-    'connect:test',
-    'karma'
-  ]);
-
   grunt.registerTask('build', [
     'clean:dist',
-    // 'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
     'copy:dist',
-    // 'usemin',
+    'assemble',
     'htmlmin'
   ]);
 
   grunt.registerTask('default', [
     'newer:jshint',
-    // 'test',
     'build'
   ]);
 };

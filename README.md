@@ -20,7 +20,7 @@ You'll need to have the following items installed before continuing.
 While you're working on your project, run:
 
 To develop: `grunt serve`
-or to build: `grunt` 
+or to build: `grunt`
 
 And you're set!
 
