@@ -1,37 +1,65 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html language="en" class="no-js ie7 oldie"><![endif]--><!--[if IE 8]><html language="en" class="no-js ie8 oldie"><![endif]-->
+<html class="no-js" language="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <title>hitobito - Online Open Source Mitgliederverwaltung, Lager, Events, Mailinglisten</title>
+    <meta content="initial-scale = 1.0" name="viewport" />
+    <meta content="Die Open Source Mitgliederverwaltung für Organisationen mit komplexen Strukturen und Berechtigungen. Verwalten Sie online Ihre Mitglieder, Lager, Events und mehr..." name="description" />
+    <meta content="Online, Open Source, Vereinsverwaltung, Mitgliederverwaltung, Kursverwaltung, Eventverwaltung, Vereine, Events, Mitglieder, Kurs" name="Keywords" />
+    <link href="../images/favicon.ico" rel="shortcut icon" />
+    <link href="../images/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="../images/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
+    <link href="../images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
+    <link href="../images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
+    <link href="http://fonts.googleapis.com/css?family=Quicksand:400,700|Varela+Round" rel="stylesheet" type="text/css" />
+    <link href="../styles/main.css" media="screen" rel="stylesheet" />
+    <link href="../styles/print.css" media="print" rel="stylesheet" />
+    <!--[if IE]><link href="../styles/ie.css" rel="stylesheet" media="screen"><![endif]-->
+    <script src="../javascripts/vendor/modernizr-2.6.2.min.js"></script>
+    <link href="https://plus.google.com/108865436255615110323" rel="publisher" />
+  </head>
+  <body role="document">
+    <!--[if lt IE 8]>
+      <div class="browsehappy">Be warned, you are using an outdated browser.<br />Please <a href="http://browsehappy.com">upgrade your browser</a></div>
+    <![endif]-->
+    <div id="page">
+    
       <div id="header" role="banner">
         <div class="container">
-          <a class="logo" href="index.html"><img alt="hitobito" src="{{path}}/images/logo.svg" /></a>
-          <p>{{#i18n "tagline"}}{{/i18n}}</p>
+          <a class="logo" href="index.html"><img alt="hitobito" src="../images/logo.svg" /></a>
+          <p>An Open Source Webapplication for managing members, events and more...</p>
         </div>
       </div>
       <div id="main" role="main">
         <section id="hero">
           <div class="container">
             <h1 class="hero-title">
-              {{#i18n "hero-title"}}{{/i18n}}
+              Mitglieder zentral online verwalten
             </h1>
-            <img alt="{{#i18n "hero-illus-alt"}}{{/i18n}}" class="hero-illus" src="{{path}}/images/hero.png" />
+            <img alt="Schöne auf Desktop und Tablet" class="hero-illus" src="../images/hero.png" />
           </div>
         </section>
         <section id="features">
           <div class="container">
             <ul class="features-list">
               <li class="features-item">
-                <img alt="Zentralisieren" src="{{path}}/images/feature-central.svg" />
+                <img alt="Zentralisieren" src="../images/feature-central.svg" />
                 <p>
-                  {{#i18n "feature-central"}}{{/i18n}}
+                  Mitglieder zentral<br />online verwalten
                 </p>
               </li>
               <li class="features-item">
-                <img alt="Planen" src="{{path}}/images/feature-event.svg" />
+                <img alt="Planen" src="../images/feature-event.svg" />
                 <p>
-                  {{#i18n "feature-event"}}{{/i18n}}
+                  Lager und events<br />verwalten
                 </p>
               </li>
               <li class="features-item">
-                <img alt="In Kontakt bleiben" src="{{path}}/images/feature-mail.svg" />
+                <img alt="In Kontakt bleiben" src="../images/feature-mail.svg" />
                 <p>
-                  {{#i18n "feature-mail"}}{{/i18n}}
+                  Newsletter und<br />Mailingsystem
                 </p>
               </li>
             </ul>
@@ -39,13 +67,13 @@
         </section>
         <section id="demo">
           <div class="container">
-            <img alt="Try it now!" class="demo-man" src="{{path}}/images/demo-man.svg" />
+            <img alt="Try it now!" class="demo-man" src="../images/demo-man.svg" />
             <div class="demo-calltoaction">
               <p class="demo-teaser">
-                {{#i18n "demo-teaser"}}{{/i18n}}
+                Gwundrig? Testen Sie die Demoversion von hitobito
               </p>
               <a class="demo-btn" href="http://demo.hitobito.ch/" target="_blank">
-                {{#i18n "demo-btn"}}{{/i18n}}
+                <h2>Demoversion testen</h2><span>Kostenlos und ohne Registrierung</span>
               </a>
             </div>
           </div>
@@ -55,22 +83,22 @@
             <div class="desc-header">
               <div class="desc-teaser">
                 <h2 class="desc-title">
-                  {{#i18n "desc-teaser-title"}}{{/i18n}}
+                  Was kann hitobito?
                 </h2>
                 <p>
-                  {{#i18n "desc-teaser-text"}}{{/i18n}}
+                  Der Zugriff auf die Datenbank erfolgt über einen gängigen Web-Browser. Somit sind Sie unabhängig vom Betriebssystem und haben von überall Zugriff auf Ihre Daten. Die Bedienung der Applikation ist intuitiv und einfach.
                 </p>
               </div>
               <div class="desc-slider">
                 <ul class="rslides">
                   <li>
-                    <img alt="Abonnent erstellen" src="{{path}}/images/slide01.png" />
+                    <img alt="Abonnent erstellen" src="../images/slide01.png" />
                   </li>
                   <li>
-                    <img alt="Region detail" src="{{path}}/images/slide02.png" />
+                    <img alt="Region detail" src="../images/slide02.png" />
                   </li>
                   <li>
-                    <img alt="Region berarbeiten" src="{{path}}/images/slide03.png" />
+                    <img alt="Region berarbeiten" src="../images/slide03.png" />
                   </li>
                 </ul>
               </div>
@@ -80,16 +108,16 @@
                 <div class="desc-screenshot">
                   <a class="lightbox" href="images/desc-mitglied-zoom.png">
                     <div class="desc-screenshot-frame">
-                      <img alt="{{#i18n "desc-item1-title"}}{{/i18n}}" src="{{path}}/images/desc-mitglied.png" />
+                      <img alt="Mitglieder zentral online verwalten" src="../images/desc-mitglied.png" />
                     </div>
                   </a>
                 </div>
                 <div class="desc-text">
                   <h3>
-                    {{#i18n "desc-item1-title"}}{{/i18n}}
+                    Mitglieder zentral online verwalten
                   </h3>
                   <p>
-                    {{#i18n "desc-item1-text"}}{{/i18n}}
+                    Die Datenbank bietet die Möglichkeit zentral alle Mitglieder zu verwalten. Die Personen können ihre Daten selbst aktualisieren.
                   </p>
                 </div>
               </div>
@@ -97,16 +125,16 @@
                 <div class="desc-screenshot">
                   <a class="lightbox" href="images/desc-newsletter-zoom.png">
                     <div class="desc-screenshot-frame">
-                      <img alt="{{#i18n "desc-item2-title"}}{{/i18n}}" src="{{path}}/images/desc-newsletter.png" />
+                      <img alt="Newsletter und Mailingssystem" src="../images/desc-newsletter.png" />
                     </div>
                   </a>
                 </div>
                 <div class="desc-text">
                   <h3>
-                    {{#i18n "desc-item2-title"}}{{/i18n}}
+                    Newsletter und Mailingssystem
                   </h3>
                   <p>
-                    {{#i18n "desc-item2-text"}}{{/i18n}}
+                    Mailinglisten lassen sich flexibel zusammenstellen und verwalten. Für einen Postversand lassen sich die Adressdaten einfach exportieren und z.B. als Etiketten drucken.
                   </p>
                 </div>
               </div>
@@ -114,16 +142,16 @@
                 <div class="desc-screenshot">
                   <a class="lightbox" href="images/desc-rollen-zoom.png">
                     <div class="desc-screenshot-frame">
-                      <img alt="{{#i18n "desc-item3-title"}}{{/i18n}}" src="{{path}}/images/desc-rollen.png" />
+                      <img alt="Flexible Rollen und Berechtigungen" src="../images/desc-rollen.png" />
                     </div>
                   </a>
                 </div>
                 <div class="desc-text">
                   <h3>
-                    {{#i18n "desc-item3-title"}}{{/i18n}}
+                    Flexible Rollen und Berechtigungen
                   </h3>
                   <p>
-                    {{#i18n "desc-item3-text"}}{{/i18n}}
+                    Abhängig von den Strukturen werden den Benutzern Rollen zugewiesen. Diese Rollen definieren, wer wo auf welche Daten Zugriff hat.
                   </p>
                 </div>
               </div>
@@ -131,16 +159,16 @@
                 <div class="desc-screenshot">
                   <a class="lightbox" href="images/desc-vereinstrukturen-zoom.png">
                     <div class="desc-screenshot-frame">
-                      <img alt="{{#i18n "desc-item4-title"}}{{/i18n}}" src="{{path}}/images/desc-vereinstrukturen.png" />
+                      <img alt="Komplexe Vereinsstrukturen abbilden" src="../images/desc-vereinstrukturen.png" />
                     </div>
                   </a>
                 </div>
                 <div class="desc-text">
                   <h3>
-                    {{#i18n "desc-item4-title"}}{{/i18n}}
+                    Komplexe Vereinsstrukturen abbilden
                   </h3>
                   <p>
-                    {{#i18n "desc-item4-text"}}{{/i18n}}
+                    Komplexe hierarchische Strukturen können in der Lösung einfach und komplett abgebildet werden.
                   </p>
                 </div>
               </div>
@@ -148,16 +176,16 @@
                 <div class="desc-screenshot">
                   <a class="lightbox" href="images/desc-events-zoom.png">
                     <div class="desc-screenshot-frame">
-                      <img alt="Lager und Events verwalten" src="{{path}}/images/desc-events.png" />
+                      <img alt="Lager und Events verwalten" src="../images/desc-events.png" />
                     </div>
                   </a>
                 </div>
                 <div class="desc-text">
                   <h3>
-                    {{#i18n "desc-item5-title"}}{{/i18n}}
+                    Lager und Events verwalten
                   </h3>
                   <p>
-                    {{#i18n "desc-item5-text"}}{{/i18n}}
+                    Anlässe und Kurse können einfach im System verwaltet werden. Wer auf welcher Hierarchiestufe Anlässe erstellen kann, wird über die Rolle der Mitglieder direkt gesteuert.
                   </p>
                 </div>
               </div>
@@ -186,7 +214,7 @@
                 Der Quellcode von hitobito ist <a href="https://github.com/hitobito/hitobito" target="_blank">auf Github</a> unter der GNU Affero General Public License veröffentlicht. Die zugrunde liegenden Softwarekomponenten (Ruby on Rails, MySQL Datenbank, ...) sind Open Source und basieren auf offenen Standards und Schnittstellen.
               </p>
               <p>
-                <a class="info-source-link" href="https://github.com/hitobito/hitobito" target="_blank"><img alt="GitHub" class="info-source-img" src="{{path}}/images/logo-github.svg" />https://github.com/hitobito/hitobito</a>
+                <a class="info-source-link" href="https://github.com/hitobito/hitobito" target="_blank"><img alt="GitHub" class="info-source-img" src="../images/logo-github.svg" />https://github.com/hitobito/hitobito</a>
               </p>
               <h2>
                 Gemeinschaftslösung
@@ -196,7 +224,7 @@
               </p>
             </div>
             <div class="info-contact">
-              <a href="mailto:kunz@puzzle.ch"><img alt="Weitere informationen?" src="{{path}}/images/info-contact.svg" /></a>
+              <a href="mailto:kunz@puzzle.ch"><img alt="Weitere informationen?" src="../images/info-contact.svg" /></a>
               <p>
                 Kontaktieren Sie den Lösungsverantwortlichen
               </p>
@@ -213,31 +241,31 @@
             </h2>
             <ul class="partner-list">
               <li class="partner-item">
-                <a class="partner-item-img" href="http://www.jubla.ch/" tab-index="-1"><img alt="jungwacht blauring " src="{{path}}/images/logo-jubla.svg" /></a>
+                <a class="partner-item-img" href="http://www.jubla.ch/" tab-index="-1"><img alt="jungwacht blauring " src="../images/logo-jubla.svg" /></a>
                 <h3 class="partner-item-text">
-                  <a href="http://www.jubla.ch/">jungwacht blauring <br /><span class="is-small">29’000 Mitglieder, 429 Scharen</span></a>
+                  <a href="http://www.jubla.ch/">jungwacht blauring <br /><span class="is-small">60’000 Mitglieder, 1’200 Kurse</span></a>
                 </h3>
               </li>
               <li class="partner-item is-last">
-                <a class="partner-item-img" href="http://www.cevi.ch/" tab-index="-1"><img alt="Cevi Regionalverbände" src="{{path}}/images/logo-cevi.svg" /></a>
+                <a class="partner-item-img" href="http://www.cevi.ch/" tab-index="-1"><img alt="Cevi Regionalverbände" src="../images/logo-cevi.svg" /></a>
                 <h3 class="partner-item-text">
                   <a href="http://www.cevi.ch/">Cevi Regionalverbände<br /><span class="is-small">6’000 Mitglieder, 65 Gruppen</span></a>
                 </h3>
               </li>
               <li class="partner-item">
-                <a class="partner-item-img" href="http://www.pbs.ch/" tab-index="-1"><img alt="Pfadibewegung Schweiz" src="{{path}}/images/logo-pbs.svg" /></a>
+                <a class="partner-item-img" href="http://www.pbs.ch/" tab-index="-1"><img alt="Pfadibewegung Schweiz" src="../images/logo-pbs.svg" /></a>
                 <h3 class="partner-item-text">
                   <a href="http://www.pbs.ch/">Pfadibewegung Schweiz<br /><span class="is-small">42’000 Mitglieder, 22 Verbände</span></a>
                 </h3>
               </li>
               <li class="partner-item is-last">
-                <a class="partner-item-img" href="http://www.insieme.ch/" tab-index="-1"><img alt="insieme Schweiz" src="{{path}}/images/logo_insieme.svg" /></a>
+                <a class="partner-item-img" href="http://www.insieme.ch/" tab-index="-1"><img alt="insieme Schweiz" src="../images/logo_insieme.svg" /></a>
                 <h3 class="partner-item-text">
                   <a href="http://www.insieme.ch/">insieme Schweiz<br /><span class="is-small">8’500 Mitglieder, 51 Vereine</span></a>
                 </h3>
               </li>
               <li class="partner-contact">
-                <a class="partner-contact-img" href="mailto:kunz@puzzle.ch" tab-index="-1"><img alt="Sie?" src="{{path}}/images/logo-you.svg" /></a>
+                <a class="partner-contact-img" href="mailto:kunz@puzzle.ch" tab-index="-1"><img alt="Sie?" src="../images/logo-you.svg" /></a>
                 <h3 class="partner-contact-text">
                   <a href="mailto:kunz@puzzle.ch">Auch Sie? <br /><span class="is-small">Kontaktieren Sie den Lösungs-verantwortlichen</span></a>
                 </h3>
@@ -250,7 +278,20 @@
             &copy; <a href="http://www.puzzle.ch/">Puzzle ITC</a> 2013
           </p>
           <p>
-            <a class="link-wac" href="http://www.wearecube.ch/" title="Design und Realisierung: We Are Cube.³"><img alt="Design und Realisierung: We Are Cube.³" src="{{path}}/images/logo-wac.svg" /></a>
+            <a class="link-wac" href="http://www.wearecube.ch/" title="Design und Realisierung: We Are Cube.³"><img alt="Design und Realisierung: We Are Cube.³" src="../images/logo-wac.svg" /></a>
           </p>
         </section>
       </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="../javascripts/vendor/jquery-1.8.2.min.js"><\/script>');
+    </script>
+    <script src="../javascripts/vendor/responsiveslides.min.js"></script>
+    <script src="../javascripts/vendor/jquery.lightbox.min.js"></script>
+    <script src="../javascripts/retina.js"></script>
+    <script src="../javascripts/plugins.js"></script>
+    <script src="../javascripts/main.js"></script>
+    <script src="../javascripts/piwik.js"></script>
+  </body>
+</html>
