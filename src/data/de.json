@@ -8,12 +8,12 @@
   "hero-title"              : "Mitglieder zentral online verwalten",
   "hero-illus-alt"          : "Schöne auf Desktop und Tablet",
   
-  "features-title"          : "Was kann Hitobito?",
-  "feature-manage"          : "Mitgliederverwaltung",
+  "features-title"          : "Was kann hitobito?",
+  "feature-manage"          : "Mitglieder- und Vereinsverwaltung",
   "feature-course"          : "Kursverwaltung inkl. Qualifikationen und Zertifierungen",
-  "feature-event"           : "Eventwaltung inkl. Online-Anmeldung",
+  "feature-event"           : "Eventwaltung mit Online-Anmeldung",
   "feature-mail"            : "Newsletter- und Mailingsystem",
-  "feature-data"            : "Import und Export von Daten über standardisierte Schnittstellen",
+  "feature-data"            : "Import und Export über standardisierte Schnittstellen",
   
   "desc-title"              : "Schwerpunkte",
 
@@ -35,21 +35,20 @@
   "desc-slide3-txt2"        : "Ansprechendes Design",
   "desc-slide3-img2-alt"    : "",
 
-  "desc-txt"                : "hitobito lässt sich flexibel auf ihre Organisationsstruktur anpassen, damit auch sehr komplexe Strukturen und Berechtigungen abgebildet werden können. Als Webapplikation ist der Zugriff von überall her möglich, auch mit dem Smartphone. <br />Dank der zentralen Datenhaltung gibt es keine Redundanzen. Unser User Experience Team hat bei der Entwicklung grossen Wert auf eine intuitive und einfache Bedienbarkeit gelegt. So finden sich auch Gelegenheitsnutzer einfach zurecht.",
+  "desc-txt"                : "hitobito lässt sich flexibel auf ihre Organisationsstruktur anpassen, damit auch sehr komplexe Strukturen und Berechtigungen abgebildet werden können. Als Webapplikation ist der Zugriff von überall her möglich, auch mit dem Smartphone. <br />Dank der zentralen Datenhaltung gibt es keine Redundanzen. Wir haben bei der Entwicklung grossen Wert auf eine intuitive und einfache Bedienbarkeit gelegt. So finden sich auch Gelegenheitsnutzer einfach zurecht.",
 
-  "services-title"          : "Wir helfen ihnen gerne",
-  "service-custom"          : "Customizing von hitobito auf die individuellen Bedürfnisse",
-  "service-enhance"         : "Erweiterungen der Lösung nach den Wünschen des Kunden",
+  "services-title"          : "Wie <a href=\"http://www.puzzle.ch/de/angebot/open-source-loesungen\" target=\"_blank\">wir</a> dich unterstützen",
+  "service-custom"          : "Anpassen von hitobito auf deine individuellen Bedürfnisse",
+  "service-enhance"         : "Erweiterungen der Lösung nach deinen Wünschen",
   "service-support"         : "Betrieb der Lösung inkl. Backup, Support und Wartung",
   "sercice-community"       : "Pflege der Kunden-Community und der Gemeinschaftslösung",
   "service-who"             : "Wer steckt hinter hitobito?",
 
-  "demo-title"              : "Gwundrig? Testen Sie die Demoversion von hitobito",
-  "demo-role-admin"         : "Administrator mit vollem Zugriff",
-  "demo-role-group"         : "Rolle Leitung einer lokalen Gruppe",
-  "demo-role-member"        : "Einfaches Gruppenmitglied",
-  "demo-btn-title"          : "Demoversion online testen",
-  "demo-btn-subtitle"       : "Kostenlos und ohne Registrierung",
+  "demo-title"              : "Gwundrig? Teste die kostenlose Online-Demoversion von hitobito",
+  "demo-role-admin"         : "Als Administrator",
+  "demo-role-member"        : "Als Vereinsmitglied",
+  "demo-btn-title"          : "Login",
+  "demo-btn-subtitle"       : "mit Passwort: demo",
 
   "open-title"              : "Open Source",
   "open-txt1"               : "Der Quellcode von hitobito ist <a href=\"https://github.com/hitobito/hitobito\" target=\"_blank\">auf Github</a> unter der GNU Affero General Public License veröffentlicht. Die zugrunde liegenden Softwarekomponenten (Ruby on Rails, MySQL Datenbank, ...) sind Open Source und basieren auf offenen Standards und Schnittstellen.",
