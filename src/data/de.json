@@ -10,9 +10,9 @@
   
   "features-title"          : "Was kann hitobito?",
   "feature-manage"          : "Mitglieder- und Vereinsverwaltung",
-  "feature-course"          : "Kursverwaltung inkl. Qualifikationen und Zertifierungen",
-  "feature-event"           : "Eventwaltung mit Online-Anmeldung",
-  "feature-mail"            : "Newsletter- und Mailingsystem",
+  "feature-course"          : "Kursverwaltung inkl. Qualifikationen",
+  "feature-event"           : "Eventwaltung mit<br />Online-Anmeldung",
+  "feature-mail"            : "Newsletter- und<br />Mailingsystem",
   "feature-data"            : "Import und Export über standardisierte Schnittstellen",
   
   "desc-title"              : "Schwerpunkte",
@@ -42,13 +42,12 @@
   "service-enhance"         : "Erweiterungen der Lösung nach deinen Wünschen",
   "service-support"         : "Betrieb der Lösung inkl. Backup, Support und Wartung",
   "sercice-community"       : "Pflege der Kunden-Community und der Gemeinschaftslösung",
-  "service-who"             : "Wer steckt hinter hitobito?",
 
   "demo-title"              : "Gwundrig? Teste die kostenlose Online-Demoversion von hitobito",
   "demo-role-admin"         : "Als Administrator",
   "demo-role-member"        : "Als Vereinsmitglied",
   "demo-btn-title"          : "Login",
-  "demo-btn-subtitle"       : "mit Passwort: demo",
+  "demo-btn-subtitle"       : "Passwort: demo",
 
   "open-title"              : "Open Source",
   "open-txt1"               : "Der Quellcode von hitobito ist <a href=\"https://github.com/hitobito/hitobito\" target=\"_blank\">auf Github</a> unter der GNU Affero General Public License veröffentlicht. Die zugrunde liegenden Softwarekomponenten (Ruby on Rails, MySQL Datenbank, ...) sind Open Source und basieren auf offenen Standards und Schnittstellen.",

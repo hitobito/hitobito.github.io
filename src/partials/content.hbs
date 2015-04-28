@@ -2,9 +2,9 @@
         <div class="container">
           <nav class="nav-lang">
             <ul>
-              <li><a href="/de" class="is-active">DE</a></li>
-              <li><a href="/en">EN</a></li>
-              <li><a href="/fr">FR</a></li>
+              <li><a href="/de" class="{{#is language 'de'}}is-active{{/is}}">DE</a></li>
+              <li><a href="/en" class="{{#is language 'en'}}is-active{{/is}}">EN</a></li>
+              <!--li><a href="/fr" class="{{#is language 'fr'}}is-active{{/is}}">FR</a></li-->
             </ul>
           </nav>
           <a class="logo" href="index.html"><img alt="hitobito" src="{{path}}/images/logo.svg" /></a>
@@ -133,7 +133,6 @@
               </ul>
             </div>
             <div class="info-who">
-              <h3>{{#i18n "service-who"}}{{/i18n}}</h3>
               <img src="" alt="">PUZZLE LOGO
             </div>
           </div>
