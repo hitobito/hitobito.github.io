@@ -145,24 +145,27 @@
               <h2>
                 {{#i18n "demo-title"}}{{/i18n}}
               </h2>
-              <ul class="demo-list">
-                <li>
-                  <input type="radio" name="demo-role" id="demo-role-admin" checked>
-                  <label for="demo-role-admin">{{#i18n "demo-role-admin"}}{{/i18n}}</label>
-                </li>
-                <li>
-                  <input type="radio" name="demo-role" id="demo-role-group">
-                  <label for="demo-role-group">{{#i18n "demo-role-group"}}{{/i18n}}</label>
-                </li>
-                <li>
-                  <input type="radio" name="demo-role" id="demo-role-member">
-                  <label for="demo-role-member">{{#i18n "demo-role-member"}}{{/i18n}}</label>
-                </li>
-              </ul>
-              <a class="demo-btn" href="http://demo.hitobito.ch/" target="_blank">
-                <h2>{{#i18n "demo-btn-title"}}{{/i18n}}</h2>
-                <span>{{#i18n "demo-btn-subtitle"}}{{/i18n}}</span>
-              </a>
+              <form action="http://demo.hitobito.ch/de/users/sign_in" method="get">
+                <ul class="demo-list">
+                  <li>
+                    <input type="radio" name="person[email]" value="admin@hitobito.ch" id="demo-role-admin" checked>
+                    <label for="demo-role-admin">{{#i18n "demo-role-admin"}}{{/i18n}}</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="person[email]" value="leitung@hitobito.ch" id="demo-role-group">
+                    <label for="demo-role-group">{{#i18n "demo-role-group"}}{{/i18n}}</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="person[email]" value="mitglied@hitobito.ch" id="demo-role-member">
+                    <label for="demo-role-member">{{#i18n "demo-role-member"}}{{/i18n}}</label>
+                  </li>
+                </ul>
+                <a class="demo-btn" href="http://demo.hitobito.ch/" target="_blank">
+                  <h2>{{#i18n "demo-btn-title"}}{{/i18n}}</h2>
+                  <span>{{#i18n "demo-btn-subtitle"}}{{/i18n}}</span>
+                </a>
+                <button type="submit">Login</button>
+              </form>
             </div>
           </div>
         </section>
