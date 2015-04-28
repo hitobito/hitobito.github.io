@@ -1,23 +1,72 @@
 {
-  "tagline"             : "Die Open Source Webapplikation für das Verwalten von Mitgliedern, Events und mehr...",
-  "warning"             : "Be warned, you are using an outdated browser.<br />Please <a href=\"http://browsehappy.com\">upgrade your browser</a>",
-  "hero-title"          : "Mitglieder zentral online verwalten",
-  "hero-illus-alt"      : "Schöne auf Desktop und Tablet",
-  "feature-central"     : "Mitglieder zentral<br />online verwalten",
-  "feature-event"       : "Lager und events<br />verwalten",
-  "feature-mail"        : "Newsletter und<br />Mailingsystem",
-  "demo-teaser"         : "Gwundrig? Testen Sie die Demoversion von hitobito",
-  "demo-btn"            : "<h2>Demoversion testen</h2><span>Kostenlos und ohne Registrierung</span>",
-  "desc-teaser-title"   : "Was kann hitobito?",
-  "desc-teaser-text"    : "Der Zugriff auf die Datenbank erfolgt über einen gängigen Web-Browser. Somit sind Sie unabhängig vom Betriebssystem und haben von überall Zugriff auf Ihre Daten. Die Bedienung der Applikation ist intuitiv und einfach.",
-  "desc-item1-title"    : "Mitglieder zentral online verwalten",
-  "desc-item1-text"     : "Die Datenbank bietet die Möglichkeit zentral alle Mitglieder zu verwalten. Die Personen können ihre Daten selbst aktualisieren.",
-  "desc-item2-title"    : "Newsletter und Mailingssystem",
-  "desc-item2-text"     : "Mailinglisten lassen sich flexibel zusammenstellen und verwalten. Für einen Postversand lassen sich die Adressdaten einfach exportieren und z.B. als Etiketten drucken.",
-  "desc-item3-title"    : "Flexible Rollen und Berechtigungen",
-  "desc-item3-text"     : "Abhängig von den Strukturen werden den Benutzern Rollen zugewiesen. Diese Rollen definieren, wer wo auf welche Daten Zugriff hat.",
-  "desc-item4-title"    : "Komplexe Vereinsstrukturen abbilden",
-  "desc-item4-text"     : "Komplexe hierarchische Strukturen können in der Lösung einfach und komplett abgebildet werden.",
-  "desc-item5-title"    : "Lager und Events verwalten",
-  "desc-item5-text"     : "Anlässe und Kurse können einfach im System verwaltet werden. Wer auf welcher Hierarchiestufe Anlässe erstellen kann, wird über die Rolle der Mitglieder direkt gesteuert."
+  "meta-desc"               : "Die Open Source Mitgliederverwaltung für Organisationen mit komplexen Strukturen und Berechtigungen. Verwalten Sie online Ihre Mitglieder, Lager, Events und mehr...",
+  "meta-keywords"           : "Online, Open Source, Vereinsverwaltung, Mitgliederverwaltung, Kursverwaltung, Eventverwaltung, Vereine, Events, Mitglieder, Kurs",
+  "warning"                 : "Be warned, you are using an outdated browser.<br />Please <a href=\"http://browsehappy.com\">upgrade your browser</a>",
+  
+  "header-tagline"          : "Die Open Source Webapplikation für das Verwalten von Mitgliedern, Events und mehr...",
+  
+  "hero-title"              : "Mitglieder zentral online verwalten",
+  "hero-illus-alt"          : "Schöne auf Desktop und Tablet",
+  
+  "features-title"          : "Was kann Hitobito?",
+  "feature-manage"          : "Mitgliederverwaltung",
+  "feature-course"          : "Kursverwaltung inkl. Qualifikationen und Zertifierungen",
+  "feature-event"           : "Eventwaltung inkl. Online-Anmeldung",
+  "feature-mail"            : "Newsletter- und Mailingsystem",
+  "feature-data"            : "Import und Export von Daten über standardisierte Schnittstellen",
+  
+  "desc-title"              : "Schwerpunkte",
+
+  "desc-slide1-title"       : "Komplexe Strukturen und Berechtigungen abbilden",
+  "desc-slide1-txt1"        : "Individuelle Anpassung auf Ihre Organisationsstruktur",
+  "desc-slide1-img1-alt"    : "",
+  "desc-slide1-txt2"        : "Flexibles Rollen- und Berechtigungssystem",
+  "desc-slide1-img2-alt"    : "",
+
+  "desc-slide2-title"       : "Zentrale Datenhaltung",
+  "desc-slide2-txt1"        : "Keine Redundanzen: Mitglieder können eigene Daten selber verwalten",
+  "desc-slide2-img1-alt"    : "",
+  "desc-slide2-txt2"        : "Zugriff von überall her möglich, auch mit dem Smartphone",
+  "desc-slide2-img2-alt"    : "",
+  
+  "desc-slide3-title"       : "User Experience",
+  "desc-slide3-txt1"        : "Intuitive und einfache Bedienbarkeit",
+  "desc-slide3-img1-alt"    : "",
+  "desc-slide3-txt2"        : "Ansprechendes Design",
+  "desc-slide3-img2-alt"    : "",
+
+  "desc-txt"                : "hitobito lässt sich flexibel auf ihre Organisationsstruktur anpassen, damit auch sehr komplexe Strukturen und Berechtigungen abgebildet werden können. Als Webapplikation ist der Zugriff von überall her möglich, auch mit dem Smartphone. <br />Dank der zentralen Datenhaltung gibt es keine Redundanzen. Unser User Experience Team hat bei der Entwicklung grossen Wert auf eine intuitive und einfache Bedienbarkeit gelegt. So finden sich auch Gelegenheitsnutzer einfach zurecht.",
+
+  "services-title"          : "Wir helfen ihnen gerne",
+  "service-custom"          : "Customizing von hitobito auf die individuellen Bedürfnisse",
+  "service-enhance"         : "Erweiterungen der Lösung nach den Wünschen des Kunden",
+  "service-support"         : "Betrieb der Lösung inkl. Backup, Support und Wartung",
+  "sercice-community"       : "Pflege der Kunden-Community und der Gemeinschaftslösung",
+  "service-who"             : "Wer steckt hinter hitobito?",
+
+  "demo-title"              : "Gwundrig? Testen Sie die Demoversion von hitobito",
+  "demo-role-admin"         : "Administrator mit vollem Zugriff",
+  "demo-role-group"         : "Rolle Leitung einer lokalen Gruppe",
+  "demo-role-member"        : "Einfaches Gruppenmitglied",
+  "demo-btn-title"          : "Demoversion online testen",
+  "demo-btn-subtitle"       : "Kostenlos und ohne Registrierung",
+
+  "open-title"              : "Open Source",
+  "open-txt1"               : "Der Quellcode von hitobito ist <a href=\"https://github.com/hitobito/hitobito\" target=\"_blank\">auf Github</a> unter der GNU Affero General Public License veröffentlicht. Die zugrunde liegenden Softwarekomponenten (Ruby on Rails, MySQL Datenbank, ...) sind Open Source und basieren auf offenen Standards und Schnittstellen.",
+  "open-community"          : "Gemeinschaftslösung",
+  "open-txt2"               : "hitobito ist ein Open Source Partnerprojekt, initiiert von Jungwacht Blauring Schweiz und Puzzle ITC. Die Datenbank wird gemeinsam mit weiteren Partnern ausgebaut – ganz im Sinne des Grundsatzes vom Geben und Nehmen. Lesen Sie dazu auch den Artikel <a href=\"http://www.netzwoche.ch/de-CH/News/2013/08/08/Vereinsverwaltung-mit-der-Community.aspx\">\"Vereinsverwaltung mit der Community\"</a> in der Netzwoche.",
+  "open-more-infos"         : "Weitere Informationen?",
+  "open-contact"            : "Kontaktieren Sie den Lösungsverantwortlichen",
+
+  "partner-title"           : "Wir bauen und vertrauen auf hitobito",
+  "partner-jubla-title"     : "jungwacht blauring",
+  "partner-jubla-txt"       : "29’000 Mitglieder, 429 Scharen",
+  "partner-cevi-title"      : "Cevi Regionalverbände",
+  "partner-cevi-txt"        : "6’000 Mitglieder, 65 Gruppen",
+  "partner-pfadi-title"     : "Pfadibewegung Schweiz",
+  "partner-pfadi-txt"       : "42’000 Mitglieder, 22 Verbände",
+  "partner-insieme-title"   : "insieme Schweiz",
+  "partner-insieme-txt"     : "8’500 Mitglieder, 51 Vereine",
+
+  "footer-copy"             : "&copy; 2013 - Developed by <a href=\"http://www.puzzle.ch/\">Puzzle ITC</a> and Designed with ♥ by <a href=\"http://www.wearecube.ch/\">We Are Cube.³</a>"
 }
