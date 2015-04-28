@@ -1,0 +1,35 @@
+.ribbon-container {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.ribbon {
+  position: absolute;
+  top: 42px;
+  right: -43px;
+  @include rotate(45deg);
+  padding: 2px 0;
+  background-color: #474E5D;
+  z-index: 9999;
+  pointer-events: auto;
+
+  &:hover {
+    background-color: #313845;
+  }
+  a {
+    display: inline-block;
+    width: 200px;
+    padding: 2px 0;
+    color: #fff;
+    @include adjust-font-size-to(14px, 1);
+    text-align: center;
+    text-decoration: none;
+  }
+
+}

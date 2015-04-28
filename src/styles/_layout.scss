@@ -50,26 +50,14 @@
   text-align: center;
 }
 
-#demo {
+#description {
   padding: 60px 0;
   background: $greenDark;
   color: white;
-
-  .container {
-    position: relative;
-    zoom: 1;
-  }
 }
 
-#description {
-  padding: 60px 0;
+#services {
   background: $orange;
-  color: white;
-}
-
-
-#hosting {
-  background: $orangeDark;
   color: white;
   text-align: center;
 
@@ -78,7 +66,18 @@
   }
 }
 
-#info {
+#demo {
+  padding: 60px 0;
+  background: $orangeDark;
+  color: white;
+
+  .container {
+    position: relative;
+    zoom: 1;
+  }
+}
+
+#open {
   background: $purple;
   color: white;
   a {
@@ -97,6 +96,4 @@
   padding: 30px 0;
   text-align: center;
   @include adjust-font-size-to(14px);
-
-
 }
