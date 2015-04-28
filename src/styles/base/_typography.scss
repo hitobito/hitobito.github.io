@@ -80,10 +80,23 @@ h2, .h2 {
   @include at-breakpoint($breakDesktop oldie) {
     @include adjust-font-size-to(40px, 2);
   }
+
+  a:link,
+  a:visited {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    opacity: 1;
+    @include transition(opacity 300ms ease);
+  }
+  a:hover {
+    opacity: 0.7;
+  }
 }
 
 h3, .h3 {
-  @include adjust-font-size-to(20px, 1);
+  @include adjust-font-size-to(24px, 1);
+  font-weight: 700;
 }
 
 h4 {
@@ -119,7 +132,7 @@ strong {
 }
 
 small {
-  font-size: 0.875em;
+  font-size: 0.75em;
 }
 
 cite {

@@ -1,21 +1,17 @@
-.partner-titel {
-    color: white;
-    text-align: center;
-    padding-top: 2em;
-
-  }
+.partner-title {
+  color: white;
+}
 
 .partner-list {
   @include clearfix;
   @include reset-list;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 3em;
   text-align: center;
 }
 
 .partner-item {
   display: block;
-  margin-top: 20px;
+  margin-top: 3em;
   text-align: left;
 
   @include at-breakpoint(27.5em $breakTablet 55.938em) {
@@ -33,10 +29,6 @@
   img {
     max-height: 100%;
   }
-
-  &:hover .partner-item-text a {
-    background-color: #313845;
-  }
 }
 .partner-item-img,
 .partner-contact-img {
@@ -45,12 +37,12 @@
   width: 100%;
   height: 200px;
   padding: 20px;
-  line-height:200px;
   text-align: center;
   text-decoration: none;
 }
 .partner-item-img {
   background: white;
+  @include border-radius(4px);
 }
 .partner-item-text, 
 .partner-contact-text {
@@ -65,23 +57,16 @@
   a {
     display: block;
     min-height: 3em;
-    padding: 1em;
+    padding: 1em 0;
     text-decoration: none;
     color: #F8F9F9;
     @include at-breakpoint(27.5em $breakTablet) {
      min-height: 5em;
     }
     @include at-breakpoint($breakDesktop oldie) {
-      padding: 1em 1.667em;
       min-height: 2em;
     }
   }
-  .is-small {
-    font-size: 0.667em;
-  }
-}
-.partner-item-text a {
-  background-color: #697388;
 }
 .partner-contact{
   display: inline-block;

@@ -121,10 +121,10 @@
         </section>
         <section id="services">
           <div class="container">
+            <h2>
+              {{#i18n "services-title"}}{{/i18n}}
+            </h2>
             <div class="info-text">
-              <h2>
-                {{#i18n "services-title"}}{{/i18n}}
-              </h2>
               <ul class="services-list">
                 <li>{{#i18n "service-custom"}}{{/i18n}}</li>
                 <li>{{#i18n "service-enhance"}}{{/i18n}}</li>
@@ -133,7 +133,7 @@
               </ul>
             </div>
             <div class="info-who">
-              <img src="" alt="">PUZZLE LOGO
+              <a href="http://www.puzzle.ch/" target="_blank"><img src="{{path}}/images/puzzle_tagline_bg_rgb.svg" alt="Puzzle ITC"></a>
             </div>
           </div>
         </section>
@@ -141,25 +141,26 @@
           <div class="container">
             <img alt="Try it now!" class="demo-man" src="{{path}}/images/demo-man.svg" />
             <div class="demo-calltoaction">
-              <h2>
+              <h2 class="h3">
                 {{#i18n "demo-title"}}{{/i18n}}
               </h2>
               <form action="http://demo.hitobito.ch/de/users/sign_in" method="get">
                 <ul class="demo-list">
                   <li>
                     <input type="radio" name="person[email]" value="admin@hitobito.ch" id="demo-role-admin" checked>
+                    <label for="demo-role-admin"></label>
                     <label for="demo-role-admin">{{#i18n "demo-role-admin"}}{{/i18n}}</label>
                   </li>
                   <li>
                     <input type="radio" name="person[email]" value="mitglied@hitobito.ch" id="demo-role-member">
+                    <label for="demo-role-member"></label>
                     <label for="demo-role-member">{{#i18n "demo-role-member"}}{{/i18n}}</label>
                   </li>
                 </ul>
-                <a class="demo-btn" href="http://demo.hitobito.ch/" target="_blank">
+                <button class="demo-btn" type="submit">
                   <h2>{{#i18n "demo-btn-title"}}{{/i18n}}</h2>
                   <span>{{#i18n "demo-btn-subtitle"}}{{/i18n}}</span>
-                </a>
-                <button type="submit">Login</button>
+                </button>
               </form>
             </div>
           </div>

@@ -64,11 +64,8 @@
 #services {
   background: $orangeDark;
   color: white;
+  padding: 60px 0;
   text-align: center;
-
-  @include at-breakpoint($breakTablet oldie) {
-    text-align: left;
-  }
 }
 
 #demo {
@@ -91,10 +88,17 @@
       color: white
     }
   }
+
+  .info-text {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 #partner {
+  padding: 60px 0 40px; 
   background: #474E5D;
+  text-align: center;
 }
 
 #legal {

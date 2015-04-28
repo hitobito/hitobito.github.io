@@ -11,6 +11,17 @@
   }
 }
 
+.info-who {
+  padding: 20px 0;
+  text-align: center;
+  @include at-breakpoint($breakDesktop oldie) {
+    @include span-columns(5 omega, 12);
+    text-align: left;
+    padding: 60px 0 20px;
+  }
+}
+
+
 .info-contact {
   padding: 40px 0 10px;
   margin-bottom: 30px;
