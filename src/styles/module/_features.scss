@@ -1,39 +1,31 @@
 .features-list {
   @include reset-list;
-  @include clearfix;
 }
 
 .features-item {
-  display: block;
   margin-top: 40px;
+  width: 100%;
 
   font-family: $headingFontFamily;
   text-transform: uppercase;
   font-weight: 700;
+  letter-spacing: -0.05em;
+}
 
-  &:first-child {
-    margin-top: 0;
+.flexbox {
+  .features-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
   }
-
-  @include at-breakpoint($breakTablet) {
-    float: left;
-    width: columns(2, 6);
-    margin-left: gutter(6); 
-    margin-top: 0;
-
-    &:first-child {
-      margin-left: 0;
+  .features-item {
+    @include at-breakpoint($breakTablet) {
+      width: columns(3, 6) - gutter(6);
+      padding: 0 gutter(12);
     }
-  }
-
-  @include at-breakpoint($breakDesktop oldie) {
-    float: left;
-    width: columns(4, 12);
-    margin-left: gutter(12); 
-    margin-top: 0;
-
-    &:first-child {
-      margin-left: 0;
+    @include at-breakpoint($breakDesktop oldie) {
+      width: columns(4, 12) - gutter(12);
+      padding: 0 gutter(24);
     }
-  }
+}
 }

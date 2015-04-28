@@ -1,0 +1,22 @@
+.nav-lang {
+  @include clearfix;
+  ul {
+    @include reset-list;
+  }
+  li {
+    float: left;
+    margin-left: 1em;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  a {
+    @include adjust-font-size-to(14px);
+    text-decoration: none;
+    &.is-active {
+      color: $linkHover;
+      font-weight: bold;
+    }
+  }
+}

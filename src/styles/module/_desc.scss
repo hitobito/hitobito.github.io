@@ -23,11 +23,6 @@
   @include clearfix;
   text-align: center;
   margin-top: 30px;
-
-  @include at-breakpoint($breakDesktop oldie) {
-    margin-top: 0;
-    @include span-columns(7 omega , $breakDesktop);
-  }
 }
 
 .desc-teaser,
