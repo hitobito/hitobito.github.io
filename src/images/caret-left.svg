@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="37px" height="69px" viewBox="0 0 37 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>caret-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-4" sketch:type="MSArtboardGroup" transform="translate(-86.000000, -1407.000000)" fill="#FFFFFF">
+            <g id="background" sketch:type="MSLayerGroup" transform="translate(0.000000, 228.000000)">
+                <path d="M116,1214 L87,1184 C85.7305728,1182.65652 85.7305728,1180.90348 87,1180 C87.8859907,1178.72922 89.6272144,1178.72922 91,1180 L122,1212 C123.269427,1212.62273 123.269427,1214.37978 122,1215 L91,1247 C89.6272144,1248.27329 87.8859907,1248.26927 87,1247 C85.7305728,1246.10705 85.7305728,1244.35 87,1243 L116,1214 L116,1214 Z" id="caret-left" sketch:type="MSShapeGroup" transform="translate(104.500000, 1213.500000) scale(-1, 1) translate(-104.500000, -1213.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

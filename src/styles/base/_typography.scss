@@ -74,13 +74,16 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  @include adjust-font-size-to(24px, 1);
-  font-weight: 700;
+  @include adjust-font-size-to(32px, 2);
+  margin-bottom: $base-line-height;
+
+  @include at-breakpoint($breakDesktop oldie) {
+    @include adjust-font-size-to(40px, 2);
+  }
 }
 
 h3, .h3 {
   @include adjust-font-size-to(20px, 1);
-  font-weight: 700;
 }
 
 h4 {
@@ -96,6 +99,12 @@ h5 {
 h6 {
   font-size: 0.875em; //14px;
   line-height: 1.5em;
+}
+.is-subtitle {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  @include adjust-font-size-to(18px, 1);
 }
 
 /*  TEXT ELEMENT

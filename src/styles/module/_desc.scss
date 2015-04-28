@@ -20,9 +20,45 @@
 }
 
 .desc-slider {
-  @include clearfix;
+  position: relative;
   text-align: center;
-  margin-top: 30px;
+  @include span-columns(10, 12);
+  @include squish(1, 1, 12);
+}
+
+
+.desc-figure {
+  margin-top: 4em;
+}
+.desc-figure + .desc-figure {
+  margin-top: 1em;
+}
+.desc-figure img {
+  @include at-breakpoint($breakDesktop oldie) {
+    width: columns(6, 10);
+  }
+}
+.desc-figure figcaption {
+  display: inline-block;
+  @include adjust-font-size-to(20px, 1);
+  padding: 2em 0 2em (gutter(10) * 2);
+  @include at-breakpoint($breakDesktop oldie) {
+    width: columns(4, 10) - gutter(10);
+  }
+}
+.flexbox {
+  @include at-breakpoint($breakDesktop) {
+    .desc-figure {
+      display: flex;
+      align-items: center;
+    }
+    .desc-figure + .desc-figure {
+      flex-direction: row-reverse;
+      figcaption {
+        padding: 2em (gutter(10) * 2) 2em 0;
+      }
+    }
+  }
 }
 
 .desc-teaser,
@@ -70,7 +106,7 @@
 
   margin: 0 auto 20px;
   @include border-radius(100%);
-  border: 6px solid $orangeDark;
+  border: 6px solid $greenDark;
 
   img {
     width: 100%;
@@ -78,8 +114,12 @@
   }
 }
 
-.desc-text {
-  @include at-breakpoint($breakTablet oldie) {
-    @include span-columns(3 omega, 6);
+.desc-txt {
+  display: inline-block;
+  text-align: center;
+  margin-top: 4em;
+  @include at-breakpoint($breakDesktop oldie) {
+    @include span-columns(10, 12);
+    @include squish(1, 1, 12);
   }
 }

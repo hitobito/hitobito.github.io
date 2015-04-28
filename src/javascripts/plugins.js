@@ -27,10 +27,11 @@
 // http://responsiveslides.com/
 $(function() {
   $(".rslides").responsiveSlides({
-    auto: false,             // Boolean: Animate automatically, true or false
-    pager: true,           // Boolean: Show pager, true or false
-    maxwidth: "540",           // Integer: Max-width of the slideshow, in pixels
-    namespace: "rslides",   // String: Change the default namespace used
+    auto: false,
+    pager: true,
+    nav: true,
+    speed: 500,
+    namespace: "rslides",
   });
 });
 

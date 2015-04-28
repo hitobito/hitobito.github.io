@@ -42,7 +42,7 @@
   @include clearfix;
 
   width: 146px;
-  margin: 20px auto;
+  margin: 4em auto 2em;
 
   li {
     display: block;
@@ -57,8 +57,8 @@
     display: block;
     width: 20px;
     height: 20px;
-    background: $orangeDark;
-    border: 3px solid $orangeDark;
+    background: $green;
+    border: 3px solid $green;
     @include border-radius(100%);
 
     // Hide text
@@ -70,12 +70,54 @@
 
   li a:hover,
   li a:active {
-    background-color: $orange;
+    background-color: $greenDark;
   }
 
   li.rslides_here a {
     background-color: white;
   }
+}
+.rslides_nav {
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  margin-top: -40px;
+  left: -60px;
+  height: 80px;
+  width: 40px;
+  opacity: 0.5;
+  z-index: 3;
+  text-indent: -9999px;
+  text-decoration: none;
+  background: image-url("caret-left.svg") transparent no-repeat left center;
+  background-size: 50%;
+  @include transition(opacity 300ms ease);
+
+  @include at-breakpoint($breakDesktop oldie) {
+    background-size: 100%;
+    left: -100px;
+  }
+}
+.no-svg .rslides_nav {
+  background-image: image-url("caret-left.png");
+}
+.rslides_nav:active,
+.rslides_nav:hover {
+  opacity: 1.0;
+}
+.rslides_nav.next {
+  left: auto;
+  background-position: right top;
+  right: -60px;
+  background: image-url("caret-right.svg") transparent no-repeat right center;
+  background-size: 50%;
+  @include at-breakpoint($breakDesktop oldie) {
+    background-size: 100%;
+    right: -100px;
+  }
+}
+.no-svg .rslides_nav.next {
+  background-image: image-url("caret-right.png");
 }
 
 
