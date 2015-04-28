@@ -1,12 +1,12 @@
       <header id="header" role="banner">
+        <nav class="nav-lang">
+          <ul>
+            <li><a href="/de" class="{{#is language 'de'}}is-active{{/is}}">DE</a></li>
+            <li><a href="/en" class="{{#is language 'en'}}is-active{{/is}}">EN</a></li>
+            <!--li><a href="/fr" class="{{#is language 'fr'}}is-active{{/is}}">FR</a></li-->
+          </ul>
+        </nav>
         <div class="container">
-          <nav class="nav-lang">
-            <ul>
-              <li><a href="/de" class="{{#is language 'de'}}is-active{{/is}}">DE</a></li>
-              <li><a href="/en" class="{{#is language 'en'}}is-active{{/is}}">EN</a></li>
-              <!--li><a href="/fr" class="{{#is language 'fr'}}is-active{{/is}}">FR</a></li-->
-            </ul>
-          </nav>
           <a class="logo" href="index.html"><img alt="hitobito" src="{{path}}/images/logo.svg" /></a>
           <p>{{#i18n "header-tagline"}}{{/i18n}}</p>
         </div>
@@ -72,7 +72,7 @@
                 <li>
                   <h3 class="h2">{{#i18n "desc-slide1-title"}}{{/i18n}}</h3>
                   <figure class="desc-figure">
-                    <img alt="{{#i18n "desc-slide1-img1-alt"}}{{/i18n}}" src="{{path}}/images/slide01.png" />
+                    <img alt="{{#i18n "desc-slide1-img1-alt"}}{{/i18n}}" src="{{path}}/images/slide01_01.svg" />
                     <figcaption>
                       {{#i18n "desc-slide1-txt1"}}{{/i18n}}
                     </figcaption>
@@ -102,9 +102,9 @@
                 <li>
                   <h3 class="h2">{{#i18n "desc-slide3-title"}}{{/i18n}}</h3>
                   <figure class="desc-figure">
-                    <img alt="{{#i18n "desc-slide1-img1-alt"}}{{/i18n}}" src="{{path}}/images/slide01.png" />
+                    <img alt="{{#i18n "desc-slide3-img1-alt"}}{{/i18n}}" src="{{path}}/images/slide01.png" />
                     <figcaption>
-                      {{#i18n "desc-slide1-txt1"}}{{/i18n}}
+                      {{#i18n "desc-slide3-txt1"}}{{/i18n}}
                     </figcaption>
                   </figure>
                   <figure class="desc-figure">

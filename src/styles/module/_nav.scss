@@ -1,5 +1,6 @@
 .nav-lang {
   @include clearfix;
+  margin-left: gutter(12);
   ul {
     @include reset-list;
   }

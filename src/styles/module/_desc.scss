@@ -34,6 +34,8 @@
   margin-top: 1em;
 }
 .desc-figure img {
+  background-color: $green;
+  @include border-radius(4px);
   @include at-breakpoint($breakDesktop oldie) {
     width: columns(6, 10);
   }
@@ -88,29 +90,6 @@
     @include at-breakpoint($breakDesktop oldie) {
       @include omega;
     }
-  }
-}
-
-.desc-screenshot {
-  @include at-breakpoint($breakTablet) {
-    @include span-columns(3, $breakTablet);
-  }
-  @include at-breakpoint($breakDesktop oldie) {
-    @include span-columns(3, 6);
-  }
-}
-
-.desc-screenshot-frame {
-  line-height: 0;
-  max-width: 200px;
-
-  margin: 0 auto 20px;
-  @include border-radius(100%);
-  border: 6px solid $greenDark;
-
-  img {
-    width: 100%;
-    @include border-radius(100%);
   }
 }
 

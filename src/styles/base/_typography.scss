@@ -60,8 +60,6 @@ a {
 #{headings(all)} {
   font-family: $headingFontFamily;
   font-weight: 400;
-
-  @include flow;
 }
 
 h1, .h1 {
@@ -76,6 +74,7 @@ h1, .h1 {
 h2, .h2 {
   @include adjust-font-size-to(32px, 2);
   margin-bottom: $base-line-height;
+  font-weight: 400;
 
   @include at-breakpoint($breakDesktop oldie) {
     @include adjust-font-size-to(40px, 2);
