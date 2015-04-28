@@ -64,7 +64,7 @@ a {
   @include flow;
 }
 
-h1 {
+h1, .h1 {
   @include adjust-font-size-to(36px, 2);
   margin-bottom: $base-line-height;
 
@@ -73,12 +73,12 @@ h1 {
   }
 }
 
-h2 {
+h2, .h2 {
   @include adjust-font-size-to(24px, 1);
   font-weight: 700;
 }
 
-h3 {
+h3, .h3 {
   @include adjust-font-size-to(20px, 1);
   font-weight: 700;
 }
