@@ -32,10 +32,7 @@ module.exports = function (grunt) {
     watch: {
       js: {
         files: ['<%= yeoman.src %>/scripts/{,*/}*.js'],
-        tasks: ['newer:jshint:all'],
-        options: {
-          livereload: '<%= connect.options.livereload %>'
-        }
+        tasks: ['jshint', 'uglify']
       },
       sass: {
         files: ['<%= yeoman.src %>/styles/{,*/}*.{scss,sass}'],
@@ -89,17 +86,23 @@ module.exports = function (grunt) {
         reporter: require('jshint-stylish'),
         force: true
       },
-      all: {
+      dist: {
         src: [
           'Gruntfile.js',
-          '<%= yeoman.src %>/scripts/{,*/}*.js'
+          '<%= yeoman.src %>/scripts/*.js'
         ]
-      },
-      test: {
-        options: {
-          jshintrc: 'test/.jshintrc'
-        },
-        src: ['test/spec/{,*/}*.js']
+      }
+    },
+    // Compress scripts
+    uglify: {
+      dist: {
+        files: [{
+            expand: true,
+            cwd: '<%= yeoman.src %>/scripts/',
+            src: '{,*/}*.js',
+            dest: '<%= yeoman.dist %>/scripts/',
+            ext: '.min.js'
+        }]
       }
     },
 
@@ -255,11 +258,6 @@ module.exports = function (grunt) {
           cwd: '.tmp/images',
           dest: '<%= yeoman.dist %>/images',
           src: ['generated/*']
-        }, {
-          expand: true,
-          cwd: '<%= yeoman.src %>',
-          dest: '<%= yeoman.dist %>',
-          src: ['javascripts/**/*.js']
         }]
       },
       styles: {
@@ -274,6 +272,7 @@ module.exports = function (grunt) {
     concurrent: {
       server: [
         'sass',
+        'uglify',
         'copy:dist',
         'imagemin',
         'assemble'
@@ -283,6 +282,8 @@ module.exports = function (grunt) {
       ],
       dist: [
         'sass',
+        'jshint',
+        'uglify',
         'imagemin',
         'assemble'
       ]
@@ -294,9 +295,9 @@ module.exports = function (grunt) {
     if (target === 'dist') {
       return grunt.task.run(['build', 'connect:dist:keepalive']);
     }
-
     grunt.task.run([
       'clean:server',
+      'jshint',
       'concurrent:server',
       'autoprefixer',
       'connect:livereload',
