@@ -28,7 +28,10 @@
 
 
 .desc-figure {
-  margin-top: 4em;
+  margin-top: 2em;
+  @include at-breakpoint($breakDesktop oldie) {
+    margin-top: 4em;
+  }
 }
 .desc-figure + .desc-figure {
   margin-top: 1em;
@@ -46,6 +49,8 @@
   padding: 2em 0 2em (gutter(10) * 2);
   @include at-breakpoint($breakDesktop oldie) {
     width: columns(4, 10) - gutter(10);
+    padding: 1em 0 1em (gutter(10) * 2);
+    text-align: left;
   }
 }
 .flexbox {
@@ -57,6 +62,7 @@
     .desc-figure + .desc-figure {
       flex-direction: row-reverse;
       figcaption {
+        text-align: right;
         padding: 2em (gutter(10) * 2) 2em 0;
       }
     }

@@ -40,14 +40,22 @@
 .rslides_tabs {
   @include reset-list;
   @include clearfix;
+  display: inline-block;
+  margin: 0 auto 1em;
 
-  width: 146px;
-  margin: 4em auto 2em;
+  @include at-breakpoint($breakDesktop oldie) {
+    margin: 4em auto 2em;
+  }
 
   li {
     display: block;
     float: left;
-    margin-left: 34px;
+    margin-left: 1em;
+
+    @include at-breakpoint($breakDesktop oldie) {
+      margin-left: 2em;
+    }
+
     &:first-child {
       margin-left: 0;
     }
@@ -82,7 +90,7 @@
   overflow: hidden;
   top: 50%;
   margin-top: -40px;
-  left: -60px;
+  left: -30px;
   height: 80px;
   width: 40px;
   opacity: 0.5;
@@ -92,6 +100,10 @@
   background: image-url("caret-left.svg") transparent no-repeat left center;
   background-size: 50%;
   @include transition(opacity 300ms ease);
+
+  @include at-breakpoint($breakTablet) {
+    left: -60px;
+  }
 
   @include at-breakpoint($breakDesktop oldie) {
     background-size: 100%;
@@ -108,9 +120,12 @@
 .rslides_nav.next {
   left: auto;
   background-position: right top;
-  right: -60px;
+  right: -30px;
   background: image-url("caret-right.svg") transparent no-repeat right center;
   background-size: 50%;
+  @include at-breakpoint($breakTablet) {
+    right: -60px;
+  }
   @include at-breakpoint($breakDesktop oldie) {
     background-size: 100%;
     right: -100px;

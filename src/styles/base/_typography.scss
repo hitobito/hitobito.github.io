@@ -72,7 +72,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  @include adjust-font-size-to(32px, 2);
+  @include adjust-font-size-to(28px, 1.5);
   margin-bottom: $base-line-height;
   font-weight: 400;
 
