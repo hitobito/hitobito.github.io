@@ -34,7 +34,7 @@
   margin-top: 1em;
 }
 .desc-figure img {
-  background-color: $green;
+  background-color: white; //$green;
   @include border-radius(4px);
   @include at-breakpoint($breakDesktop oldie) {
     width: columns(6, 10);

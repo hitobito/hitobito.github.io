@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="440px" height="260px" viewBox="0 0 440 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>slide02_02</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="81" height="95"></rect>
+        <rect id="path-3" x="0.136744925" y="0.275590193" width="191.484101" height="121.763441"></rect>
+        <rect id="path-5" x="0" y="0" width="29" height="45"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="slide02_02" sketch:type="MSArtboardGroup">
+            <g id="tablet-+-laptop-+-tablet-copy" sketch:type="MSLayerGroup" transform="translate(23.000000, 55.000000)">
+                <g id="tablet" transform="translate(244.000000, 29.000000)">
+                    <rect id="Rectangle-4" fill="#474E5D" sketch:type="MSShapeGroup" x="0" y="0" width="87" height="121" rx="4"></rect>
+                    <g id="Group" transform="translate(35.000000, 6.000000)" fill="#202228" sketch:type="MSShapeGroup">
+                        <ellipse id="Oval" cx="1" cy="1" rx="1" ry="1"></ellipse>
+                        <path d="M18,1.33333333 C18,1.6 17.5924528,2 17.25,2 L6.75,2 C6.40754717,2 6,1.6 6,1.33333333 L6,0.666666667 C6,0.4 6.40754717,0 6.75,0 L17.25,0 C17.5924528,0 18,0.4 18,0.666666667 L18,1.33333333 L18,1.33333333 Z" id="Shape"></path>
+                    </g>
+                    <ellipse id="Oval" fill="#202228" sketch:type="MSShapeGroup" cx="43" cy="114" rx="4" ry="4"></ellipse>
+                    <g id="screen" transform="translate(3.000000, 13.000000)">
+                        <mask id="mask-2" sketch:name="Rectangle" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#50B8B7" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <g id="laptop" transform="translate(0.000000, 0.500000)">
+                    <path d="M225.679687,0.275590193 L32.1926142,0.275590193 C28.9747642,0.275590193 26.1836989,3.05295456 26.1836989,6.28365471 L26.1836989,47.9395687 L26.1836989,130.049784 L26.1836989,136.057848 L32.1926142,136.057848 L225.679687,136.057848 L231.688602,136.057848 L231.688602,130.049784 L231.688602,47.9395687 L231.688602,6.28365471 C231.688602,3.05295456 228.897537,0.275590193 225.679687,0.275590193 L225.679687,0.275590193 Z" id="Shape" fill="#474E5D" sketch:type="MSShapeGroup"></path>
+                    <ellipse id="Oval" fill="#202228" sketch:type="MSShapeGroup" cx="128.964154" cy="3.89516535" rx="1.74758641" ry="1.55316787"></ellipse>
+                    <path d="M253.320697,136.057848 L6.15398118,136.057848 L0.145065876,136.057848 L0.145065876,141.264838 L0.145065876,141.665375 L0.145065876,140.8643 L0.145065876,141.665375 C0.266597095,144.970077 8.27897676,148.474515 11.7623021,148.474515 L247.712376,148.474515 C251.198182,148.474515 259.208081,144.971298 259.329613,141.665375 L259.329613,141.665375 L259.329613,141.665375 L259.329613,141.264838 L259.329613,136.057848 L253.320697,136.057848 L253.320697,136.057848 Z" id="Shape" fill="#C9CCD2" sketch:type="MSShapeGroup"></path>
+                    <rect id="Rectangle" fill="#E8EBF0" sketch:type="MSShapeGroup" x="0.145065876" y="136.057848" width="259.184547" height="5.60752688"></rect>
+                    <path d="M147.427043,136.583333 C147.427043,140.29735 110.972957,140.402462 110.972957,136.583333 L110.972957,136.182796 L147.427043,136.182796 L147.427043,136.583333 L147.427043,136.583333 Z" id="Shape" fill="#C9CCD2" sketch:type="MSShapeGroup"></path>
+                    <g id="screen" transform="translate(33.257652, 6.809140)">
+                        <mask id="mask-4" sketch:name="Rectangle" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#99BF62" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+                <g id="tablet-copy" transform="translate(343.000000, 91.500000)">
+                    <rect id="Rectangle-4" fill="#474E5D" sketch:type="MSShapeGroup" x="0" y="0" width="31" height="58" rx="1.92"></rect>
+                    <g id="Group" transform="translate(11.000000, 2.000000)" fill="#202228" sketch:type="MSShapeGroup">
+                        <circle id="Oval" cx="1" cy="1" r="1"></circle>
+                        <path d="M8,1.33333333 C8,1.6 7.83018868,2 7.6875,2 L3.3125,2 C3.16981132,2 3,1.6 3,1.33333333 L3,0.666666667 C3,0.4 3.16981132,0 3.3125,0 L7.6875,0 C7.83018868,0 8,0.4 8,0.666666667 L8,1.33333333 L8,1.33333333 Z" id="Shape"></path>
+                    </g>
+                    <circle id="Oval" fill="#202228" sketch:type="MSShapeGroup" cx="15.5" cy="54" r="2"></circle>
+                    <g id="screen" transform="translate(1.000000, 6.000000)">
+                        <mask id="mask-6" sketch:name="Rectangle" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#DC795B" sketch:type="MSShapeGroup" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

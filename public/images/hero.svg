@@ -82,7 +82,7 @@
                     </g>
                 </g>
                 <g id="laptop" transform="translate(0.658645, 0.311949)">
-                    <path d="M336.39598,383.923637 C522.182358,383.923637 672.791959,379.366351 672.791959,373.744654 C672.791959,368.122957 522.182358,363.565671 336.39598,363.565671 C150.609601,363.565671 1.13686838e-13,368.122957 1.13686838e-13,373.744654 C1.13686838e-13,379.366351 150.609601,383.923637 336.39598,383.923637 Z" id="Oval-15" fill="#177C7B" sketch:type="MSShapeGroup"></path>
+                    <path d="M336.39598,383.923637 C522.182358,383.923637 672.791959,379.366351 672.791959,373.744654 C672.791959,368.122957 522.182358,363.565671 336.39598,363.565671 C150.609601,363.565671 0,368.122957 0,373.744654 C0,379.366351 150.609601,383.923637 336.39598,383.923637 Z" id="Oval-15" fill="#177C7B" sketch:type="MSShapeGroup"></path>
                     <path d="M577.341355,0.688050684 L94.3413551,0.688050684 C86.3086659,0.688050684 79.3413551,7.62214159 79.3413551,15.6880507 L79.3413551,119.688051 L79.3413551,324.688051 L79.3413551,339.688051 L94.3413551,339.688051 L577.341355,339.688051 L592.341355,339.688051 L592.341355,324.688051 L592.341355,119.688051 L592.341355,15.6880507 C592.341355,7.62214159 585.374044,0.688050684 577.341355,0.688050684 L577.341355,0.688050684 Z" id="Shape" fill="#474E5D" sketch:type="MSShapeGroup"></path>
                     <ellipse id="Oval" fill="#202228" sketch:type="MSShapeGroup" cx="335.911259" cy="9.72484236" rx="4.36248388" ry="3.87770771"></ellipse>
                     <path d="M646.341355,339.688051 L29.3413551,339.688051 L14.3413551,339.688051 L14.3413551,352.688051 L14.3413551,353.688051 L14.3413551,351.688051 L14.3413551,353.688051 C14.6447324,361.938715 34.645962,370.688051 43.3413551,370.688051 L632.341355,370.688051 C641.04294,370.688051 661.037978,361.941764 661.341355,353.688051 L661.341355,353.688051 L661.341355,353.688051 L661.341355,352.688051 L661.341355,339.688051 L646.341355,339.688051 L646.341355,339.688051 Z" id="Shape" fill="#C9CCD2" sketch:type="MSShapeGroup"></path>
@@ -102,9 +102,9 @@
                         <rect id="Rectangle-6" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-10)" x="20.3413551" y="58.6880507" width="80" height="170"></rect>
                         <rect id="Rectangle-11-Copy" fill="#B6B6B6" sketch:type="MSShapeGroup" mask="url(#mask-10)" x="20" y="101" width="80" height="20"></rect>
                         <rect id="Rectangle-6-Copy" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-10)" x="100.341355" y="58.6880507" width="356" height="247"></rect>
-                        <rect id="Rectangle-8" fill="#525A6B" sketch:type="MSShapeGroup" mask="url(#mask-10)" x="336.341355" y="22.6880507" width="56" height="14" rx="3"></rect>
-                        <rect id="Rectangle-8-Copy-2" fill="#525A6B" sketch:type="MSShapeGroup" mask="url(#mask-10)" x="270.341355" y="22.6880507" width="56" height="14" rx="3"></rect>
-                        <rect id="Rectangle-8-Copy" fill="#525A6B" sketch:type="MSShapeGroup" mask="url(#mask-10)" x="402.341355" y="22.6880507" width="56" height="14" rx="3"></rect>
+                        <rect id="Rectangle-8" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-10)" x="336.341355" y="22.6880507" width="56" height="14" rx="3"></rect>
+                        <rect id="Rectangle-8-Copy-2" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-10)" x="270.341355" y="22.6880507" width="56" height="14" rx="3"></rect>
+                        <rect id="Rectangle-8-Copy" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-10)" x="402.341355" y="22.6880507" width="56" height="14" rx="3"></rect>
                         <g id="user" mask="url(#mask-10)">
                             <g transform="translate(130.000000, 88.000000)">
                                 <rect id="Rectangle-12-Copy" opacity="0.5" fill="#474E5D" sketch:type="MSShapeGroup" x="70.3413551" y="0.688050684" width="124" height="12"></rect>
