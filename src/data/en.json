@@ -17,7 +17,7 @@
   
   "desc-title"              : "Key features",
 
-  "desc-slide1-title"       : "Depiction of complex structures and permissions",
+  "desc-slide1-title"       : "Depiction of complex structures<br />and permissions",
   "desc-slide1-txt1"        : "Adjustment to your individual organizational structure",
   "desc-slide1-img1-alt"    : "",
   "desc-slide1-txt2"        : "Flexible role and authorization system",
@@ -35,7 +35,7 @@
   "desc-slide3-txt2"        : "Appealing design",
   "desc-slide3-img2-alt"    : "",
 
-  "desc-txt"                : "hitobito is flexibly customizable to your organizational structure, so that even very complex structures and permissions can be decipted. As a web application, accessability from anywhere is granted, even with your smartphone. <br />Thanks to the central data storage, there are no redundancies. We have placed great emphasis on an intuitive and easy operability during the development. So even occasional users will find hitobito easy to master.",
+  "desc-txt"                : "<p>hitobito is flexibly customizable to your organizational structure, so that even very complex structures and permissions can be decipted. As a web application, accessability from anywhere is granted, even with your smartphone.</p><p>Thanks to the central data storage, there are no redundancies. We have placed great emphasis on an intuitive and easy operability during the development. So even occasional users will find hitobito easy to master.</p>",
 
   "services-title"          : "How <a href=\"http://www.puzzle.ch/de/angebot/open-source-loesungen\" target=\"_blank\">we</a> support you",
   "service-custom"          : "Customizing hitobito to your individual needs",
