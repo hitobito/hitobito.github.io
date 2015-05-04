@@ -29,3 +29,13 @@
     }
   }
 }
+
+.no-flexbox {
+  .features-item {
+    @include at-breakpoint($breakDesktop oldie) {
+      float: left;
+      width: columns(4, 12) - gutter(12);
+      padding: 0 gutter(24);
+    }
+  }
+}
