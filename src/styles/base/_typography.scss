@@ -2,6 +2,9 @@
 // Super basic typography styles
 // =================================================================================
 
+// Google Fonts import
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700|Varela+Round);
+
 // Setup your baseline, selection and links
 // Vertical rhythm
 @include establish-baseline($base-font-size);
@@ -57,7 +60,8 @@ a {
 
 /*  HEADING
   ----------------- */
-#{headings(all)} {
+#{headings(all)},
+.h1, .h2 {
   font-family: $headingFontFamily;
   font-weight: 400;
 }
