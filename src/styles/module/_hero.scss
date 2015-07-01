@@ -1,8 +1,14 @@
 .hero-title {
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
 
-  @include at-breakpoint($breakTablet) {
+  @include at-breakpoint($breakDesktop oldie) {
     @include span-columns(4, 6);
-    @include push(1);
+    @include push(2);
   }
 }
 
