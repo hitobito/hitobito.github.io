@@ -1,3 +1,284 @@
-<!DOCTYPE html><!--[if IE 7]><html lang="de" class="no-js ie7 oldie"><![endif]--><!--[if IE 8]><html lang="de" class="no-js ie8 oldie"><![endif]--> <html class="no-js" lang="de"> <!--<![endif]--> <head> <meta charset="utf-8"> <title>hitobito - Online Open Source Mitgliederverwaltung, Lager, Events, Mailinglisten</title> <meta name="HandheldFriendly" content="True"> <meta name="MobileOptimized" content="320"> <meta name="viewport" content="width=device-width,initial-scale=1"> <meta content="Die Open Source Mitgliederverwaltung für Organisationen mit komplexen Strukturen und Berechtigungen. Verwalten Sie online Ihre Mitglieder, Lager, Events und mehr..." name="description"> <meta content="Online, Open Source, Vereinsverwaltung, Mitgliederverwaltung, Kursverwaltung, Eventverwaltung, Vereine, Events, Mitglieder, Kurs" name="Keywords"> <link href="../images/favicon.ico" type="image/png" rel="shortcut icon"> <link href="../images/apple-touch-icon.png" rel="apple-touch-icon"> <link href="../images/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57"> <link href="../images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"> <link href="../images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"> <link href="../styles/main.css" media="screen" rel="stylesheet"> <link href="../styles/print.css" media="print" rel="stylesheet"> <!--[if IE]><link href="../styles/ie.css" rel="stylesheet" media="screen"><![endif]--> <script src="../scripts/vendor/modernizr.min.js"></script> <link href="https://plus.google.com/108865436255615110323" rel="publisher">  <body role="document"> <!--[if lt IE 9]>
+<!DOCTYPE html>
+<!--[if IE 7]><html lang="de" class="no-js ie7 oldie"><![endif]--><!--[if IE 8]><html lang="de" class="no-js ie8 oldie"><![endif]-->
+<html class="no-js" lang="de">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <title>hitobito - Online Open Source Mitgliederverwaltung, Lager, Events, Mailinglisten</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Die Open Source Mitgliederverwaltung für Organisationen mit komplexen Strukturen und Berechtigungen. Verwalte deine Mitglieder, Lager, Events und mehr!" name="description" />
+    <meta content="Online, Open Source, Vereinsverwaltung, Mitgliederverwaltung, Kursverwaltung, Eventverwaltung, Vereine, Events, Mitglieder, Kurs" name="Keywords" />
+    <link href="../images/favicon.ico" type="image/png" rel="shortcut icon" />
+    <link href="../images/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="../images/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
+    <link href="../images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
+    <link href="../images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
+    <link href="../styles/main.css" media="screen" rel="stylesheet" />
+    <link href="../styles/print.css" media="print" rel="stylesheet" />
+    <!--[if IE]><link href="../styles/ie.css" rel="stylesheet" media="screen"><![endif]-->
+    <script src="../scripts/vendor/modernizr.min.js"></script>
+    <link href="https://plus.google.com/108865436255615110323" rel="publisher" />
+  </head>
+  <body role="document">
+    <!--[if lt IE 9]>
       <div class="browsehappy">Be warned, you are using an outdated browser.<br />Please <a href="http://browsehappy.com">upgrade your browser</a></div>
-    <![endif]--> <div id="page"> <header id="header" role="banner"> <nav class="nav-lang"> <ul> <li><a href="/de" class="is-active">DE</a></li> <li><a href="/en" class="">EN</a></li> <li><a href="/fr" class="">FR</a></li> </ul> </nav> <div class="container"> <a class="logo" href="index.html"><img alt="hitobito logo" src="../images/logo.svg" width="230" height="30"></a> <p>Die Open Source Webapplikation für das Verwalten von Mitgliedern, Events und mehr...</p> </div> <div class="ribbon-container"> <div class="ribbon"> <a href="https://github.com/hitobito/hitobito">Fork me on GitHub</a> </div> </div> </header> <main id="main" role="main"> <section id="hero"> <div class="container"> <h1 class="hero-title"> Die individuelle<br>Mitgliederverwaltung </h1> <img alt="Schöne auf Desktop und Tablet" class="hero-illus" src="../images/hero.svg" width="799" height="384"> </div> </section> <section id="features"> <div class="container"> <h2>Was kann hitobito?</h2> <ul class="features-list"> <li class="features-item break-small"> <img alt="Mitglieder- und Vereinsverwaltung" src="../images/feature-manage.svg" width="220" height="220"> <p> Mitglieder- und Vereinsverwaltung </p> </li> <li class="features-item"> <img alt="Kurse administrieren<br /> inkl. Qualifikationen" src="../images/feature-course.svg" width="220" height="220"> <p> Kurse administrieren<br> inkl. Qualifikationen </p> </li> <li class="features-item break-small"> <img alt="Events mit<br />Online-Anmeldung" src="../images/feature-event.svg" width="220" height="220"> <p> Events mit<br>Online-Anmeldung </p> </li> <li class="features-item break-medium"> <img alt="Newsletter- und<br />Mailingsystem" src="../images/feature-mail.svg" width="220" height="220"> <p> Newsletter- und<br>Mailingsystem </p> </li> <li class="features-item break-small"> <img alt="Import und Export über standardisierte Schnittstellen" src="../images/feature-data.svg" width="220" height="220"> <p> Import und Export über standardisierte Schnittstellen </p> </li> </ul> </div> </section> <section id="description"> <div class="container"> <h2 class="is-subtitle"> Schwerpunkte </h2> <div class="desc-slider"> <ul class="rslides"> <li> <h3 class="h2">Komplexe Strukturen und Berechtigungen abbilden</h3> <figure class="desc-figure"> <img alt="" src="../images/slide01_01.svg" width="440" height="260"> <figcaption> Individuelle Anpassung auf Ihre Organisationsstruktur </figcaption> </figure> </li> <li> <h3 class="h2">Komplexe Strukturen und Berechtigungen abbilden</h3> <figure class="desc-figure"> <img alt="" src="../images/slide01_02.png" width="440" height="260"> <figcaption> Flexibles Rollen- und Berechtigungssystem </figcaption> </figure> </li> <li> <h3 class="h2">Zentrale<br>Datenhaltung</h3> <figure class="desc-figure"> <img alt="" src="../images/slide02_01.png" width="440" height="260"> <figcaption> Keine Redundanzen: Mitglieder können eigene Daten selber verwalten </figcaption> </figure> </li> <li> <h3 class="h2">Zentrale<br>Datenhaltung</h3> <figure class="desc-figure"> <img alt="" src="../images/slide02_02.png" width="440" height="260"> <figcaption> Zugriff von überall her möglich, auch mit dem Smartphone </figcaption> </figure> </li> <li> <h3 class="h2">User<br>Experience</h3> <figure class="desc-figure"> <img alt="" src="../images/slide03_01.png" width="440" height="260"> <figcaption> Intuitive und einfache Bedienbarkeit </figcaption> </figure> </li> <li> <h3 class="h2">User<br>Experience</h3> <figure class="desc-figure"> <img alt="" src="../images/slide03_02.png" width="440" height="260"> <figcaption> Ansprechendes Design </figcaption> </figure> </li> </ul> </div> <div class="desc-txt"><p>hitobito lässt sich flexibel auf deine Organisationsstruktur anpassen, damit auch sehr komplexe Strukturen und Berechtigungen abgebildet werden können. Als Webapplikation ist der Zugriff von überall her möglich, auch mit dem Smartphone.</p><p>Dank der zentralen Datenhaltung gibt es keine Redundanzen. Wir haben bei der Entwicklung grossen Wert auf eine intuitive und einfache Bedienbarkeit gelegt. So finden sich auch Gelegenheitsnutzer einfach zurecht.</p></div> </div> </section> <section id="services"> <div class="container"> <h2> Wie <a href="http://www.puzzle.ch/de/angebot/open-source-loesungen" target="_blank">wir</a> dich unterstützen </h2> <div class="info-text"> <ul class="services-list"> <li>Anpassen von hitobito auf deine individuellen Bedürfnisse</li> <li>Erweiterungen der Lösung nach deinen Wünschen</li> <li>Betrieb der Lösung inkl. Backup, Support und Wartung</li> <li>Pflege der Kunden-Community und der Gemeinschaftslösung</li> </ul> </div> <div class="info-who"> <a href="http://www.puzzle.ch/" target="_blank"><img src="../images/puzzle_tagline_bg_rgb.svg" alt="Puzzle ITC" width="310" height="81"></a> </div> </div> </section> <section id="demo"> <div class="container"> <img alt="Try it now!" class="demo-man" src="../images/demo-man.svg" width="279" height="321"> <div class="demo-calltoaction"> <h2 class="h3"> Gwundrig? Teste die kostenlose Online-Demoversion von hitobito </h2> <form action="http://demo.hitobito.ch/de/users/sign_in" method="get"> <ul class="demo-list"> <li> <input type="radio" name="person[email]" value="admin@hitobito.ch" id="demo-role-admin" checked> <label for="demo-role-admin"></label> <label for="demo-role-admin">Als Administrator</label> </li> <li> <input type="radio" name="person[email]" value="mitglied@hitobito.ch" id="demo-role-member"> <label for="demo-role-member"></label> <label for="demo-role-member">Als Vereinsmitglied</label> </li> </ul> <button class="demo-btn" type="submit"> <span class="h2">Login</span><br> <span>Passwort: demo</span> </button> </form> </div> </div> </section> <section id="open"> <div class="container"> <div class="info-text"> <h2> Open Source </h2> <p> Der Quellcode von hitobito ist <a href="https://github.com/hitobito/hitobito" target="_blank">auf Github</a> unter der GNU Affero General Public License veröffentlicht. Die zugrunde liegenden Softwarekomponenten (Ruby on Rails, MySQL Datenbank, ...) sind Open Source und basieren auf offenen Standards und Schnittstellen. </p> <p> <a class="info-source-link" href="https://github.com/hitobito/hitobito" target="_blank"><img alt="GitHub logo" class="info-source-img" src="../images/logo-github.svg" width="32" height="32">https://github.com/hitobito/hitobito</a> </p> <h2> Gemeinschaftslösung </h2> <p> hitobito ist ein Open Source Partnerprojekt, initiiert von Jungwacht Blauring Schweiz und Puzzle ITC. Die Datenbank wird gemeinsam mit weiteren Partnern ausgebaut – ganz im Sinne des Grundsatzes vom Geben und Nehmen. Lesen Sie dazu auch den Artikel <a href="http://www.netzwoche.ch/de-CH/News/2013/08/08/Vereinsverwaltung-mit-der-Community.aspx">"Vereinsverwaltung mit der Community"</a> in der Netzwoche. </p> </div> <div class="info-contact"> <a href="mailto:kunz@puzzle.ch"><img alt="Weitere Informationen?" src="../images/info-contact_de.svg" width="244" height="263"></a> <p> Kontaktieren Sie den Lösungsverantwortlichen </p> <a class="btn btn-purple" href="mailto:kunz@puzzle.ch">André Kunz</a> </div> </div> </section> </main> <footer id="footer" role="contentinfo"> <section id="partner"> <div class="container"> <h2 class="partner-title"> Wir bauen und vertrauen auf hitobito </h2> <ul class="partner-list"> <li class="partner-item"> <a class="partner-item-img" href="http://www.jubla.ch/"><img alt="jungwacht blauring" src="../images/logo-jubla.svg" width="300" height="150"></a> <h3 class="partner-item-text"> <a href="http://www.jubla.ch/">jungwacht blauring<br><small>29’000 Mitglieder, 429 Scharen</small></a> </h3> </li> <li class="partner-item is-last"> <a class="partner-item-img" href="http://www.cevi.ch/"><img alt="Cevi Regionalverbände" src="../images/logo-cevi.svg" width="300" height="150"></a> <h3 class="partner-item-text"> <a href="http://www.cevi.ch/">Cevi Regionalverbände<br><small>6’000 Mitglieder, 65 Gruppen</small></a> </h3> </li> <li class="partner-item"> <a class="partner-item-img" href="http://www.pbs.ch/de?set_language=de"><img alt="Pfadibewegung Schweiz" src="../images/logo-pbs.svg" width="300" height="150"></a> <h3 class="partner-item-text"> <a href="http://www.pbs.ch/">Pfadibewegung Schweiz<br><small>42’000 Mitglieder, 22 Verbände</small></a> </h3> </li> <li class="partner-item is-last"> <a class="partner-item-img" href="http://www.insieme.ch/"><img alt="insieme Schweiz" src="../images/logo_insieme.svg" width="300" height="150"></a> <h3 class="partner-item-text"> <a href="http://www.insieme.ch/">insieme Schweiz<br><small>8’500 Mitglieder, 51 Vereine</small></a> </h3> </li> </ul> </div> </section> <section id="legal"> <p> Developed by <a href="http://www.puzzle.ch/">Puzzle ITC</a> and designed with ♥ by <a href="http://www.wearecube.ch/">We Are Cube.³</a> </p> </section> </footer> </div> <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> <script>window.jQuery || document.write('<script src="../scripts/vendor/jquery.min.js"><\/script>');</script> <script src="../scripts/vendor/responsiveslides.min.js"></script> <script src="../scripts/vendor/piwik.min.js"></script> <script src="../scripts/main.min.js"></script>  
+    <![endif]-->
+    <div id="page">
+    
+      <header id="header" role="banner">
+        <nav class="nav-lang">
+          <ul>
+            <li><a href="/de" class="is-active">DE</a></li>
+            <li><a href="/en" class="">EN</a></li>
+            <li><a href="/fr" class="">FR</a></li>
+          </ul>
+        </nav>
+        <div class="container">
+          <a class="logo" href="index.html"><img alt="hitobito logo" src="../images/logo.svg" width="230" height="30" /></a>
+          <p>Die Open Source Webapplikation für das Verwalten von Mitgliedern, Events und mehr...</p>
+        </div>
+        <div class="ribbon-container">
+          <div class="ribbon">
+              <a href="https://github.com/hitobito/hitobito">Fork me on GitHub</a>
+          </div>
+        </div>
+      </header>
+      <main id="main" role="main">
+        <section id="hero">
+          <div class="container">
+            <h1 class="hero-title">
+              Die individuelle<br />Mitgliederverwaltung
+            </h1>
+            <img alt="Schöne auf Desktop und Tablet" class="hero-illus" src="../images/hero.svg" width="799" height="384" />
+          </div>
+        </section>
+        <section id="features">
+          <div class="container">
+            <h2>Was kann hitobito?</h2>
+            <ul class="features-list">
+              <li class="features-item break-small">
+                <img alt="Mitglieder- und Vereinsverwaltung" src="../images/feature-manage.svg" width="220" height="220" />
+                <p>
+                  Mitglieder- und Vereinsverwaltung
+                </p>
+              </li>
+              <li class="features-item">
+                <img alt="Kurse administrieren<br /> inkl. Qualifikationen" src="../images/feature-course.svg" width="220" height="220" />
+                <p>
+                  Kurse administrieren<br /> inkl. Qualifikationen
+                </p>
+              </li>
+              <li class="features-item break-small">
+                <img alt="Events mit<br />Online-Anmeldung" src="../images/feature-event.svg" width="220" height="220" />
+                <p>
+                  Events mit<br />Online-Anmeldung
+                </p>
+              </li>
+              <li class="features-item break-medium">
+                <img alt="Newsletter- und<br />Mailingsystem" src="../images/feature-mail.svg" width="220" height="220" />
+                <p>
+                  Newsletter- und<br />Mailingsystem
+                </p>
+              </li>
+              <li class="features-item break-small">
+                <img alt="Import und Export über standardisierte Schnittstellen" src="../images/feature-data.svg" width="220" height="220" />
+                <p>
+                  Import und Export über standardisierte Schnittstellen
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="description">
+          <div class="container">
+            <h2 class="is-subtitle">
+              Schwerpunkte
+            </h2>
+            <div class="desc-slider">
+              <ul class="rslides">
+                <li>
+                  <h3 class="h2">Komplexe Strukturen und Berechtigungen abbilden</h3>
+                  <figure class="desc-figure">
+                    <img alt="" src="../images/slide01_01.svg" width="440" height="260" />
+                    <figcaption>
+                      Individuelle Anpassung auf Ihre Organisationsstruktur
+                    </figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <h3 class="h2">Komplexe Strukturen und Berechtigungen abbilden</h3>
+                  <figure class="desc-figure">
+                    <img alt="" src="../images/slide01_02.png" width="440" height="260" />
+                    <figcaption>
+                      Flexibles Rollen- und Berechtigungssystem
+                    </figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <h3 class="h2">Zentrale<br />Datenhaltung</h3>
+                  <figure class="desc-figure">
+                    <img alt="" src="../images/slide02_01.png" width="440" height="260" />
+                    <figcaption>
+                      Keine Redundanzen: Mitglieder können eigene Daten selber verwalten
+                    </figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <h3 class="h2">Zentrale<br />Datenhaltung</h3>
+                  <figure class="desc-figure">
+                    <img alt="" src="../images/slide02_02.png" width="440" height="260" />
+                    <figcaption>
+                      Zugriff von überall her möglich, auch mit dem Smartphone
+                    </figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <h3 class="h2">User<br />Experience</h3>
+                  <figure class="desc-figure">
+                    <img alt="" src="../images/slide03_01.png" width="440" height="260" />
+                    <figcaption>
+                      Intuitive und einfache Bedienbarkeit
+                    </figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <h3 class="h2">User<br />Experience</h3>
+                  <figure class="desc-figure">
+                    <img alt="" src="../images/slide03_02.png" width="440" height="260" />
+                    <figcaption>
+                      Ansprechendes Design
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+            <div class="desc-txt"><p>hitobito lässt sich flexibel auf deine Organisationsstruktur anpassen, damit auch sehr komplexe Strukturen und Berechtigungen abgebildet werden können. Als Webapplikation ist der Zugriff von überall her möglich, auch mit dem Smartphone.</p><p>Dank der zentralen Datenhaltung gibt es keine Redundanzen. Wir haben bei der Entwicklung grossen Wert auf eine intuitive und einfache Bedienbarkeit gelegt. So finden sich auch Gelegenheitsnutzer einfach zurecht.</p></div>
+          </div>
+        </section>
+        <section id="services">
+          <div class="container">
+            <h2>
+              Wie <a href="http://www.puzzle.ch/de/angebot/open-source-loesungen" target="_blank">wir</a> dich unterstützen
+            </h2>
+            <div class="info-text">
+              <ul class="services-list">
+                <li>Anpassen von hitobito auf deine individuellen Bedürfnisse</li>
+                <li>Erweiterungen der Lösung nach deinen Wünschen</li>
+                <li>Betrieb der Lösung inkl. Backup, Support und Wartung</li>
+                <li>Pflege der Kunden-Community und der Gemeinschaftslösung</li>
+              </ul>
+            </div>
+            <div class="info-who">
+              <a href="http://www.puzzle.ch/" target="_blank"><img src="../images/puzzle_tagline_bg_rgb.svg" alt="Puzzle ITC" width="310" height="81"></a>
+            </div>
+          </div>
+        </section>
+        <section id="demo">
+          <div class="container">
+            <img alt="Try it now!" class="demo-man" src="../images/demo-man.svg" width="279" height="321" />
+            <div class="demo-calltoaction">
+              <h2 class="h3">
+                Gwundrig? Teste die kostenlose Online-Demoversion von hitobito
+              </h2>
+              <form action="http://demo.hitobito.ch/de/users/sign_in" method="get">
+                <ul class="demo-list">
+                  <li>
+                    <input type="radio" name="person[email]" value="admin@hitobito.ch" id="demo-role-admin" checked>
+                    <label for="demo-role-admin"></label>
+                    <label for="demo-role-admin">Als Administrator</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="person[email]" value="mitglied@hitobito.ch" id="demo-role-member">
+                    <label for="demo-role-member"></label>
+                    <label for="demo-role-member">Als Vereinsmitglied</label>
+                  </li>
+                </ul>
+                <button class="demo-btn" type="submit">
+                  <span class="h2">Login</span><br>
+                  <span>Passwort: demo</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section id="open">
+          <div class="container">
+            <div class="info-text">
+              <h2>
+                Open Source
+              </h2>
+              <p>
+                Der Quellcode von hitobito ist <a href="https://github.com/hitobito/hitobito" target="_blank">auf Github</a> unter der GNU Affero General Public License veröffentlicht. Die zugrunde liegenden Softwarekomponenten (Ruby on Rails, MySQL Datenbank, ...) sind Open Source und basieren auf offenen Standards und Schnittstellen.
+              </p>
+              <p>
+                <a class="info-source-link" href="https://github.com/hitobito/hitobito" target="_blank"><img alt="GitHub logo" class="info-source-img" src="../images/logo-github.svg" width="32" height="32" />https://github.com/hitobito/hitobito</a>
+              </p>
+              <h2>
+                Gemeinschaftslösung
+              </h2>
+              <p>
+                hitobito ist ein Open Source Partnerprojekt, initiiert von Jungwacht Blauring Schweiz und Puzzle ITC. Die Datenbank wird gemeinsam mit weiteren Partnern ausgebaut – ganz im Sinne des Grundsatzes vom Geben und Nehmen. Lies dazu auch den Artikel <a href="http://www.netzwoche.ch/de-CH/News/2013/08/08/Vereinsverwaltung-mit-der-Community.aspx">"Vereinsverwaltung mit der Community"</a> in der Netzwoche.
+              </p>
+            </div>
+            <div class="info-contact">
+              <a href="mailto:kunz@puzzle.ch"><img alt="Weitere Informationen?" src="../images/info-contact_de.svg" width="244" height="263" /></a>
+              <p>
+                Kontaktiere den Lösungsverantwortlichen
+              </p>
+              <a class="btn btn-purple" href="mailto:kunz@puzzle.ch">André Kunz</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer" role="contentinfo">
+        <section id="partner">
+          <div class="container">
+            <h2 class="partner-title">
+              Wir bauen und vertrauen auf hitobito
+            </h2>
+            <ul class="partner-list">
+              <li class="partner-item">
+                <a class="partner-item-img" href="http://www.jubla.ch/"><img alt="jungwacht blauring" src="../images/logo-jubla.svg" width="300" height="150" /></a>
+                <h3 class="partner-item-text">
+                  <a href="http://www.jubla.ch/">jungwacht blauring<br /><small>29’000 Mitglieder, 429 Scharen</small></a>
+                </h3>
+              </li>
+              <li class="partner-item is-last">
+                <a class="partner-item-img" href="http://www.cevi.ch/"><img alt="Cevi Regionalverbände" src="../images/logo-cevi.svg" width="300" height="150" /></a>
+                <h3 class="partner-item-text">
+                  <a href="http://www.cevi.ch/">Cevi Regionalverbände<br /><small>6’000 Mitglieder, 65 Gruppen</small></a>
+                </h3>
+              </li>
+              <li class="partner-item">
+                <a class="partner-item-img" href="http://www.pbs.ch/de?set_language=de"><img alt="Pfadibewegung Schweiz" src="../images/logo-pbs.svg" width="300" height="150" /></a>
+                <h3 class="partner-item-text">
+                  <a href="http://www.pbs.ch/">Pfadibewegung Schweiz<br /><small>42’000 Mitglieder, 22 Verbände</small></a>
+                </h3>
+              </li>
+              <li class="partner-item is-last">
+                <a class="partner-item-img" href="http://www.insieme.ch/"><img alt="insieme Schweiz" src="../images/logo_insieme.svg" width="300" height="150" /></a>
+                <h3 class="partner-item-text">
+                  <a href="http://www.insieme.ch/">insieme Schweiz<br /><small>8’500 Mitglieder, 51 Vereine</small></a>
+                </h3>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="legal">
+          <p>
+            Developed by <a href="http://www.puzzle.ch/">Puzzle ITC</a> and designed with ♥ by <a href="http://www.wearecube.ch/">We Are Cube.³</a>
+          </p>
+        </section>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="../scripts/vendor/jquery.min.js"><\/script>');
+    </script>
+    <script src="../scripts/vendor/responsiveslides.min.js"></script>
+    <script src="../scripts/vendor/piwik.min.js"></script>
+    <script src="../scripts/main.min.js"></script>
+  </body>
+</html>
