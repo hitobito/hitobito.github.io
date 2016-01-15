@@ -1,0 +1,245 @@
+      <header id="header" role="banner">
+        <nav class="nav-lang">
+          <ul>
+            <li><a href="/de" class="{{#is language 'de'}}is-active{{/is}}">DE</a></li>
+            <li><a href="/en" class="{{#is language 'en'}}is-active{{/is}}">EN</a></li>
+            <li><a href="/fr" class="{{#is language 'fr'}}is-active{{/is}}">FR</a></li>
+          </ul>
+        </nav>
+        <div class="container">
+          <a class="logo" href="index.html"><img alt="hitobito logo" src="{{path}}/images/logo.svg" width="230" height="30" /></a>
+          <p>{{page.header-tagline}}</p>
+        </div>
+        <div class="ribbon-container">
+          <div class="ribbon">
+              <a href="https://github.com/hitobito/hitobito">Fork me on GitHub</a>
+          </div>
+        </div>
+      </header>
+      <main id="main" role="main">
+        <section id="hero">
+          <div class="container">
+            <h1 class="hero-title">
+              {{page.hero-title}}
+            </h1>
+            <img alt="{{page.hero-illus-alt}}" class="hero-illus" src="{{path}}/images/hero.svg" width="799" height="384" />
+          </div>
+        </section>
+        <section id="features">
+          <div class="container">
+            <h2>{{page.features-title}}</h2>
+            <ul class="features-list">
+              <li class="features-item break-small">
+                <img alt="{{page.feature-manage}}" src="{{path}}/images/feature-manage.svg" width="220" height="220" />
+                <p>
+                  {{page.feature-manage}}
+                </p>
+              </li>
+              <li class="features-item">
+                <img alt="{{page.feature-course}}" src="{{path}}/images/feature-course.svg" width="220" height="220" />
+                <p>
+                  {{page.feature-course}}
+                </p>
+              </li>
+              <li class="features-item break-small">
+                <img alt="{{page.feature-event}}" src="{{path}}/images/feature-event.svg" width="220" height="220" />
+                <p>
+                  {{page.feature-event}}
+                </p>
+              </li>
+              <li class="features-item break-medium">
+                <img alt="{{page.feature-mail}}" src="{{path}}/images/feature-mail.svg" width="220" height="220" />
+                <p>
+                  {{page.feature-mail}}
+                </p>
+              </li>
+              <li class="features-item break-small">
+                <img alt="{{page.feature-data}}" src="{{path}}/images/feature-data.svg" width="220" height="220" />
+                <p>
+                  {{page.feature-data}}
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="description">
+          <div class="container">
+            <h2 class="is-subtitle">
+              {{page.desc-title}}
+            </h2>
+            <div class="desc-slider">
+              <ul class="rslides">
+                <li>
+                  <h3 class="h2">{{page.desc-slide1-title}}</h3>
+                  <figure class="desc-figure">
+                    <img alt="{{page.desc-slide1-img1-alt}}" src="{{path}}/images/slide01_01.svg" width="440" height="260" />
+                    <figcaption>
+                      {{page.desc-slide1-txt1}}
+                    </figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <h3 class="h2">{{page.desc-slide1-title}}</h3>
+                  <figure class="desc-figure">
+                    <img alt="{{page.desc-slide1-img2-alt}}" src="{{path}}/images/slide01_02.png" width="440" height="260" />
+                    <figcaption>
+                      {{page.desc-slide1-txt2}}
+                    </figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <h3 class="h2">{{page.desc-slide2-title}}</h3>
+                  <figure class="desc-figure">
+                    <img alt="{{page.desc-slide2-img1-alt}}" src="{{path}}/images/slide02_01.png" width="440" height="260" />
+                    <figcaption>
+                      {{page.desc-slide2-txt1}}
+                    </figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <h3 class="h2">{{page.desc-slide2-title}}</h3>
+                  <figure class="desc-figure">
+                    <img alt="{{page.desc-slide2-img2-alt}}" src="{{path}}/images/slide02_02.png" width="440" height="260" />
+                    <figcaption>
+                      {{page.desc-slide2-txt2}}
+                    </figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <h3 class="h2">{{page.desc-slide3-title}}</h3>
+                  <figure class="desc-figure">
+                    <img alt="{{page.desc-slide3-img1-alt}}" src="{{path}}/images/slide03_01.png" width="440" height="260" />
+                    <figcaption>
+                      {{page.desc-slide3-txt1}}
+                    </figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <h3 class="h2">{{page.desc-slide3-title}}</h3>
+                  <figure class="desc-figure">
+                    <img alt="{{page.desc-slide3-img2-alt}}" src="{{path}}/images/slide03_02.png" width="440" height="260" />
+                    <figcaption>
+                      {{page.desc-slide3-txt2}}
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+            <div class="desc-txt">{{page.desc-txt}}</div>
+          </div>
+        </section>
+        <section id="services">
+          <div class="container">
+            <h2>
+              {{page.services-title}}
+            </h2>
+            <div class="info-text">
+              <ul class="services-list">
+                <li>{{page.service-custom}}</li>
+                <li>{{page.service-enhance}}</li>
+                <li>{{page.service-support}}</li>
+                <li>{{page.sercice-community}}</li>
+              </ul>
+            </div>
+            <div class="info-who">
+              <a href="http://www.puzzle.ch/" target="_blank"><img src="{{path}}/images/puzzle_tagline_bg_rgb.svg" alt="Puzzle ITC" width="310" height="81"></a>
+            </div>
+          </div>
+        </section>
+        <section id="demo">
+          <div class="container">
+            <img alt="Try it now!" class="demo-man" src="{{path}}/images/demo-man.svg" width="279" height="321" />
+            <div class="demo-calltoaction">
+              <h2 class="h3">
+                {{page.demo-title}}
+              </h2>
+              <form action="http://demo.hitobito.ch/{{language}}/users/sign_in" method="get">
+                <ul class="demo-list">
+                  <li>
+                    <input type="radio" name="person[email]" value="admin@hitobito.ch" id="demo-role-admin" checked>
+                    <label for="demo-role-admin"></label>
+                    <label for="demo-role-admin">{{page.demo-role-admin}}</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="person[email]" value="mitglied@hitobito.ch" id="demo-role-member">
+                    <label for="demo-role-member"></label>
+                    <label for="demo-role-member">{{page.demo-role-member}}</label>
+                  </li>
+                </ul>
+                <button class="demo-btn" type="submit">
+                  <span class="h2">{{page.demo-btn-title}}</span><br>
+                  <span>{{page.demo-btn-subtitle}}</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section id="open">
+          <div class="container">
+            <div class="info-text">
+              <h2>
+                {{page.open-title}}
+              </h2>
+              <p>
+                {{page.open-txt1}}
+              </p>
+              <p>
+                <a class="info-source-link" href="https://github.com/hitobito/hitobito" target="_blank"><img alt="GitHub logo" class="info-source-img" src="{{path}}/images/logo-github.svg" width="32" height="32" />https://github.com/hitobito/hitobito</a>
+              </p>
+              <h2>
+                {{page.open-community}}
+              </h2>
+              <p>
+                {{page.open-txt2}}
+              </p>
+            </div>
+            <div class="info-contact">
+              <a href="mailto:kunz@puzzle.ch"><img alt="{{page.open-more-infos}}" src="{{path}}/images/info-contact_{{language}}.svg" width="244" height="263" /></a>
+              <p>
+                {{page.open-contact}}
+              </p>
+              <a class="btn btn-purple" href="mailto:kunz@puzzle.ch">André Kunz</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer" role="contentinfo">
+        <section id="partner">
+          <div class="container">
+            <h2 class="partner-title">
+              {{page.partner-title}}
+            </h2>
+            <ul class="partner-list">
+              <li class="partner-item">
+                <a class="partner-item-img" href="http://www.jubla.ch/"><img alt="{{page.partner-jubla-title}}" src="{{path}}/images/logo-jubla.svg" width="300" height="150" /></a>
+                <h3 class="partner-item-text">
+                  <a href="http://www.jubla.ch/">{{page.partner-jubla-title}}<br /><small>{{page.partner-jubla-txt}}</small></a>
+                </h3>
+              </li>
+              <li class="partner-item is-last">
+                <a class="partner-item-img" href="http://www.cevi.ch/"><img alt="{{page.partner-cevi-title}}" src="{{path}}/images/logo-cevi.svg" width="300" height="150" /></a>
+                <h3 class="partner-item-text">
+                  <a href="http://www.cevi.ch/">{{page.partner-cevi-title}}<br /><small>{{page.partner-cevi-txt}}</small></a>
+                </h3>
+              </li>
+              <li class="partner-item">
+                <a class="partner-item-img" href="http://www.pbs.ch/{{language}}?set_language={{language}}"><img alt="{{page.partner-pfadi-title}}" src="{{path}}/images/logo-pbs.svg" width="300" height="150" /></a>
+                <h3 class="partner-item-text">
+                  <a href="http://www.pbs.ch/">{{page.partner-pfadi-title}}<br /><small>{{page.partner-pfadi-txt}}</small></a>
+                </h3>
+              </li>
+              <li class="partner-item is-last">
+                <a class="partner-item-img" href="http://www.insieme.ch/"><img alt="{{page.partner-insieme-title}}" src="{{path}}/images/logo_insieme.svg" width="300" height="150" /></a>
+                <h3 class="partner-item-text">
+                  <a href="http://www.insieme.ch/">{{page.partner-insieme-title}}<br /><small>{{page.partner-insieme-txt}}</small></a>
+                </h3>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="legal">
+          <p>
+            {{page.footer-copy}}
+          </p>
+        </section>
+      </footer>
