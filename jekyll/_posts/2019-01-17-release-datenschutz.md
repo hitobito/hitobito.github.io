@@ -27,6 +27,8 @@ Das hat bisher gut geklappt, zumindest haben wir keine Meldungen von Missbrauch 
 
 ## Darum neues Feature: Optionales Anfrageverfahren.
 
+![Datenschutz Feature](/images/datenschutz/anfrageprozess-aktivierung-aussschnitt.png)
+
 Neu können Personen in den wichtigsten Leitungsfunktionen deshalb aktivieren, dass Mitglieder von Ihren Ortsgruppen erst nach einer Anfrage bei einer fremden Gruppe, einem fremden Abo oder einem fremden Anlass hinzugefügt werden können.
 
 
@@ -39,6 +41,8 @@ So aktivierst du die Anfragen.
 2. Du kannst nun wählen, welche Personen jeweils ein Anfrage per Email erhalten sollen, wenn jemand versucht ein Mitglied irgendwo hinzuzufügen.
 
 ### In welchen Fällen wird eine Anfrage ausgelöst?
+
+![Datenschutz Feature](/images/datenschutz/anfrageprozess-info-wenn-ausgeloest-ausschnitt.png)
 
 Nicht in jedem Fall wird eine Anfrage ausgelöst. Entscheidend sind 2 Faktoren:
 
