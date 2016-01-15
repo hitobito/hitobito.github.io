@@ -9,8 +9,6 @@
   "author": "André Kunz <kunz@puzzle.ch>",
   "dependencies": {},
   "devDependencies": {
-    "assemble": "^0.4.42",
-    "assemble-contrib-permalinks": "^0.3.6",
     "grunt": "^0.4.1",
     "grunt-autoprefixer": "^0.7.3",
     "grunt-concurrent": "^0.5.0",

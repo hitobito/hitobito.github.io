@@ -11,7 +11,6 @@ module.exports = function (grunt) {
 
   // Load grunt tasks automatically
   require('load-grunt-tasks')(grunt);
-  grunt.loadNpmTasks('assemble' );
 
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
@@ -37,10 +36,6 @@ module.exports = function (grunt) {
       sass: {
         files: ['<%= yeoman.src %>/styles/{,*/}*.{scss,sass}'],
         tasks: ['sass']
-      },
-      assemble: {
-        files: ['<%= yeoman.src %>/**/*.hbs', '<%= yeoman.src %>/**/*.json'],
-        tasks: ['assemble']
       },
       gruntfile: {
         files: ['Gruntfile.js']
@@ -149,32 +144,6 @@ module.exports = function (grunt) {
       }
     },
 
-    assemble: {
-      options: {
-        flatten: true,
-        layout: '<%= yeoman.src %>/template/layout.hbs',
-        data: '<%= yeoman.src %>/data/**/*.json',
-        partials: '<%= yeoman.src %>/partials/*.hbs',
-      },
-      dist: {
-        options:{
-          plugins: ['assemble-contrib-permalinks'],
-          permalinks: {
-            structure: ':language/index.html'
-          }
-        },
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.src %>/pages/',
-          src: ['*.hbs'],
-          dest: '<%= yeoman.dist %>/'
-        }]
-      },
-      home: {
-        files: {'<%= yeoman.dist %>/index.html': '<%= yeoman.src %>/index.hbs'}
-      }
-    },
-
     // Renames files for browser caching purposes
     filerev: {
       dist: {
@@ -270,8 +239,7 @@ module.exports = function (grunt) {
         'sass',
         'uglify',
         'copy:dist',
-        'imagemin',
-        // 'assemble'
+        'imagemin'
       ],
       test: [
         'sass'
@@ -280,8 +248,7 @@ module.exports = function (grunt) {
         'sass',
         'jshint',
         'uglify',
-        'imagemin',
-        // 'assemble'
+        'imagemin'
       ]
     },
   });
@@ -311,7 +278,6 @@ module.exports = function (grunt) {
     'concurrent:dist',
     'autoprefixer',
     'copy:dist',
-    // 'assemble',
     'htmlmin'
   ]);
 
