@@ -1,0 +1,18 @@
+<header id="header" role="banner">
+  <nav class="nav-lang">
+    <ul>
+      <li><a href="/" class="{{#is language 'de'}}is-active{{/is}}">DE</a></li>
+      <li><a href="/en" class="{{#is language 'en'}}is-active{{/is}}">EN</a></li>
+      <li><a href="/fr" class="{{#is language 'fr'}}is-active{{/is}}">FR</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <a class="logo" href="index.html"><img alt="hitobito logo" src="{{path}}/images/logo.svg" width="230" height="30" /></a>
+    <p>{{page.header-tagline}}</p>
+  </div>
+  <div class="ribbon-container">
+    <div class="ribbon">
+        <a href="https://github.com/hitobito/hitobito">Fork me on GitHub</a>
+    </div>
+  </div>
+</header>

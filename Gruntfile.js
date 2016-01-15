@@ -15,10 +15,14 @@ module.exports = function (grunt) {
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
+  grunt.loadNpmTasks('grunt-jekyll');
+
+
   // Configurable paths for the application
   var appConfig = {
     src: 'src',
-    dist: 'public'
+    dist: 'public',
+    jekyll: 'jekyll'
   };
 
   // Define the configuration for all the tasks
@@ -40,6 +44,10 @@ module.exports = function (grunt) {
       gruntfile: {
         files: ['Gruntfile.js']
       },
+      jekyll: {
+        files: ['<%= yeoman.jekyll %>/**/*.*'],
+        tasks: ['build']
+      },
       livereload: {
         options: {
           livereload: '<%= connect.options.livereload %>'
@@ -51,6 +59,20 @@ module.exports = function (grunt) {
         ]
       }
     },
+
+    jekyll: {                             // Task
+      options: {                          // Universal options
+        bundleExec: true,
+        src : '<%= yeoman.jekyll %>'
+      },
+      dist: {                             // Target
+        options: {                        // Target options
+          dest: '<%= yeoman.dist %>',
+          config: '<%= yeoman.jekyll %>/_config.yml'
+        }
+      }
+    },
+
 
     // The actual grunt server settings
     connect: {
@@ -274,7 +296,8 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('build', [
-    // 'clean:dist',
+    'clean:dist',
+    'jekyll',
     'concurrent:dist',
     'autoprefixer',
     'copy:dist',
