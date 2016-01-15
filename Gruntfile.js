@@ -271,7 +271,7 @@ module.exports = function (grunt) {
         'uglify',
         'copy:dist',
         'imagemin',
-        'assemble'
+        // 'assemble'
       ],
       test: [
         'sass'
@@ -281,7 +281,7 @@ module.exports = function (grunt) {
         'jshint',
         'uglify',
         'imagemin',
-        'assemble'
+        // 'assemble'
       ]
     },
   });
@@ -307,11 +307,11 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('build', [
-    'clean:dist',
+    // 'clean:dist',
     'concurrent:dist',
     'autoprefixer',
     'copy:dist',
-    'assemble',
+    // 'assemble',
     'htmlmin'
   ]);
 
