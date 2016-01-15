@@ -1,0 +1,17 @@
+.blog-list {
+	margin: 0 auto;
+	max-width: 50em;
+	padding: 0 1em;
+	h1 {
+		text-align: center;
+	}
+	small {
+		text-align: center;
+		display: block;
+	}
+	article {
+		border-top: 1px solid $grayLight;
+		margin-top: 2em; 
+		padding-top: 2em;
+	}
+}

@@ -106,3 +106,12 @@
   text-align: center;
   @include adjust-font-size-to(14px);
 }
+
+#blog {
+  padding: 30px 0;
+  background: white;
+  color: $black;
+  a {
+    color: $green;
+  }
+}

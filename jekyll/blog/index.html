@@ -1,0 +1,22 @@
+---
+layout: default
+language: de
+path: ".."
+---
+
+{% include header.html %}
+
+<main id="blog">
+	<section class="blog-list">
+		<h1>Blog</h1>
+		{% for post in site.posts %}
+			<article class="blog-post">
+				<h1>{{post.title}}</h1>
+				<small>{{ post.date | date_to_long_string }}</small>
+				{{ post.content }}
+				<p>Link zum Artikel: <a href="{{post.url}}">{{ post.title }}</a></p>
+				<hr>
+			</article>
+		{% endfor %}
+	</section>
+</main>

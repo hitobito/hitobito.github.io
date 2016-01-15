@@ -178,7 +178,7 @@
         </p>
       </div>
       <div class="info-contact">
-        <a href="mailto:kunz@puzzle.ch"><img alt="{{page.open-more-infos}}" src="{{path}}/images/info-contact_{{language}}.svg" width="244" height="263" /></a>
+        <a href="mailto:kunz@puzzle.ch"><img alt="{{page.open-more-infos}}" src="{{path}}/images/info-contact_{{page.language}}.svg" width="244" height="263" /></a>
         <p>
           {{page.open-contact}}
         </p>
@@ -187,5 +187,43 @@
     </div>
   </section>
 </main>
-
-{% include footer.html %}
+<footer id="footer" role="contentinfo">
+  <section id="partner">
+    <div class="container">
+      <h2 class="partner-title">
+        {{page.partner-title}}
+      </h2>
+      <ul class="partner-list">
+        <li class="partner-item">
+          <a class="partner-item-img" href="http://www.jubla.ch/"><img alt="{{page.partner-jubla-title}}" src="{{path}}/images/logo-jubla.svg" width="300" height="150" /></a>
+          <h3 class="partner-item-text">
+            <a href="http://www.jubla.ch/">{{page.partner-jubla-title}}<br /><small>{{page.partner-jubla-txt}}</small></a>
+          </h3>
+        </li>
+        <li class="partner-item is-last">
+          <a class="partner-item-img" href="http://www.cevi.ch/"><img alt="{{page.partner-cevi-title}}" src="{{path}}/images/logo-cevi.svg" width="300" height="150" /></a>
+          <h3 class="partner-item-text">
+            <a href="http://www.cevi.ch/">{{page.partner-cevi-title}}<br /><small>{{page.partner-cevi-txt}}</small></a>
+          </h3>
+        </li>
+        <li class="partner-item">
+          <a class="partner-item-img" href="http://www.pbs.ch/{{language}}?set_language={{language}}"><img alt="{{page.partner-pfadi-title}}" src="{{path}}/images/logo-pbs.svg" width="300" height="150" /></a>
+          <h3 class="partner-item-text">
+            <a href="http://www.pbs.ch/">{{page.partner-pfadi-title}}<br /><small>{{page.partner-pfadi-txt}}</small></a>
+          </h3>
+        </li>
+        <li class="partner-item is-last">
+          <a class="partner-item-img" href="http://www.insieme.ch/"><img alt="{{page.partner-insieme-title}}" src="{{path}}/images/logo_insieme.svg" width="300" height="150" /></a>
+          <h3 class="partner-item-text">
+            <a href="http://www.insieme.ch/">{{page.partner-insieme-title}}<br /><small>{{page.partner-insieme-txt}}</small></a>
+          </h3>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="legal">
+    <p>
+      {{page.footer-copy}}
+    </p>
+  </section>
+</footer>

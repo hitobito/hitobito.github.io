@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html lang="{{post.language}}" class="no-js ie7 oldie"><![endif]--><!--[if IE 8]><html lang="{{post.language}}" class="no-js ie8 oldie"><![endif]-->
+<html class="no-js" lang="{{post.language}}">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <title>hitobito - Online Open Source Mitgliederverwaltung, Lager, Events, Mailinglisten</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="{{#i18n "meta-desc"}}{{/i18n}}" name="description" />
+    <meta content="{{#i18n "meta-keywords"}}{{/i18n}}" name="Keywords" />
+    <link href="{{post.path}}/images/favicon.ico" type="image/png" rel="shortcut icon" />
+    <link href="{{post.path}}/images/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="{{post.path}}/images/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
+    <link href="{{post.path}}/images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
+    <link href="{{post.path}}/images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
+    <link href="{{post.path}}/styles/main.css" media="screen" rel="stylesheet" />
+    <link href="{{post.path}}/styles/print.css" media="print" rel="stylesheet" />
+    <!--[if IE]><link href="{{post.path}}/styles/ie.css" rel="stylesheet" media="screen"><![endif]-->
+    <script src="{{post.path}}/scripts/vendor/modernizr.min.js"></script>
+    <link href="https://plus.google.com/108865436255615110323" rel="publisher" />
+  </head>
+  <body role="document">
+    <!--[if lt IE 9]>
+      <div class="browsehappy">{{#i18n "warning"}}{{/i18n}}</div>
+    <![endif]-->
+    <div id="page">
+    {% include header.html %}
+
+    <main id="blog">
+        <section class="blog-list">
+            <article class="blog-post">
+                <h1>{{page.title}}</h1>
+                <small>{{ page.date | date_to_long_string }}</small>
+                {{ content }}
+                <hr>
+                <p><a href="/blog">Alle Beiträge</a></p>
+            </article>
+        </section>
+    </main>
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="{{post.path}}/scripts/vendor/jquery.min.js"><\/script>');
+    </script>
+    <script src="{{post.path}}/scripts/vendor/responsiveslides.min.js"></script>
+    <script src="{{post.path}}/scripts/vendor/piwik.min.js"></script>
+    <script src="{{post.path}}/scripts/main.min.js"></script>
+  </body>
+</html>
