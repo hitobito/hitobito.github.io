@@ -186,6 +186,19 @@
       </div>
     </div>
   </section>
+  <section id="blog-preview">
+    <div class="container">
+      <h2>{{page.blog-preview-title}}</h2>
+      {% for post in site.posts limit: 3 %}
+      <article class="blog-preview-post">
+        <div>{{ post.date | date_to_long_string }}</div>
+        <h3 class="blog-preview-title"><a href="{{post.url}}">{{post.title}}</a></h3>
+      </article>
+      {% endfor %}
+      <a href="/blog">{{page.blog-all-articles}}</a>
+
+    </div>
+  </section>
 </main>
 <footer id="footer" role="contentinfo">
   <section id="partner">

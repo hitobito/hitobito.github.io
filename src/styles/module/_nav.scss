@@ -1,6 +1,8 @@
-.nav-lang {
-  @include clearfix;
+.nav {
+  overflow-y: hidden;
+  display: inline-block;
   margin-left: gutter(12);
+  margin-right: 2em;
   ul {
     @include reset-list;
   }

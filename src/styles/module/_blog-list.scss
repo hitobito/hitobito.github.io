@@ -5,16 +5,19 @@
 	h1 {
 		text-align: center;
 	}
-	small {
+	.blog-date {
 		text-align: center;
 		display: block;
 	}
-	article {
+	.blog-post {
 		border-top: 1px solid $grayLight;
-		margin-top: 2em; 
 		padding-top: 2em;
+		padding-bottom: 2em;
 		img {
 			border: 1px solid $grayLight;
 		}
 	}
+}
+
+.blog-list-more-articles {
 }
