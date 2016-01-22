@@ -20,10 +20,12 @@ number_of_expanded_articles: 1
 		{% endfor %}
 	</section>
 	<div class="blog-list blog-list-more-articles">
-		<h1>Weitere Artikel</h1>
 		{% for post in site.posts offset: page.number_of_expanded_articles %}
+			{% if forloop.index == 1 %}
+				<h1>Weitere Posts</h1>
+			{% endif %}
 			<div class="blog-post-title-only">
-				<a href="{{post.url}}">{{post.title}}</a> {{ post.date | date_to_long_string }}
+				<a href="{{post.url}}">{{post.title}}</a> <span class="blog-list-more-articles-date">{{ post.date | date_to_long_string }}</span>
 			</div>
 		{% endfor %}					
 	</div>
