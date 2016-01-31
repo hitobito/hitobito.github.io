@@ -6,35 +6,21 @@
 </description>
     <link>http://hitobito.ch/</link>
     <atom:link href="http://hitobito.ch/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Jan 2016 16:47:54 +0100</pubDate>
-    <lastBuildDate>Fri, 15 Jan 2016 16:47:54 +0100</lastBuildDate>
+    <pubDate>Sun, 31 Jan 2016 18:45:50 +0100</pubDate>
+    <lastBuildDate>Sun, 31 Jan 2016 18:45:50 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Mehr Datenschutz dank Anfrageprozedur</title>
-        <description>&lt;p&gt;Von Anfang an, war Datenschutz ein grosses Thema bei hitobito. Wie gestalten wir eine Plattform, die:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;von hunderten von Gruppen eines Verbandes genutzt werden kann,&lt;/li&gt;
-  &lt;li&gt;sicherstellt, dass wir Adressen nicht zwei und dreifach führen müssen,&lt;/li&gt;
-  &lt;li&gt;und die auch dem Datenschutz gerecht wird.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;wir-glauben-an-ein-offenes-system&quot;&gt;Wir glauben an ein offenes System.&lt;/h2&gt;
-
-&lt;p&gt;Wir haben uns nach vielem Abwägen dafür entschieden, dass hitobito nicht nach Erlaubnis fragt, wenn jemand eine Person bei einer Gruppe, einem Abo oder einem Anlass eine Person hinzufügt. Weil wir glauben, dass die Beteiligten grundsätzlich im Interesse der Organisation handeln und Missbräuche selten sind. Gleichzeitg haben wir sichergestellt, dass immer im Log nachvollziehbar ist, wenn sich jemand Lese oder Schreibrechte von einer Person holt.&lt;/p&gt;
-
-&lt;h2 id=&quot;berechtigte-bedenken-von-ortsgruppen&quot;&gt;Berechtigte Bedenken von Ortsgruppen&lt;/h2&gt;
-
-&lt;p&gt;Das hat bisher gut geklappt, zumindest haben wir keine Meldungen von Missbrauch erhalten. Allerdings haben einige Gruppen and die Datenbankbetreuer zurückgemeldet, dass die Lösung nicht genug präventiven Schutz bietet und dass die Ortsgruppenleitung (sprich Abteilung, Schar, Ortsgruppe) ihnren Teilnehmern und vor allem auch den Eltern von Minderjährigen nicht ausreichend zusichern können, dass sich nicht andere Zugang zu deren Daten verschaffen.&lt;/p&gt;
-
-&lt;h2 id=&quot;darum-neues-feature-optionales-anfrageverfahren&quot;&gt;Darum neues Feature: Optionales Anfrageverfahren.&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;neues-feature-optionales-anfrageverfahren&quot;&gt;Neues Feature: Optionales Anfrageverfahren.&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/datenschutz/anfrageprozess-aktivierung-aussschnitt.png&quot; alt=&quot;Datenschutz Feature&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Neu können Personen in den wichtigsten Leitungsfunktionen deshalb aktivieren, dass Mitglieder von Ihren Ortsgruppen erst nach einer Anfrage bei einer fremden Gruppe, einem fremden Abo oder einem fremden Anlass hinzugefügt werden können.&lt;/p&gt;
+&lt;p&gt;Neu können Personen in den wichtigsten Leitungsfunktionen aktivieren, dass Mitglieder von ihren Ortsgruppen erst nach einer Anfrage bei einer fremden Gruppe, einem fremden Abo oder einem fremden Anlass hinzugefügt werden können.&lt;/p&gt;
+
+&lt;p&gt;Wir führen dies ein, weil viele Gruppen an die Datenbankbetreuer zurückgemeldet, dass die aktuelle Lösung nicht genug präventiven Schutz biete. Auch könne die Ortsgruppenleitung ihren Teilnehmern und vor allem auch den Eltern von Minderjährigen nicht ausreichend zusichern, dass sich nicht andere Zugang zu deren Daten verschaffen.&lt;/p&gt;
+
+&lt;p&gt;Wir haben das Verfahren optional gemacht, so kann jede Gruppe selbst abwägen, ob sie das Verfahren aktivieren und die Anträge bearbeiten will oder ob Personen ohne Anfrage hinzugefügt werden können.&lt;/p&gt;
 
 &lt;h3 id=&quot;anfragen-werden-nur-ausgelst-wenn-du-das-feature-bei-dir-aktivierst&quot;&gt;Anfragen werden nur ausgelöst, wenn du das Feature bei dir aktivierst.&lt;/h3&gt;
 
@@ -53,37 +39,28 @@
 
 &lt;ul&gt;
   &lt;li&gt;Nur wenn für eine Gruppe in welcher ich Mitglied bin, das Feature aktiviert hat, entsteht eine Anfrage.&lt;/li&gt;
-  &lt;li&gt;Und natürlich wird auch keine Anfrage ausgelöst, wenn der Bearbeiter aufgrund von seiner Berechtigung sowieso schon Lese- oder Schreibberechtigung hat.&lt;/li&gt;
+  &lt;li&gt;Und wir lösen auch keine Anfrage aus, wenn der Bearbeiter aufgrund von seiner Berechtigung sowieso schon Lese- oder Schreibberechtigung hat.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;wer-kann-eine-anfrage-akzeptieren&quot;&gt;Wer kann eine Anfrage akzeptieren?&lt;/h3&gt;
 
 &lt;p&gt;Jede Person die Schreibzugriff auf eine Person hat, kann für diese die Anfrage beantworten. Also nicht nur diejenigen die per Email die Anfrage bekommen. Ich kann als betroffene Person natürlich auch selbst den Antrag annehmen.&lt;/p&gt;
 
-&lt;p&gt;Wenn beispielsweise niemand von der betroffenen Gruppe reagiert, weil die verantwortliche Persone länger abwesend ist, kann ich mich an eine Person vom Dachverband oder vom Kanton wenden und sie beten doch den Zugriff freizuschalten.&lt;/p&gt;
+&lt;p&gt;Wenn beispielsweise niemand von der betroffenen Gruppe reagiert, weil die verantwortliche Person länger abwesend ist, kann ich mich an eine Person vom Dachverband oder vom Kanton wenden und sie beten doch den Zugriff freizuschalten.&lt;/p&gt;
 
-&lt;p&gt;Mit dieser Funktion geben wir euch also, die Möglichkeit selbst zu entscheiden, wie ihr damit umgehen wollt.&lt;/p&gt;
+&lt;h3 id=&quot;ab-wann-ist-das-feature-verfgbar&quot;&gt;Ab wann ist das Feature verfügbar?&lt;/h3&gt;
+
+&lt;p&gt;Die Programmierung davon ist abgeschlossen und wir von den Verbänden geprüft. Mit dem nächsten Update wird das Feature bei euch verfügbar.&lt;/p&gt;
 
 &lt;h2 id=&quot;grosser-dank-an-die-jubla-und-die-pbs&quot;&gt;Grosser Dank an die Jubla und die PBS&lt;/h2&gt;
 
-&lt;p&gt;Die Jubla und die Pfadibewegung Schweiz haben das Feature zum grössten Teil finanziert, einen Teil haben wir von Puzzle auf eigene Kosten realisiert.&lt;/p&gt;
+&lt;p&gt;Die Jubla und die Pfadibewegung Schweiz haben das Feature zum grössten Teil finanziert. Danke!&lt;/p&gt;
 
-&lt;p&gt;Wir freuen uns auf Feedback an studer@puzzle.ch oder via Github.&lt;/p&gt;
+&lt;p&gt;Wir freuen uns auf Feedback an studer@puzzle.ch oder via &lt;a href=&quot;https://github.com/hitobito/hitobito&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 15 Jan 2016 13:00:00 +0100</pubDate>
+        <pubDate>Sun, 31 Jan 2016 18:00:00 +0100</pubDate>
         <link>http://hitobito.ch/blog/2016/01/release-datenschutz.html</link>
         <guid isPermaLink="true">http://hitobito.ch/blog/2016/01/release-datenschutz.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hier die neusten Updates</title>
-        <description>&lt;p&gt;Hier auf diesem Blog gibt es nun allgmeine News zu hitobito!&lt;/p&gt;
-</description>
-        <pubDate>Fri, 15 Jan 2016 12:00:00 +0100</pubDate>
-        <link>http://hitobito.ch/blog/2016/01/Blog-Start.html</link>
-        <guid isPermaLink="true">http://hitobito.ch/blog/2016/01/Blog-Start.html</guid>
         
         
       </item>
