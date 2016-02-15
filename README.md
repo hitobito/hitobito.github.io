@@ -25,6 +25,8 @@ and to deploy: `grunt deploy`
 
 And you're set!
 
+**Don't forget to push your changes to the source branch with git `push origin source`**
+
 ## Directory Structure
 
   * `jekyll`: All templates and files needed to build the html with jekyll
