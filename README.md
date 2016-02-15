@@ -21,10 +21,16 @@ While you're working on your project, run:
 
 To develop: `grunt serve`
 or to build: `grunt`
+and to deploy: `grunt deploy`
 
 And you're set!
 
 ## Directory Structure
 
-  * `src`: The sources to modify the site
-  * `public`: The generated files, for deploying, has to be checked in, since we deploy via git
+  * `jekyll`: All templates and files needed to build the html with jekyll
+  * `src`: All the rest of the sources, including styles
+
+## Branch structure
+
+  * `master`: do not update this manually, the master branch is created (destructively) by the deploy command (by grunt-git-deploy).
+  * `source`: development and changes are done on this branch, as the github pages for organization needs to have the build site on the master branch.

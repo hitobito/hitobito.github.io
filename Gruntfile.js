@@ -23,7 +23,7 @@ module.exports = function (grunt) {
   // Configurable paths for the application
   var appConfig = {
     src: 'src',
-    dist: 'public',
+    dist: 'build',
     jekyll: 'jekyll',
     gitUrl: 'https://github.com/hitobito/hitobito.github.io'
   };
@@ -64,14 +64,14 @@ module.exports = function (grunt) {
     },
 
     git_deploy: {
-      your_target: {
+      github: {
         options: {
-          branch: master
-          url: 'git@github.com:example/repo.git'
+          branch: 'master',
+          url: 'https://github.com/hitobito/hitobito.github.io.git'
         },
-        src: dist
+        src: '<%= yeoman.dist %>'
       },
-    }
+    },
 
     jekyll: {                             // Task
       options: {                          // Universal options
@@ -94,7 +94,7 @@ module.exports = function (grunt) {
         // Change this to '0.0.0.0' to access the server from outside.
         hostname: '0.0.0.0',
         livereload: 35729,
-        base: 'public'
+        base: '<%= yeoman.dist %>'
       },
       livereload: {
         options: {
@@ -156,7 +156,7 @@ module.exports = function (grunt) {
       options: {
         browsers: ['last 2 version']
       },
-      dist: { 
+      dist: {
         src: '<%= yeoman.dist %>/styles/*.css' 
       }
     },
@@ -247,11 +247,12 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             '.htaccess',
+            'CNAME',
             'sitemap.xml',
             '*.html',
             'views/{,*/}*.html',
             'images/{,*/}*.{webp,svg,ico}',
-            'styles/fonts/*'
+            'styles/fonts/*',
           ]
         }, {
           expand: true,
