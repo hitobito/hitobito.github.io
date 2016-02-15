@@ -12,17 +12,20 @@ module.exports = function (grunt) {
   // Load grunt tasks automatically
   require('load-grunt-tasks')(grunt);
 
+
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
   grunt.loadNpmTasks('grunt-jekyll');
+  grunt.loadNpmTasks('grunt-git-deploy');
 
 
   // Configurable paths for the application
   var appConfig = {
     src: 'src',
     dist: 'public',
-    jekyll: 'jekyll'
+    jekyll: 'jekyll',
+    gitUrl: 'https://github.com/hitobito/hitobito.github.io'
   };
 
   // Define the configuration for all the tasks
@@ -59,6 +62,16 @@ module.exports = function (grunt) {
         ]
       }
     },
+
+    git_deploy: {
+      your_target: {
+        options: {
+          branch: master
+          url: 'git@github.com:example/repo.git'
+        },
+        src: dist
+      },
+    }
 
     jekyll: {                             // Task
       options: {                          // Universal options
@@ -304,8 +317,15 @@ module.exports = function (grunt) {
     'htmlmin'
   ]);
 
+  grunt.registerTask('deploy', [
+    'build',
+    'git_deploy'
+  ]);
+
+
   grunt.registerTask('default', [
     'newer:jshint',
     'build'
   ]);
+
 };
