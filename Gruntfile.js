@@ -63,7 +63,7 @@ module.exports = function (grunt) {
       }
     },
 
-    git_deploy: {
+    gitDeploy: {
       github: {
         options: {
           branch: 'master',

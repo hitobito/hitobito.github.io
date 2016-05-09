@@ -11,7 +11,7 @@ You'll need to have the following items installed before continuing.
 
 ## Quickstart
 
-	git clone https://git.puzzle.ch/pitc_hit/hitobito_site.git
+	git clone https://github.com/hitobito/hitobito.github.io.git
 	cd hitobito_site
 	bundle install
 	npm install
