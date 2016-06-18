@@ -22,4 +22,11 @@ And you're set!
 
 For documentation of Jekyll see https://jekyllrb.com
 
-You can easily create posts with https://prose.io. To publish a post you have to set the meta-data to `published: true`.
+## Creating Blogposts:
+
+- Go to http://prose.io/#hitobito/hitobito.github.io/tree/master/_posts
+- Create a new file
+- Adjust the title of the file (only the part after the date, not spaces or special characters, dashes will be converted to spaces) for example: \_posts/2016-06-18-My-New-Blogpost.md -> My New Blogpost
+- Write your post using Markdown.
+- By default saving is with `published: false`, so it will not publish the post, to actually publish it set the meta data `publised: true`
+- Customize longer titles and titles with special characters can be set as meta-data `title: My !!! Superfancy Title !!! & stuff"
