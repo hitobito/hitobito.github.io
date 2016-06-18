@@ -21,3 +21,5 @@ and to deploy: `git push origin master`
 And you're set!
 
 For documentation of Jekyll see https://jekyllrb.com
+
+You can easily create posts with https://prose.io. To publish a post you have to set the meta-data to `published: true`.
