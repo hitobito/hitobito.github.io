@@ -1,5 +1,11 @@
 # Hitobito Website
 
+WARNING
+
+DEPRECATED BRANCH
+
+WE NOW WORK DIRECTLY ON MASTER SO WE SHOULD NOT USE THIS DESTRUCTIVE DEPLOY.
+
 ## Requirements
 
 You'll need to have the following items installed before continuing.

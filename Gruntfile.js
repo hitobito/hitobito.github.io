@@ -65,11 +65,7 @@ module.exports = function (grunt) {
 
     git_deploy: {
       github: {
-        options: {
-          branch: 'master',
-          url: 'https://github.com/hitobito/hitobito.github.io.git'
-        },
-        src: '<%= yeoman.dist %>'
+        invalid options to make sure this branch is not used anymore, because it is destructive to master
       },
     },
 
@@ -157,7 +153,7 @@ module.exports = function (grunt) {
         browsers: ['last 2 version']
       },
       dist: {
-        src: '<%= yeoman.dist %>/styles/*.css' 
+        src: '<%= yeoman.dist %>/styles/*.css'
       }
     },
 
@@ -318,9 +314,7 @@ module.exports = function (grunt) {
     'htmlmin'
   ]);
 
-  grunt.registerTask('deploy', [
-    'build',
-    'git_deploy'
+  grunt.registerTask('deploy', 'THIS TAKS DOES NOT EXIST ANYMORE BECAUSE IT DESTROY THE MASTER BRANCH ON WHICH WE NOW WORK DIRECTLY'[
   ]);
 
 
