@@ -1892,34 +1892,33 @@ body.blurred > * {
 
 /* line 1, ../_sass/module/_nav.scss */
 .nav {
-  font-size: 200%;
   overflow-y: hidden;
   display: inline-block;
   margin-left: 1.78571%;
   margin-right: 2em;
 }
-/* line 7, ../_sass/module/_nav.scss */
+/* line 6, ../_sass/module/_nav.scss */
 .nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 10, ../_sass/module/_nav.scss */
+/* line 9, ../_sass/module/_nav.scss */
 .nav li {
   float: left;
   margin-left: 1em;
 }
-/* line 14, ../_sass/module/_nav.scss */
+/* line 13, ../_sass/module/_nav.scss */
 .nav li:first-child {
   margin-left: 0;
 }
-/* line 18, ../_sass/module/_nav.scss */
+/* line 17, ../_sass/module/_nav.scss */
 .nav a {
   font-size: 0.875em;
   line-height: 1.71429em;
   text-decoration: none;
 }
-/* line 21, ../_sass/module/_nav.scss */
+/* line 20, ../_sass/module/_nav.scss */
 .nav a.is-active {
   color: #4a4a4a;
   font-weight: bold;
