@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hitobito</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://hitobito.ch/</link>
+    <atom:link href="http://hitobito.ch/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 18 Jun 2016 08:08:22 +0200</pubDate>
+    <lastBuildDate>Sat, 18 Jun 2016 08:08:22 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Mehr Datenschutz dank Anfrageprozedur</title>
+        <description>&lt;h2 id=&quot;neues-feature-optionales-anfrageverfahren&quot;&gt;Neues Feature: Optionales Anfrageverfahren.&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/datenschutz/anfrageprozess-aktivierung-aussschnitt.png&quot; alt=&quot;Datenschutz Feature&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Neu können Personen in den wichtigsten Leitungsfunktionen aktivieren, dass Mitglieder von ihren Ortsgruppen erst nach einer Anfrage bei einer fremden Gruppe, einem fremden Abo oder einem fremden Anlass hinzugefügt werden können.&lt;/p&gt;
+
+&lt;p&gt;Wir führen dies ein, weil viele Gruppen an die Datenbankbetreuer zurückgemeldet, dass die aktuelle Lösung nicht genug präventiven Schutz biete. Auch könne die Ortsgruppenleitung ihren Teilnehmern und vor allem auch den Eltern von Minderjährigen nicht ausreichend zusichern, dass sich nicht andere Zugang zu deren Daten verschaffen.&lt;/p&gt;
+
+&lt;p&gt;Wir haben das Verfahren optional gemacht, so kann jede Gruppe selbst abwägen, ob sie das Verfahren aktivieren und die Anträge bearbeiten will oder ob Personen ohne Anfrage hinzugefügt werden können.&lt;/p&gt;
+
+&lt;h3 id=&quot;anfragen-werden-nur-ausgelst-wenn-du-das-feature-bei-dir-aktivierst&quot;&gt;Anfragen werden nur ausgelöst, wenn du das Feature bei dir aktivierst.&lt;/h3&gt;
+
+&lt;p&gt;So aktivierst du die Anfragen.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Du gehst auf die oberste Ebene deiner Ortsgruppe (z. B. Abteilung, Schar). Auf dem Navigationspunkt Anfragen aktivierst du den Anfragemodus&lt;/li&gt;
+  &lt;li&gt;Du kannst nun wählen, welche Personen jeweils ein Anfrage per Email erhalten sollen, wenn jemand versucht ein Mitglied irgendwo hinzuzufügen.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;in-welchen-fllen-wird-eine-anfrage-ausgelst&quot;&gt;In welchen Fällen wird eine Anfrage ausgelöst?&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/datenschutz/anfrageprozess-info-wenn-ausgeloest-ausschnitt.png&quot; alt=&quot;Datenschutz Feature&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nicht in jedem Fall wird eine Anfrage ausgelöst. Entscheidend sind 2 Faktoren:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Nur wenn für eine Gruppe in welcher ich Mitglied bin, das Feature aktiviert hat, entsteht eine Anfrage.&lt;/li&gt;
+  &lt;li&gt;Und wir lösen auch keine Anfrage aus, wenn der Bearbeiter aufgrund von seiner Berechtigung sowieso schon Lese- oder Schreibberechtigung hat.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;wer-kann-eine-anfrage-akzeptieren&quot;&gt;Wer kann eine Anfrage akzeptieren?&lt;/h3&gt;
+
+&lt;p&gt;Jede Person die Schreibzugriff auf eine Person hat, kann für diese die Anfrage beantworten. Also nicht nur diejenigen die per Email die Anfrage bekommen. Ich kann als betroffene Person natürlich auch selbst den Antrag annehmen.&lt;/p&gt;
+
+&lt;p&gt;Wenn beispielsweise niemand von der betroffenen Gruppe reagiert, weil die verantwortliche Person länger abwesend ist, kann ich mich an eine Person vom Dachverband oder vom Kanton wenden und sie beten doch den Zugriff freizuschalten.&lt;/p&gt;
+
+&lt;h3 id=&quot;ab-wann-ist-das-feature-verfgbar&quot;&gt;Ab wann ist das Feature verfügbar?&lt;/h3&gt;
+
+&lt;p&gt;Die Programmierung davon ist abgeschlossen und wir von den Verbänden geprüft. Mit dem nächsten Update wird das Feature bei euch verfügbar.&lt;/p&gt;
+
+&lt;h2 id=&quot;grosser-dank-an-die-jubla-und-die-pbs&quot;&gt;Grosser Dank an die Jubla und die PBS&lt;/h2&gt;
+
+&lt;p&gt;Die Jubla und die Pfadibewegung Schweiz haben das Feature zum grössten Teil finanziert. Danke!&lt;/p&gt;
+
+&lt;p&gt;Wir freuen uns auf Feedback an studer@puzzle.ch oder via &lt;a href=&quot;https://github.com/hitobito/hitobito&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Jan 2016 18:00:00 +0100</pubDate>
+        <link>http://hitobito.ch/blog/2016/01/release-datenschutz.html</link>
+        <guid isPermaLink="true">http://hitobito.ch/blog/2016/01/release-datenschutz.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

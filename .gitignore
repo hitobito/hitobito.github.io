@@ -1,10 +1,5 @@
-node_modules
-.tmp
 tmp
-build
 .DS_Store
 .sass-cache
-bower_components
 Gemfile.lock
 *.log
-jekyll/site

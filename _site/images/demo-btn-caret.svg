@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="37px" height="38px" viewBox="0 0 37 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>demo-btn-caret</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard 1" transform="translate(-695.000000, -1452.000000)">
+            <g id="Group" transform="translate(655.000000, 1414.029034)">
+                <g id="caret" transform="translate(40.000000, 38.000000)">
+                    <path d="M18.5,37 C28.7172684,37 37,28.7172684 37,18.5 C37,8.28273162 28.7172684,0 18.5,0 C8.28273162,0 0,8.28273162 0,18.5 C0,28.7172684 8.28273162,37 18.5,37 Z M18.5,37" id="Oval 20" fill="#5F822C"></path>
+                    <path d="M19.7789714,1.08365885 C9.45383486,1.08365885 1.08365885,9.45383486 1.08365885,19.7789714 C1.08365885,30.1041079 30.1041079,1.08365885 19.7789714,1.08365885 Z M19.7789714,1.08365885" id="Oval 20 copy" opacity="0.523863636" fill="#8DB850"></path>
+                    <path d="M11.7105537,13.0494179 C10.7009078,13.0494179 10.4612263,13.9992829 11.1725518,15.1666385 L17.2097834,25.0743329 C17.922299,26.2436415 19.0787052,26.2416885 19.7900307,25.0743329 L25.8272623,15.1666385 C26.5397779,13.9973298 26.2977028,13.0494179 25.2892604,13.0494179 L11.7105537,13.0494179 Z M11.7105537,13.0494179" id="Rectangle 24" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

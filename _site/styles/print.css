@@ -1,0 +1,125 @@
+/*
+Theme Name  :  Hitobito - PRINT
+Version     :  1.0
+Author      :  Fritsch Pierre
+Author URL  :  http://www.wearecube.ch
+Mixed with  :
+*  SMACSS   (http://smacss.com/)
+*  Compass  (http://compass-style.org/)
+*  Susy     (http://susy.oddbird.net/)
+*/
+/*  GENERIC
+  ----------------- */
+/* line 20, ../../_sass/print.scss */
+* {
+  color: #000 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  -ms-filter: none !important;
+  filter: none !important;
+  background-color: transparent !important;
+}
+
+/* line 31, ../../_sass/print.scss */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  font-size: 12pt;
+}
+
+/* line 41, ../../_sass/print.scss */
+h1, h2, h3, h4, h5, h6 {
+  page-break-after: avoid;
+}
+
+/* line 45, ../../_sass/print.scss */
+h1, h2, h3, h4, h5, h6,
+blockquote,
+code, pre,
+tr,
+img {
+  page-break-inside: avoid;
+}
+
+/* line 55, ../../_sass/print.scss */
+p {
+  orphans: 3;
+  widows: 3;
+}
+
+/* line 61, ../../_sass/print.scss */
+thead {
+  display: table-header-group;
+}
+
+/* line 66, ../../_sass/print.scss */
+a:link {
+  text-decoration: underline;
+}
+
+/* line 71, ../../_sass/print.scss */
+a[href]:after {
+  content: " (" attr(href) ")";
+}
+
+/* line 75, ../../_sass/print.scss */
+a[href^="#"]:after {
+  content: "";
+}
+
+/* line 80, ../../_sass/print.scss */
+abbr[title]:after {
+  content: " (" attr(title) ")";
+}
+
+/* line 85, ../../_sass/print.scss */
+img {
+  max-width: 100% !important;
+}
+
+/*  SPECIFIC
+  ----------------- */
+/**
+header, nav, footer,
+.nav, .breadcrumb, .btn-toolbar {
+  display: none;
+}
+*/
+/**
+.content {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+}
+*/
+/**
+.classe-a-remplacer, #identifiant-a-remplacer {
+  float: none;
+}
+
+.classe-a-remplacer, #identifiant-a-remplacer {
+  position: static;
+}
+*/
+/**
+.classe-a-remplacer, #identifiant-a-remplacer {
+  border: 1px solid MediumPurple;
+  color: MediumPurple;
+  background-color: transparent;
+}
+*/
+/**
+.classe-a-remplacer img,
+#identifiant-a-remplacer img {
+  display: none;
+}
+
+.classe-a-remplacer .visually-hidden,
+.classe-a-remplacer .visually-hidden caption,
+#identifiant-a-remplacer .visually-hidden,
+#identifiant-a-remplacer .visually-hidden caption {
+  position: static;
+  clip: auto;
+}
+*/

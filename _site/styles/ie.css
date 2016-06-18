@@ -1,0 +1,15 @@
+/* line 11, ../../_sass/ie.scss */
+table button,
+table input {
+  *overflow: auto;
+}
+
+/* line 18, ../../_sass/ie.scss */
+.ie7 #demo {
+  overflow: hidden;
+}
+
+/* line 28, ../../_sass/ie.scss */
+.oldie .container {
+  width: 56em;
+}
