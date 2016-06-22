@@ -2135,27 +2135,31 @@ body.blurred > * {
 #blog .blog-list h1 {
   text-align: center;
 }
-/* line 15, ../_sass/module/_blog-list.scss */
+/* line 14, ../_sass/module/_blog-list.scss */
+#blog .blog-list h1 a {
+  text-decoration: none;
+}
+/* line 16, ../_sass/module/_blog-list.scss */
 #blog .blog-list p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-/* line 23, ../_sass/module/_blog-list.scss */
+/* line 24, ../_sass/module/_blog-list.scss */
 #blog .blog-list-more-articles .blog-list-more-articles-date {
   white-space: nowrap;
 }
-/* line 28, ../_sass/module/_blog-list.scss */
+/* line 29, ../_sass/module/_blog-list.scss */
 #blog .blog-date {
   text-align: center;
   display: block;
 }
-/* line 32, ../_sass/module/_blog-list.scss */
+/* line 33, ../_sass/module/_blog-list.scss */
 #blog .blog-post {
   border-top: 1px solid #e8ebf0;
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/* line 36, ../_sass/module/_blog-list.scss */
+/* line 37, ../_sass/module/_blog-list.scss */
 #blog .blog-post img {
   border: 1px solid #e8ebf0;
 }

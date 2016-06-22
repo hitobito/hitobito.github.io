@@ -10,10 +10,9 @@ number_of_expanded_articles: 3
 	<section class="blog-list">
 		{% for post in site.posts limit: page.number_of_expanded_articles %}
 			<article class="blog-post">
-				<h1>{{post.title}}</h1>
+				<h1><a href="{{post.url}}">{{ post.title }}</a></h1>
 				<div class="blog-date">{{ post.date | date_to_long_string }}</div>
 				{{ post.content }}
-				<p>Link zum Artikel: <a href="{{post.url}}">{{ post.title }}</a></p>
 			</article>
 		{% endfor %}
 	</section>
@@ -25,7 +24,7 @@ number_of_expanded_articles: 3
 			<div class="blog-post-title-only">
 				<a href="{{post.url}}">{{post.title}}</a> <span class="blog-list-more-articles-date">{{ post.date | date_to_long_string }}</span>
 			</div>
-		{% endfor %}					
+		{% endfor %}
 	</div>
 
 </main>
