@@ -2125,25 +2125,37 @@ body.blurred > * {
   padding: 0 1em;
 }
 /* line 6, ../_sass/module/_blog-list.scss */
+#blog .blog-list h1, #blog .blog-list h2, #blog .blog-list h3, #blog .blog-list h4, #blog .blog-list h5 {
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/* line 12, ../_sass/module/_blog-list.scss */
 #blog .blog-list h1 {
   text-align: center;
 }
-/* line 12, ../_sass/module/_blog-list.scss */
+/* line 15, ../_sass/module/_blog-list.scss */
+#blog .blog-list p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+/* line 23, ../_sass/module/_blog-list.scss */
 #blog .blog-list-more-articles .blog-list-more-articles-date {
   white-space: nowrap;
 }
-/* line 17, ../_sass/module/_blog-list.scss */
+/* line 28, ../_sass/module/_blog-list.scss */
 #blog .blog-date {
   text-align: center;
   display: block;
 }
-/* line 21, ../_sass/module/_blog-list.scss */
+/* line 32, ../_sass/module/_blog-list.scss */
 #blog .blog-post {
   border-top: 1px solid #e8ebf0;
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/* line 25, ../_sass/module/_blog-list.scss */
+/* line 36, ../_sass/module/_blog-list.scss */
 #blog .blog-post img {
   border: 1px solid #e8ebf0;
 }

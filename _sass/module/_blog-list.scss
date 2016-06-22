@@ -3,9 +3,20 @@
 		margin: 0 auto;
 		max-width: 50em;
 		padding: 0 1em;
+		h1, h2, h3, h4, h5 {
+			text-align: left;
+			margin-top: 2rem;
+			margin-bottom: 1rem;
+			font-family: $baseFontFamily;
+		}
 		h1 {
 			text-align: center;
 		}
+		p {
+			margin-top: 0;
+			margin-bottom: 1rem;
+		}
+
 	}
 
 	.blog-list-more-articles {
@@ -29,4 +40,3 @@
 
 
 }
-
