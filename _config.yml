@@ -8,7 +8,7 @@
 # Site settings
 title: hitobito
 email: support@hitobito.com
-description: > # hitobito ist eine Mitgliederverwaltung für Verbände und Organisation. Open Source!
+description: > hitobito ist eine Mitgliederverwaltung für Verbände und Organisation. Open Source!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hitobito.com" # the base hostname & protocol for your site
 
