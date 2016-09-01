@@ -123,6 +123,7 @@
           <li>{{page.service-enhance}}</li>
           <li>{{page.service-support}}</li>
           <li>{{page.sercice-community}}</li>
+          <li>{{page.sercice-updates}}</li>
         </ul>
       </div>
       <div class="info-who">
@@ -168,21 +169,21 @@
           {{page.open-txt1}}
         </p>
         <p>
-          <a class="info-source-link" href="https://github.com/hitobito/hitobito" target="_blank"><img alt="GitHub logo" class="info-source-img" src="{{path}}/images/logo-github.svg" width="32" height="32" />https://github.com/hitobito/hitobito</a>
-        </p>
-        <h2>
-          {{page.open-community}}
-        </h2>
-        <p>
           {{page.open-txt2}}
+        </p>
+        <p>
+          {{page.open-txt3}}
+        </p>
+        <p>
+          <a class="info-source-link" href="https://github.com/hitobito/hitobito" target="_blank"><img alt="GitHub logo" class="info-source-img" src="{{path}}/images/logo-github.svg" width="32" height="32" />https://github.com/hitobito/hitobito</a>
         </p>
       </div>
       <div class="info-contact">
-        <a href="mailto:kunz@puzzle.ch"><img alt="{{page.open-more-infos}}" src="{{path}}/images/info-contact_{{page.language}}.svg" width="244" height="263" /></a>
+        <a href="mailto:andre@hitobito.com"><img alt="{{page.open-more-infos}}" src="{{path}}/images/info-contact_{{page.language}}.svg" width="244" height="263" /></a>
         <p>
           {{page.open-contact}}
         </p>
-        <a class="btn btn-purple" href="mailto:kunz@puzzle.ch">André Kunz</a>
+        <a class="btn btn-purple" href="mailto:andre@hitobito.com">André Kunz</a>
       </div>
     </div>
   </section>
@@ -204,7 +205,7 @@
   <section id="partner">
     <div class="container">
       <h2 class="partner-title">
-        {{page.partner-title}}
+        {{page.partner-title2}}
       </h2>
       <ul class="partner-list">
         <li class="partner-item">
@@ -231,6 +232,17 @@
             <a href="http://www.insieme.ch/">{{page.partner-insieme-title}}<br /><small>{{page.partner-insieme-txt}}</small></a>
           </h3>
         </li>
+      </ul>
+      <h2 class="partner-title">
+        {{page.partner-title}}
+      </h2>
+      <p>
+        {{page.partner-txt1}}
+      <p>
+      <ul class="partner-list is-dev">
+        {% for partner in page.partner-list %}
+          <li class="partner-item-text is-dev"><a href="{{partner.link}}">{{partner.title}}</a></li>
+        {% endfor %}
       </ul>
     </div>
   </section>

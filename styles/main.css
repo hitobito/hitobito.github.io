@@ -1955,7 +1955,7 @@ body.blurred > * {
   }
 }
 @media (min-width: 27.5em) {
-  /* line 21, ../_sass/module/_partner.scss */
+  /* line 22, ../_sass/module/_partner.scss */
   .partner-item.is-last {
     float: right;
     margin-right: 0;
@@ -1976,12 +1976,12 @@ body.blurred > * {
   margin-right: 1.78571%;
   display: inline;
 }
-/* line 29, ../_sass/module/_partner.scss */
+/* line 30, ../_sass/module/_partner.scss */
 .partner-item img {
   max-height: 100%;
 }
 
-/* line 33, ../_sass/module/_partner.scss */
+/* line 34, ../_sass/module/_partner.scss */
 .partner-item-img,
 .partner-contact-img {
   -moz-box-sizing: border-box;
@@ -1995,7 +1995,7 @@ body.blurred > * {
   text-decoration: none;
 }
 
-/* line 43, ../_sass/module/_partner.scss */
+/* line 44, ../_sass/module/_partner.scss */
 .partner-item-img {
   background: white;
   -moz-border-radius: 4px;
@@ -2003,7 +2003,7 @@ body.blurred > * {
   border-radius: 4px;
 }
 
-/* line 47, ../_sass/module/_partner.scss */
+/* line 48, ../_sass/module/_partner.scss */
 .partner-item-text,
 .partner-contact-text {
   display: block;
@@ -2012,7 +2012,7 @@ body.blurred > * {
   line-height: 1.2em;
 }
 @media (min-width: 56em) {
-  /* line 47, ../_sass/module/_partner.scss */
+  /* line 48, ../_sass/module/_partner.scss */
   .partner-item-text,
   .partner-contact-text {
     font-size: 1.5em;
@@ -2025,7 +2025,7 @@ body.blurred > * {
   font-size: 1.5em;
   line-height: 1em;
 }
-/* line 57, ../_sass/module/_partner.scss */
+/* line 58, ../_sass/module/_partner.scss */
 .partner-item-text a,
 .partner-contact-text a {
   display: block;
@@ -2035,14 +2035,14 @@ body.blurred > * {
   color: #F8F9F9;
 }
 @media (min-width: 27.5em) {
-  /* line 57, ../_sass/module/_partner.scss */
+  /* line 58, ../_sass/module/_partner.scss */
   .partner-item-text a,
   .partner-contact-text a {
     min-height: 5em;
   }
 }
 @media (min-width: 56em) {
-  /* line 57, ../_sass/module/_partner.scss */
+  /* line 58, ../_sass/module/_partner.scss */
   .partner-item-text a,
   .partner-contact-text a {
     min-height: 2em;
@@ -2053,20 +2053,26 @@ body.blurred > * {
 .partner-contact-text a {
   min-height: 2em;
 }
+/* line 72, ../_sass/module/_partner.scss */
+.partner-item-text.is-dev a,
+.partner-contact-text.is-dev a {
+  min-height: 0;
+  padding: 0.5em;
+}
 
-/* line 71, ../_sass/module/_partner.scss */
+/* line 77, ../_sass/module/_partner.scss */
 .partner-contact {
   display: inline-block;
   margin-top: 20px;
 }
 @media (min-width: 27.5em) and (max-width: 55.938em) {
-  /* line 71, ../_sass/module/_partner.scss */
+  /* line 77, ../_sass/module/_partner.scss */
   .partner-contact {
     width: 48.18182%;
   }
 }
 @media (min-width: 56em) {
-  /* line 71, ../_sass/module/_partner.scss */
+  /* line 77, ../_sass/module/_partner.scss */
   .partner-contact {
     width: 49.10714%;
   }
