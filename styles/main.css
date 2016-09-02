@@ -1816,7 +1816,7 @@ body.blurred > * {
     width: 40.625%;
     float: right;
     margin-right: 0;
-    text-align: left;
+    text-align: right;
     padding: 60px 0 20px;
   }
 }
@@ -1827,7 +1827,7 @@ body.blurred > * {
   margin-right: 0;
   *margin-left: -1em;
   display: inline;
-  text-align: left;
+  text-align: right;
   padding: 60px 0 20px;
 }
 
