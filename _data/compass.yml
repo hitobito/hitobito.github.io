@@ -1,7 +1,7 @@
 ---
 require:
 - jekyll-compass
-project_path: "/Users/rstuder/Sites/hitobito.github.io/."
+project_path: "/Users/rstuder/Sites/hitobito/website/."
 http_path: "/"
 css_dir: "../styles"
 sass_dir: _sass
