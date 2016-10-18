@@ -23,4 +23,4 @@ Für die Jubla und die Pfadibewegung Schweiz (PBS) dürfen wir noch weitere indi
 ### Ausblick: Ruby on Rails Hackday mit Puzzle ITC
 Am 12. November führt unser Partner Puzzle ITC einen Ruby on Rails Hackday durch. Eingeladen sind alle, die das Webapplikations-Framework kennenlernen-, sich dazu mit Gleichgesinnten austauschen- oder konkret an Projekten (wie hitobito) hacken möchten. Wir würden uns freuen, möglichst viele von euch am Anlass zu begrüssen. Gerne dürft ihr die Info auch an weitere Interessierte streuen. [Details und Anmeldung](https://www.puzzle.ch/de/blog/articles/2016/09/27/ruby-on-rails-hackday).
 
-Weitere Neuigkeiten erfahrt ihr laufend auf [Twitter](twitter.com/teamhitobito) oder in regelmässigen Abständen in unserem [Newsletter](mailto:andre@hitobito.ch subject:"Anmeldung hitobito Newsletter"). Wir freuen uns auf die Zusammenarbeit mit euch!
+Weitere Neuigkeiten erfahrt ihr laufend auf [Twitter](twitter.com/teamhitobito) oder in regelmässigen Abständen in unserem [Newsletter](mailto:andre@hitobito.ch?subject=Anmeldung hitobito Newsletter). Wir freuen uns auf die Zusammenarbeit mit euch!
