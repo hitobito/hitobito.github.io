@@ -7,8 +7,7 @@ Die Gründung der [hitobito AG](https://be.chregister.ch/cr-portal/auszug/auszug
 ### Was lief sonst noch?
 Die Free Software Foundation Europe (FSFE) feierte ihr 15-jähriges Bestehen. André durfte am [FSFE Summit](https://fsfe.org/community/events/2016/summit/frontpage.de.html) hitobito und die Idee der [kollaborativen Software-Entwicklung](https://conf.qtcon.org/en/qtcon/public/events/714) mit einem Geschäftsmodell auf der Basis freier Software vorstellen.
 
--> Titelbild Rails Girls
-
+![Rails Girls](/images/railsgirls/20161006_RailsGirls.png)
 Die "[Rails Girls](http://railsgirls.com/)" haben das Ziel, mit Workshops Frauen und Mädchen für das Programmieren mit Ruby on Rails zu begeistern. Anfang Oktober fand ein Rails Girls in [Zürich](http://railsgirls.com/Zurich2016) statt. Auch dort durften wir hitobito und die damit verbundenen Ideen kurz vorstellen. Wir hoffen, im nächsten Jahr einen Anlass in Bern durchführen zu können.
 
 Weiter führten wir intensive Gespräche mit den Verantwortlichen und den Nutzern der verschiedenen hitobito Instanzen, unter anderem auch am [Jublaversum](https://jublaversum.ch/). Das Feedback aus den Gesprächen hilft uns, unsere Dienstleistungen laufend zu verbessern. Für weitere Vorschläge sind wir jederzeit [offen](http://hitobito.com/blog/2016/06/Mehr-Open.html).
@@ -19,9 +18,9 @@ Für unsere Kunden ändert vorerst nicht viel. Ansprechpartner für Weiterentwic
 ### Wie geht es weiter?
 Für die Jubla und die Pfadibewegung Schweiz (PBS) dürfen wir noch weitere individuelle Arbeitspakete im 2016 umsetzen. Wir schauen aber auch bereits aufs 2017, wo wir mit der [Rechnungsstellung](https://github.com/hitobito/hitobito/issues/18) ein grösseres Feature gemeinsam realisieren möchten. Es freut uns, dass fast bei allen Organisationen Budget für Weiterentwicklungen gesprochen wurde. Dies hilft uns, die Arbeiten so anzusetzen, dass möglichst viele davon profitieren können.
 
--> Bild Rechnungsstellung
+![Rechnungsstellung](/images/rechnungen/Rechnungen.png)
 
 ### Ausblick: Ruby on Rails Hackday mit Puzzle ITC
-Am 12. November führt unser Partner Puzzle ITC einen Ruby on Rails Hackday durch. Eingeladen sind alle, die das Webapplikations-Framework kennenlernen-, sich dazu mit Gleichgesinnten austauschen- oder konkret an Projekten (wie hitobito) hacken möchten. Wir würden uns freuen, möglichst viele von euch am Anlass zu begrüssen. Gerne dürft ihr die Info auch an weitere Interessierte streuen. Details und Anmeldung hier [https://www.puzzle.ch/de/blog/articles/2016/09/27/ruby-on-rails-hackday].
+Am 12. November führt unser Partner Puzzle ITC einen Ruby on Rails Hackday durch. Eingeladen sind alle, die das Webapplikations-Framework kennenlernen-, sich dazu mit Gleichgesinnten austauschen- oder konkret an Projekten (wie hitobito) hacken möchten. Wir würden uns freuen, möglichst viele von euch am Anlass zu begrüssen. Gerne dürft ihr die Info auch an weitere Interessierte streuen. [Details und Anmeldung](https://www.puzzle.ch/de/blog/articles/2016/09/27/ruby-on-rails-hackday).
 
 Weitere Neuigkeiten erfahrt ihr laufend auf [Twitter](twitter.com/teamhitobito) oder in regelmässigen Abständen in unserem [Newsletter](mailto:andre@hitobito.ch subject:"Anmeldung hitobito Newsletter"). Wir freuen uns auf die Zusammenarbeit mit euch!
