@@ -1,7 +1,7 @@
 ---
 layout: default
 path: ".."
-number_of_expanded_articles: 3
+number_of_expanded_articles: 1
 ---
 
 {% include header.html %}
@@ -22,7 +22,7 @@ number_of_expanded_articles: 3
 				<h1>Weitere Posts</h1>
 			{% endif %}
 			<div class="blog-post-title-only">
-				<a href="{{post.url}}">{{post.title}}</a> <span class="blog-list-more-articles-date">{{ post.date | date_to_long_string }}</span>
+				<a href="{{post.url}}" class="blog-link-to-post">{{post.title}}</a> <span class="blog-list-more-articles-date">{{ post.date | date_to_long_string }}</span>
 			</div>
 		{% endfor %}
 	</div>

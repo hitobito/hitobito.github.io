@@ -8,8 +8,8 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta content="{{#i18n "meta-desc"}}{{/i18n}}" name="description" />
-    <meta content="{{#i18n "meta-keywords"}}{{/i18n}}" name="Keywords" />
+    <meta content="meta-desc" name="description" />
+    <meta content="meta-keywords" name="Keywords" />
     <link href="{{post.path}}/images/favicon.ico" type="image/png" rel="shortcut icon" />
     <link href="{{post.path}}/images/apple-touch-icon.png" rel="apple-touch-icon" />
     <link href="{{post.path}}/images/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
@@ -23,20 +23,24 @@
     <link href="https://plus.google.com/108865436255615110323" rel="publisher" />
   </head>
   <body role="document">
-    <!--[if lt IE 9]>
-      <div class="browsehappy">{{#i18n "warning"}}{{/i18n}}</div>
-    <![endif]-->
     <div id="page">
     {% include header.html %}
 
     <main id="blog">
         <section class="blog-list">
             <article class="blog-post">
-                <h1>{{page.title}}</h1>
                 <small>{{ page.date | date_to_long_string }}</small>
+                <h1>{{page.title}}</h1>
                 {{ content }}
                 <hr>
-                <p><a href="/blog">Alle Beiträge</a></p>
+                {% for post in site.posts %}
+            			{% if forloop.index == 1 %}
+            				<h1>Alle Posts</h1>
+            			{% endif %}
+            			<div class="blog-post-title-only">
+            				<a href="{{post.url}}" class="blog-link-to-post">{{post.title}}</a> <span class="blog-list-more-articles-date">{{ post.date | date_to_long_string }}</span>
+            			</div>
+            		{% endfor %}
             </article>
         </section>
     </main>

@@ -1,21 +1,47 @@
 #blog {
+	letter-spacing: -0.02em;
+	$blog-font-size: 16px;
+	font-size: $blog-font-size;
+	font-family: $baseFontFamily;
+
+	@media (min-width: 600px) {
+		font-size: $blog-font-size * 1.2;
+	}
+
 	.blog-list {
 		margin: 0 auto;
-		max-width: 50em;
+		max-width: 40em;
 		padding: 0 1em;
 		h1, h2, h3, h4, h5 {
+			font-size: inherit;
 			text-align: left;
 			margin-top: 2rem;
 			margin-bottom: 1rem;
-			font-family: $baseFontFamily;
 		}
 		h1 {
-			text-align: center;
+			font-size: $blog-font-size*1.5;
+			font-weight: bold;
 			a { text-decoration: none;}
 		}
-		p {
+
+		h2 {
+			font-weight: bold;
+			font-size: $blog-font-size*1.1;
+		}
+
+		h3 {
+			font-weight: bold;
+			padding-left: 3em;
+		}
+		p, ul, ol {
 			margin-top: 0;
 			margin-bottom: 1rem;
+			max-width: 30em;
+			padding-left: 3em;
+		}
+
+		ul, ol {
+			padding-left: 4em;
 		}
 
 	}
@@ -27,8 +53,9 @@
 	}
 
 	.blog-date {
-		text-align: center;
+		text-align: left;
 		display: block;
+		margin-bottom: 2em;
 	}
 	.blog-post {
 		border-top: 1px solid $grayLight;
@@ -37,6 +64,11 @@
 		img {
 			border: 1px solid $grayLight;
 		}
+	}
+
+	a.blog-link-to-post {
+		color: $purpleDark;
+		text-decoration: none;
 	}
 
 
