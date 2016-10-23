@@ -136,3 +136,11 @@ hr {
     border-color: $white;
   }
 }
+
+.link {
+  &.is-centered {
+    display: block;
+    text-align: center;
+    padding: 3em;
+  }
+}

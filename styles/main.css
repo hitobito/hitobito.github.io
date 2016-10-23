@@ -789,6 +789,13 @@ hr.lightborder {
   border-color: white;
 }
 
+/* line 141, ../_sass/_base.scss */
+.link.is-centered {
+  display: block;
+  text-align: center;
+  padding: 3em;
+}
+
 /* =============================================================================
 - Layout
 ============================================================================= */
