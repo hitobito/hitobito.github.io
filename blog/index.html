@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: blog
 path: ".."
 number_of_expanded_articles: 1
 ---
-
-{% include header.html %}
 
 <main id="blog">
 	<section class="blog-list">
@@ -16,15 +14,5 @@ number_of_expanded_articles: 1
 			</article>
 		{% endfor %}
 	</section>
-	<div class="blog-list blog-list-more-articles">
-		{% for post in site.posts offset: page.number_of_expanded_articles %}
-			{% if forloop.index == 1 %}
-				<h1>Weitere Posts</h1>
-			{% endif %}
-			<div class="blog-post-title-only">
-				<a href="{{post.url}}" class="blog-link-to-post">{{post.title}}</a> <span class="blog-list-more-articles-date">{{ post.date | date_to_long_string }}</span>
-			</div>
-		{% endfor %}
-	</div>
-
+	{% include blog-posts-list.html %}
 </main>

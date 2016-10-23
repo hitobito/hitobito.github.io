@@ -27,6 +27,14 @@
   .container {
     text-align: center;
   }
+
+  &.is-compact {
+    padding: 10px 0;
+    .logo {
+      margin-top: 0;
+    }
+  }
+
 }
 
 #hero {
