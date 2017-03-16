@@ -567,7 +567,6 @@ input[type="color"],
   *display: inline;
   padding: 0.45em;
   font-size: 0.875em;
-  color: #d8dbe1;
   border: 1px solid #f8f9fa;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -694,23 +693,36 @@ button {
   -webkit-transition: background-color 300ms ease, color 300ms ease;
   transition: background-color 300ms ease, color 300ms ease;
   cursor: pointer;
+  border: none;
 }
-/* line 138, ../_sass/base/_forms.scss */
+/* line 139, ../_sass/base/_forms.scss */
 a.btn:hover,
 input.btn:hover,
 button:hover {
   background-color: #4a4a4a;
 }
-/* line 142, ../_sass/base/_forms.scss */
+/* line 143, ../_sass/base/_forms.scss */
 a.btn.btn-purple,
 input.btn.btn-purple,
 button.btn-purple {
   background-color: #6f4073;
 }
-/* line 145, ../_sass/base/_forms.scss */
+/* line 146, ../_sass/base/_forms.scss */
 a.btn:hover.btn-purple,
 input.btn:hover.btn-purple,
 button:hover.btn-purple {
+  background-color: #4f2e52;
+}
+/* line 150, ../_sass/base/_forms.scss */
+a.btn.btn-light-purple,
+input.btn.btn-light-purple,
+button.btn-light-purple {
+  background-color: #925d97;
+}
+/* line 155, ../_sass/base/_forms.scss */
+a.btn:hover.btn-light-purple,
+input.btn:hover.btn-light-purple,
+button:hover.btn-light-purple {
   background-color: #4f2e52;
 }
 
