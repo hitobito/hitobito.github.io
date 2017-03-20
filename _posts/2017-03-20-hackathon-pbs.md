@@ -9,7 +9,7 @@ Am Wochenende vom 18./19. März 2017 fand der erste hitobito/MiData Hackathon de
 
 ## Stimmung/Highlights
 
-Nach einer kurzen Einführung in hitobito und
+Nach einer kurzen Einführung in hitobito und dazu
 [wie das mit den Plugins bei hitobito funktioniert](https://github.com/hitobito/hitobito/blob/master/doc/development/06_plugins.md)
 haben alle kräftig losgelegt.
 
