@@ -28,7 +28,7 @@ Auch haben wir uns über eine [Überarbeitung der Hauptnavigation](https://githu
 
 Erfreulich am Hackathon ist, dass die Initiative dafür von der Pfadibewegung
 selber kam.
-Zusammen mit uns von hitobito und unserem Partner Puzzle ITC wurde danach derß
+Zusammen mit uns von hitobito und unserem Partner Puzzle ITC wurde danach der
 Rahmen geschaffen, damit die Freiwilligen professionelle Unterstützung erhalten.
 Das Engagagement der PBS liegt von der Philosophie her voll auf unserer Linie.
 Es freut uns, dass wir mit hitobito eine Gemeinschaftslösung aufbauen konnten,
