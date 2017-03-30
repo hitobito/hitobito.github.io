@@ -1,5 +1,6 @@
 ---
 published: true
+title: Monatliches Treffen zu FLOSS/Netzthemen/OpenData in Bern
 ---
 Du engagierst dich in einer Organisation für Freie und Open Source Software, Netzneutralität oder Open Data und kommst aus dem Grossraum Bern? Oder hast du Interesse an diesen Themen, weisst aber nicht, wo du deine Fragen und Anliegen platzieren kannst? Wir prüfen momentan, ob es genug Interessierte gibt, die sich mit Gleichgesinnten regelmässig austauschen wollen.
 
