@@ -15,12 +15,15 @@
     <link href="{{post.path}}/images/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
     <link href="{{post.path}}/images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
     <link href="{{post.path}}/images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="{{post.path}}/styles/main.css" media="screen" rel="stylesheet" />
     <link href="{{post.path}}/styles/print.css" media="print" rel="stylesheet" />
     <link rel="alternate" type="application/atom+xml" title="RSS Feed for hitobito.com" href="/feed.xml" />
     <!--[if IE]><link href="{{post.path}}/styles/ie.css" rel="stylesheet" media="screen"><![endif]-->
     <script src="{{post.path}}/scripts/vendor/modernizr.min.js"></script>
     <link href="https://plus.google.com/108865436255615110323" rel="publisher" />
+    {% include organization.jsonld.html %}
   </head>
   <body role="document">
     <div id="page">
@@ -39,10 +42,8 @@
 
 
     </div>
-    <script>
-      window.jQuery || document.write('<script src="{{post.path}}/scripts/vendor/jquery.min.js"><\/script>');
-    </script>
-    <script src="{{post.path}}/scripts/vendor/responsiveslides.min.js"></script>
-    <script src="{{post.path}}/scripts/main.min.js"></script>
+    <script src="{{post.path}}/scripts/vendor/jquery.min.js" defer></script>
+    <script src="{{post.path}}/scripts/vendor/responsiveslides.min.js" defer></script>
+    <script src="{{post.path}}/scripts/main.min.js" defer></script>
   </body>
 </html>
