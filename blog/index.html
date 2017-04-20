@@ -8,11 +8,12 @@ number_of_expanded_articles: 1
 	<section class="blog-list">
 		{% for post in site.posts limit: page.number_of_expanded_articles %}
 			<article class="blog-post">
-				<h1><a href="{{post.url}}">{{ post.title }}</a></h1>
-				<div class="blog-date">{{ post.date | date_to_long_string }}</div>
+				<h1><small>{{ post.date | date_to_long_string }}</small><br>
+					<a href="{{post.url}}">{{post.title}}</a></h1>
 				{{ post.content }}
 			</article>
 		{% endfor %}
+		{% include blog-posts-list.html %}
+
 	</section>
-	{% include blog-posts-list.html %}
 </main>
