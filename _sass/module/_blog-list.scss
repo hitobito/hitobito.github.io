@@ -1,26 +1,35 @@
 #blog {
-	letter-spacing: -0.02em;
 	$blog-font-size: 16px;
 	font-size: $blog-font-size;
-	font-family: $baseFontFamily;
 
 	@media (min-width: 600px) {
-		font-size: $blog-font-size * 1.2;
-		line-height: 1.8em;
+		font-size: $blog-font-size * 1.1;
+		line-height: 1.6em;
 	}
 
 	.blog-list {
 		margin: 0 auto;
 		max-width: 40em;
 		padding: 0 1em;
+
 		h1, h2, h3, h4, h5 {
+			font-family: $baseFontFamily;
 			font-size: inherit;
 			text-align: left;
 			margin-top: 2rem;
 			margin-bottom: 1rem;
 		}
+
+
 		h1 {
 			font-size: $blog-font-size*1.5;
+			line-height: 1.2em;
+			font-weight: normal;
+			padding-top: 1em;
+			padding-bottom: 1.5em;
+			border-bottom: 1px solid $grayLight;
+			border-top: 1px solid $grayLight;
+
 			@media (min-width: 600px) {
 				font-size: $blog-font-size * 2;
 			}
