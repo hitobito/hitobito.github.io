@@ -2154,12 +2154,12 @@ body.blurred > * {
 
 /* line 1, ../_sass/module/_blog-list.scss */
 #blog {
-  font-size: 16px;
+  font-size: 14px;
 }
 @media (min-width: 600px) {
   /* line 1, ../_sass/module/_blog-list.scss */
   #blog {
-    font-size: 17.6px;
+    font-size: 18.2px;
     line-height: 1.6em;
   }
 }
@@ -2179,7 +2179,7 @@ body.blurred > * {
 }
 /* line 24, ../_sass/module/_blog-list.scss */
 #blog .blog-list h1 {
-  font-size: 24px;
+  font-size: 19.6px;
   line-height: 1.2em;
   font-weight: normal;
   padding-top: 1em;
@@ -2192,7 +2192,7 @@ body.blurred > * {
 @media (min-width: 600px) {
   /* line 24, ../_sass/module/_blog-list.scss */
   #blog .blog-list h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 /* line 40, ../_sass/module/_blog-list.scss */
@@ -2202,12 +2202,12 @@ body.blurred > * {
 /* line 43, ../_sass/module/_blog-list.scss */
 #blog .blog-list h2 {
   font-weight: bold;
-  font-size: 20.8px;
+  font-size: 18.2px;
 }
 @media (min-width: 600px) {
   /* line 43, ../_sass/module/_blog-list.scss */
   #blog .blog-list h2 {
-    font-size: 24px;
+    font-size: 21px;
     margin-top: 3rem;
   }
 }

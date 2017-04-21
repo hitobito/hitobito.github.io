@@ -1,9 +1,9 @@
 #blog {
-	$blog-font-size: 16px;
+	$blog-font-size: 14px;
 	font-size: $blog-font-size;
 
 	@media (min-width: 600px) {
-		font-size: $blog-font-size * 1.1;
+		font-size: $blog-font-size * 1.3;
 		line-height: 1.6em;
 	}
 
@@ -22,7 +22,7 @@
 
 
 		h1 {
-			font-size: $blog-font-size*1.5;
+			font-size: $blog-font-size*1.4;
 			line-height: 1.2em;
 			font-weight: normal;
 			padding-top: 1em;
