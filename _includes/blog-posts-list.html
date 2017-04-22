@@ -1,12 +1,19 @@
 <div class="blog-list-more-articles">
   <h2>Weitere Artikel:</h2>
-  <ul>
+  <table>
   {% for post in site.posts offset: page.number_of_expanded_articles %}
-    <li class="blog-post-title-only">
-      <a href="{{post.url}}" class="blog-link-to-post">{{post.title}}</a> <span class="blog-list-more-articles-date">{{ post.date | date_to_long_string }}</span>
-    </li>
+
+    <tr class="blog-post-title-only">
+      <td>
+          <span class="blog-list-more-articles-date">{{ post.date | date: "%d. %m. %Y"  }}</span>
+      </td>
+      <td>
+        <a href="{{post.url}}" class="blog-link-to-post">{{post.title}}</a>
+      </td>
+
+    </tr>
   {% endfor %}
-  </ul>
+  </table>
 
   <a href="/" class="link is-centered">Mehr über hitobito</a>
 </div>

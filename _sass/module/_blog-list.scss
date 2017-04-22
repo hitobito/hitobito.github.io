@@ -68,12 +68,25 @@
 		ul, ol {
 			padding-left: 1em;
 		}
-
 	}
 
 	.blog-list-more-articles {
+		font-size: 0.9em;
+		table, table tr, table td{
+			border: none;
+		}
+		table td {
+				padding: 0;
+				vertical-align: top;
+				padding-bottom: 0.3em;
+		}
+		table tr td:first-child {
+			padding-right: 1em;
+		}
+
 		.blog-list-more-articles-date {
 			white-space: nowrap;
+			color: $grayDark;
 		}
 		li {
 			margin-top: 0.5em;

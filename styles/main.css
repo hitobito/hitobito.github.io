@@ -2232,31 +2232,50 @@ body.blurred > * {
 #blog .blog-list ul, #blog .blog-list ol {
   padding-left: 1em;
 }
+/* line 73, ../_sass/module/_blog-list.scss */
+#blog .blog-list-more-articles {
+  font-size: 0.9em;
+}
 /* line 75, ../_sass/module/_blog-list.scss */
-#blog .blog-list-more-articles .blog-list-more-articles-date {
-  white-space: nowrap;
+#blog .blog-list-more-articles table, #blog .blog-list-more-articles table tr, #blog .blog-list-more-articles table td {
+  border: none;
 }
 /* line 78, ../_sass/module/_blog-list.scss */
+#blog .blog-list-more-articles table td {
+  padding: 0;
+  vertical-align: top;
+  padding-bottom: 0.3em;
+}
+/* line 83, ../_sass/module/_blog-list.scss */
+#blog .blog-list-more-articles table tr td:first-child {
+  padding-right: 1em;
+}
+/* line 87, ../_sass/module/_blog-list.scss */
+#blog .blog-list-more-articles .blog-list-more-articles-date {
+  white-space: nowrap;
+  color: #9b9b9b;
+}
+/* line 91, ../_sass/module/_blog-list.scss */
 #blog .blog-list-more-articles li {
   margin-top: 0.5em;
   line-height: normal;
 }
-/* line 84, ../_sass/module/_blog-list.scss */
+/* line 97, ../_sass/module/_blog-list.scss */
 #blog .blog-date {
   text-align: left;
   display: block;
   margin-bottom: 2em;
 }
-/* line 89, ../_sass/module/_blog-list.scss */
+/* line 102, ../_sass/module/_blog-list.scss */
 #blog .blog-post {
   padding-top: 1em;
   padding-bottom: 2em;
 }
-/* line 92, ../_sass/module/_blog-list.scss */
+/* line 105, ../_sass/module/_blog-list.scss */
 #blog .blog-post img {
   border: 1px solid #e8ebf0;
 }
-/* line 97, ../_sass/module/_blog-list.scss */
+/* line 110, ../_sass/module/_blog-list.scss */
 #blog a.blog-link-to-post {
   color: #6f4073;
   text-decoration: none;

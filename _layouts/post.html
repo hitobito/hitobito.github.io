@@ -32,7 +32,8 @@
     <main id="blog">
         <section class="blog-list">
             <article class="blog-post">
-                <h1><small>{{ page.date | date_to_long_string }}</small><br>{{page.title}}<br></h1>
+                <h1><small>{{ page.date | date: "%-d. %-m. %Y" }}</small><br>
+                  {{page.title}}<br></h1>
                 {{ content }}
                 <hr>
             </article>
