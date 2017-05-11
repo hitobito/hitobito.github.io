@@ -1,0 +1,120 @@
+<section id="services">
+  <div class="container">
+    <h2>
+      Angebot <!-- {{page.services-title}} -->
+    </h2>
+
+    <div class="offerings-container">
+      <table class="offerings">
+        <thead class="offerings-head">
+          <tr>{% for offer in site.data.offerings %}
+            <th>{{offer.title}}</th>
+          {% endfor %}</tr>
+        </thead>
+        <tbody>
+          <tr>
+            {% for offer in site.data.offerings %}
+              <td>{{offer.long_description}}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            {% for offer in site.data.offerings %}
+              <td><h3 class="offerings-cell-title">Hosting</h3>{{offer.hosting}}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            {% for offer in site.data.offerings %}
+              <td><h3 class="offerings-cell-title">Support</h3>{{offer.support}}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            {% for offer in site.data.offerings %}
+              <td><h3 class="offerings-cell-title">Customization</h3>{{offer.customization}}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            {% for offer in site.data.offerings %}
+              <td><h3 class="offerings-cell-title">Weiterentwicklung</h3>{{offer.weiterentwicklung}}</td>
+            {% endfor %}
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>{% for offer in site.data.offerings %}
+            <th><div class="offerings-price">{{offer.cost_per_month}}<br>pro Monat</div>für maximal {{offer.max_users}} Mitglieder / Benutzer</th>
+          {% endfor %}</tr>
+        </tfoot>
+      </table>
+    </div>
+
+<!-- Responsive Table Solution: http://stackoverflow.com/questions/26090244/responsive-table-by-columns -->
+
+    <div class="info-text">
+      <ul class="services-list">
+        <li>{{page.service-custom}}</li>
+        <li>{{page.service-enhance}}</li>
+        <li>{{page.service-support}}</li>
+        <li>{{page.sercice-community}}</li>
+        <li>{{page.sercice-updates}}</li>
+      </ul>
+    </div>
+    <div class="info-who">
+      <img src="{{path}}/images/logo-white.svg" alt="hitobito logo" width="310" height="81">
+    </div>
+  </div>
+</section>
+<section id="demo">
+  <div class="container">
+    <img alt="Try it now!" class="demo-man" src="{{path}}/images/demo-man.svg" width="279" height="321" />
+    <div class="demo-calltoaction">
+      <h2 class="h3">
+        {{page.demo-title}}
+      </h2>
+      <form action="http://demo.hitobito.ch/{{language}}/users/sign_in" method="get">
+        <ul class="demo-list">
+          <li>
+            <input type="radio" name="person[email]" value="admin@hitobito.ch" id="demo-role-admin" checked>
+            <label for="demo-role-admin"></label>
+            <label for="demo-role-admin">{{page.demo-role-admin}}</label>
+          </li>
+          <li>
+            <input type="radio" name="person[email]" value="mitglied@hitobito.ch" id="demo-role-member">
+            <label for="demo-role-member"></label>
+            <label for="demo-role-member">{{page.demo-role-member}}</label>
+          </li>
+        </ul>
+        <button class="demo-btn" type="submit">
+          <span class="h2">{{page.demo-btn-title}}</span><br>
+          <span>{{page.demo-btn-subtitle}}</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+<section id="open">
+  <div class="container">
+    <div class="info-text">
+      <h2>
+        {{page.open-title}}
+      </h2>
+      <p>
+        {{page.open-txt1}}
+      </p>
+      <p>
+        {{page.open-txt2}}
+      </p>
+      <p>
+        {{page.open-txt3}}
+      </p>
+      <p>
+        <a class="info-source-link" href="https://github.com/hitobito/hitobito" target="_blank"><img alt="GitHub logo" class="info-source-img" src="{{path}}/images/logo-github.svg" width="32" height="32" />https://github.com/hitobito/hitobito</a>
+      </p>
+    </div>
+    <div class="info-contact">
+      <a href="mailto:andre@hitobito.com"><img alt="{{page.open-more-infos}}" src="{{path}}/images/info-contact_{{page.language}}.svg" width="244" height="263" /></a>
+      <p>
+        {{page.open-contact}}
+      </p>
+      <a class="btn btn-purple" href="mailto:andre@hitobito.com">André Kunz</a>
+    </div>
+  </div>
+</section>

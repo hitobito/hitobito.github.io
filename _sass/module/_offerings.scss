@@ -1,0 +1,56 @@
+.offerings {
+  border: none;
+  border-collapse: separate;
+  border-spacing: 1em 0;
+  margin: 0.5em;
+  font-size: 0.9em;
+
+
+  thead {
+    padding: 0.5em;
+  }
+  thead th {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 1.5em;
+    padding: 0.5em;
+    background-color: darken($orangeDark, 5%);
+  }
+  tfoot th {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: darken($orangeDark, 5%);
+  }
+
+  th,td {
+    border: none;
+    vertical-align: top;
+    background-color: $orange;
+    color: white;
+  }
+
+  th {
+    text-transform: none;
+    text-align: center;
+    width: 33.3%
+  }
+  td {
+    text-align: left;
+    border-bottom: 1px solid $orangeDark;
+  }
+  tr:first-child td {
+    background-color: darken($orangeDark, 5%);
+  }
+  .offerings-price {
+    font-size: 1.3em;
+  }
+
+  .offerings-cell-title {
+    font-size: 0.8em;
+    text-align: left;
+    opacity: 0.8;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+  }
+
+}
