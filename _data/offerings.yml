@@ -11,6 +11,13 @@
   max_users: Beliebig
   weiterentwicklung: Via Github kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
   custom_domain: true
+
+  # DO IT YOURSELF
+  # Eigene Instanz auf eigene Verantwortung
+  # Keine Wartung durch hitobito
+  # Kostenpflichtiger Support
+  # Download unter ...
+
 -
   title: Cloud
   short_description: hitobito herunterladen und selbst betreiben.
@@ -25,6 +32,10 @@
   support: E-Mail/Forum
   weiterentwicklung: Via Github kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
   custom_domain: false
+  # Datenhaltun in einem ISO27001-zertifizierten RZ in der Schweiz
+  # Beliebig viel Mitglieder und Nutzer
+  # Professionelle Wartung und Support inkl.
+  # Weiterentwicklung in der community
 -
   title: Custom
   short_description: hitobito herunterladen und selbst betreiben.
@@ -39,3 +50,6 @@
   support: Prioritärer 2nd und 3rd Level Support per E-Mail und Telefon
   weiterentwicklung: Via Github kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
   custom_domain: true
+# Ihre eigene Instanz mit individueller Organisationstruktur, Rollen, Berechtigungen und Attributen
+#  Betrieb Wartung und Supoort gemäss ihren Bedürfnissen
+#  weiterentwicklung in der Community
