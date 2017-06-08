@@ -7,46 +7,50 @@
   {% include main/blog-preview.html %}
 
 </main>
+
 <footer id="footer" role="contentinfo">
+
   <section id="partner">
     <div class="container">
       <h2 class="partner-title">
         {{page.partner-title2}}
       </h2>
+      {% assign customers = site.data.customers %}
       <ul class="partner-list">
-        <li class="partner-item">
-          <a class="partner-item-img" href="http://www.jubla.ch/"><img alt="{{page.partner-jubla-title}}" src="{{path}}/images/logo-jubla.svg" width="300" height="150" /></a>
-          <h3 class="partner-item-text">
-            <a href="http://www.jubla.ch/">{{page.partner-jubla-title}}<br /><small>{{page.partner-jubla-txt}}</small></a>
-          </h3>
-        </li>
-        <li class="partner-item is-last">
-          <a class="partner-item-img" href="http://www.cevi.ch/"><img alt="{{page.partner-cevi-title}}" src="{{path}}/images/logo-cevi.svg" width="300" height="150" /></a>
-          <h3 class="partner-item-text">
-            <a href="http://www.cevi.ch/">{{page.partner-cevi-title}}<br /><small>{{page.partner-cevi-txt}}</small></a>
-          </h3>
-        </li>
-        <li class="partner-item">
-          <a class="partner-item-img" href="http://www.pbs.ch/{{language}}?set_language={{language}}"><img alt="{{page.partner-pfadi-title}}" src="{{path}}/images/logo-pbs.svg" width="300" height="150" /></a>
-          <h3 class="partner-item-text">
-            <a href="http://www.pbs.ch/">{{page.partner-pfadi-title}}<br /><small>{{page.partner-pfadi-txt}}</small></a>
-          </h3>
-        </li>
-        <li class="partner-item is-last">
-          <a class="partner-item-img" href="http://www.insieme.ch/"><img alt="{{page.partner-insieme-title}}" src="{{path}}/images/logo_insieme.svg" width="300" height="150" /></a>
-          <h3 class="partner-item-text">
-            <a href="http://www.insieme.ch/">{{page.partner-insieme-title}}<br /><small>{{page.partner-insieme-txt}}</small></a>
-          </h3>
-        </li>
+        {% for customer in customers.list %}
+           <li class="partner-item">
+             <a class="partner-item-img" href="{{customer.url}}"><img alt="{{customer.name[page.language]}}" src="{{customer.logo_path}}" width="300" height="150" /></a>
+             <h3 class="partner-item-text">
+               <a href="{{customer.url}}">
+                {% if customer.name[page.language] %}
+                  {{customer.name[page.language]}}
+                {%else%}
+                  {{ customer.name.first }}
+                {% endif %}<br />
+               <small>
+                 {{ customer.member_count }}
+                 {{ customers.locale.members[page.language] }},
+                 {{ customer.group_count }} 
+                 {% if customer.groups_label[page.language] %}
+                   {{ customer.groups_label[page.language] }}
+                 {% else %}
+                   {{ customers.locale.groups[page.language] }}
+                 {% endif %}
+               </small></a>
+             </h3>
+           </li>  
+        {% endfor %}
       </ul>
+        
+      {% assign partners = site.data.partners %}
       <h2 class="partner-title">
-        {{page.partner-title}}
+        {{ partners.locale.title[page.language] }}
       </h2>
       <p>
-        {{page.partner-txt1}}
+        {{partners.locale.text[page.language]}}
       <p>
       <ul class="partner-list is-dev">
-        {% for partner in page.partner-list %}
+        {% for partner in site.data.partners.list %}
           <li class="partner-item-text is-dev"><a href="{{partner.link}}">{{partner.title}}</a></li>
         {% endfor %}
       </ul>

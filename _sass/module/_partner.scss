@@ -19,7 +19,7 @@
     @include span-columns(3, 6);
   }
   @include at-breakpoint(27.5em $breakTablet) {
-    &.is-last {
+    &:nth-child(odd) {
       @include omega;
     }
   }

@@ -1,0 +1,53 @@
+locale:
+  members:
+    de: Mitglieder
+    fr: membres
+    en: members
+  groups:
+    de: Gruppen
+    fr: groupes
+    en: groups
+list:
+# pro name mindestens eine Sprache
+# groups_label sind optional
+  -
+    name:
+      de: Jungwacht Blauring
+    logo_path: /images/logo-jubla.svg
+    url: https://www.jubla.ch/
+    member_count: 29'000
+    group_count: 429
+    groups_label:
+      de: Scharen
+      fr: bandes
+  -
+    name: 
+      de: Pfadibewegung Schweiz
+      fr: Scout de Suisse
+      en: Swiss Guide and Scout Movement
+    logo_path: /images/logo-pbs.svg
+    url: http://www.scout.ch/
+    member_count: 42'000
+    group_count: 550
+    groups_label:
+      de: Abteilungen
+  -
+    name:
+      de: Cevi Schweiz
+    logo_path: /images/logo-cevi.svg
+    url: https://www.cevi.ch/
+    member_count: 14'000
+    group_count: 200
+    groups_label:
+      de: Vereine
+  -
+    name:
+      de: insieme Schweiz
+    logo_path: /images/logo_insieme.svg
+    url: http://www.insieme.ch/
+    member_count: 8'500
+    group_count: 51
+    groups_label:
+      de: Vereine
+      en: societies
+      fr: clubs

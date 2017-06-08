@@ -1,0 +1,18 @@
+locale:
+  title:
+    de: Partner
+    fr: Partenaires
+    en: Partners
+  text: 
+    de: "hitobito vereint Kunden, Nutzer und Entwickler in einer Community. Dafür bauen wir unser Netzwerk laufend aus. Zusammen mit professionellen Software-Firmen sorgen wir für qualitativ hochwertige Software, eine stabile und sichere Infrastruktur und Datenhaltung in der Schweiz."
+    en: "hitobito brings customers, users and developers together. To achieve this, we constantly expand our network. In close collaboration with professional software companies we garantee a vaulable software and a stable and secure infrastructure as well as data storage in Switzerland."
+list:
+  -
+    title: Puzzle ITC GmbH – the open source company
+    link: https://www.puzzle.ch
+  -
+    title: APPUiO – Swiss Enterprise PaaS
+    link: https://appuio.ch/
+  -
+    title: Zeilenwerk GmbH
+    link: https://zeilenwerk.ch/
