@@ -10,47 +10,55 @@ Die Cloud-Lösung deckt eine allgemeine Organisationsstruktur ab. Die Funktiona
 Kostenpunkt: CHF 90.-/Monat.
 Die Individuallösung schneidern wir in einem Projekt auf Ihre Bedürfnisse zu. Kostenpunkt für das Projekt: ab CHF 8‘000.-.</p>
 
-    <div class="offerings-container">
-      <table class="offerings">
-        <thead class="offerings-head">
-          <tr>{% for offer in site.data.offerings %}
-            <th>{{offer.title}}</th>
+    <div class="planngs-container">
+      {% assign plans = site.data.plans %}
+      <table class="plans">
+        <thead class="plans-head">
+          <tr>{% for plan in plans.list %}
+            <th>{{plan.title}}</th>
           {% endfor %}</tr>
         </thead>
         <tbody>
           <tr>
-            {% for offer in site.data.offerings %}
-              <td>{{offer.long_description}}</td>
+            {% for plan in plans.list %}
+              <td>{{planlong_description}}</td>
             {% endfor %}
           </tr>
           <tr>
-            {% for offer in site.data.offerings %}
-              <td><h3 class="offerings-cell-title">Hosting</h3>{{offer.hosting}}</td>
+            {% for plan in plans.list %} 
+              <td><h3 class="plans-cell-title">Hosting</h3>{{plan.hosting}}</td>
             {% endfor %}
           </tr>
           <tr>
-            {% for offer in site.data.offerings %}
-              <td><h3 class="offerings-cell-title">Support</h3>{{offer.support}}</td>
+            {% for plan in plans.list %}
+              <td><h3 class="plans-cell-title">Support</h3>{{plan.support}}</td>
             {% endfor %}
           </tr>
           <tr>
-            {% for offer in site.data.offerings %}
-              <td><h3 class="offerings-cell-title">Customization</h3>{{offer.customization}}</td>
+            {% for plan in plans.list %}
+              <td><h3 class="plans-cell-title">Customization</h3>{{plan.customization}}</td>
             {% endfor %}
           </tr>
           <tr>
-            {% for offer in site.data.offerings %}
-              <td><h3 class="offerings-cell-title">Weiterentwicklung</h3>{{offer.weiterentwicklung}}</td>
+            {% for plan in plans.list %}
+              <td><h3 class="plans-cell-title">Weiterentwicklung</h3>{{plan.weiterentwicklung}}</td>
             {% endfor %}
           </tr>
         </tbody>
         <tfoot>
-          <tr>{% for offer in site.data.offerings %}
-            <th><div class="offerings-price">{{offer.cost_per_month}}<br>pro Monat</div>für maximal {{offer.max_users}} Mitglieder / Benutzer</th>
+          <tr>{% for plan in plans.list %}
+            <th><div class="plans-price">{{plan.cost_per_month}}<br>pro Monat</div>für maximal {{plan.max_users}} Mitglieder / Benutzer</th>
           {% endfor %}</tr>
         </tfoot>
       </table>
     </div>
+
+    <h2>Free Trial</h2>
+
+    <a href="/signup/" class="btn btn-purple" style="width: 100%">
+        <div>Try 30 days completely free!</div>
+    </a>
+
 
 <!-- Responsive Table Solution: http://stackoverflow.com/questions/26090244/responsive-table-by-columns -->
 

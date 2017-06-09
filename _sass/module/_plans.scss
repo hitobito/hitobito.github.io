@@ -1,4 +1,4 @@
-.offerings {
+.plans {
   border: none;
   border-collapse: separate;
   border-spacing: 1em 0;
@@ -41,11 +41,11 @@
   tr:first-child td {
     background-color: darken($orangeDark, 5%);
   }
-  .offerings-price {
+  .plans-price {
     font-size: 1.3em;
   }
 
-  .offerings-cell-title {
+  .plans-cell-title {
     font-size: 0.8em;
     text-align: left;
     opacity: 0.8;

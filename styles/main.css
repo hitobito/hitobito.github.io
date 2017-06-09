@@ -2281,65 +2281,84 @@ body.blurred > * {
   text-decoration: none;
 }
 
-/* line 1, ../_sass/module/_offerings.scss */
-.offerings {
+/* line 1, ../_sass/module/_plans.scss */
+.plans {
   border: none;
   border-collapse: separate;
   border-spacing: 1em 0;
   margin: 0.5em;
   font-size: 0.9em;
 }
-/* line 9, ../_sass/module/_offerings.scss */
-.offerings thead {
+/* line 9, ../_sass/module/_plans.scss */
+.plans thead {
   padding: 0.5em;
 }
-/* line 12, ../_sass/module/_offerings.scss */
-.offerings thead th {
+/* line 12, ../_sass/module/_plans.scss */
+.plans thead th {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   font-size: 1.5em;
   padding: 0.5em;
   background-color: #b55134;
 }
-/* line 19, ../_sass/module/_offerings.scss */
-.offerings tfoot th {
+/* line 19, ../_sass/module/_plans.scss */
+.plans tfoot th {
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   background-color: #b55134;
 }
-/* line 25, ../_sass/module/_offerings.scss */
-.offerings th, .offerings td {
+/* line 25, ../_sass/module/_plans.scss */
+.plans th, .plans td {
   border: none;
   vertical-align: top;
   background-color: #dc795b;
   color: white;
 }
-/* line 32, ../_sass/module/_offerings.scss */
-.offerings th {
+/* line 32, ../_sass/module/_plans.scss */
+.plans th {
   text-transform: none;
   text-align: center;
   width: 33.3%;
 }
-/* line 37, ../_sass/module/_offerings.scss */
-.offerings td {
+/* line 37, ../_sass/module/_plans.scss */
+.plans td {
   text-align: left;
   border-bottom: 1px solid #c75b3b;
 }
-/* line 41, ../_sass/module/_offerings.scss */
-.offerings tr:first-child td {
+/* line 41, ../_sass/module/_plans.scss */
+.plans tr:first-child td {
   background-color: #b55134;
 }
-/* line 44, ../_sass/module/_offerings.scss */
-.offerings .offerings-price {
+/* line 44, ../_sass/module/_plans.scss */
+.plans .plans-price {
   font-size: 1.3em;
 }
-/* line 48, ../_sass/module/_offerings.scss */
-.offerings .offerings-cell-title {
+/* line 48, ../_sass/module/_plans.scss */
+.plans .plans-cell-title {
   font-size: 0.8em;
   text-align: left;
   opacity: 0.8;
   margin-top: 0.5em;
   margin-bottom: 0.3em;
+}
+
+/* line 2, ../_sass/module/_form.scss */
+form label {
+  display: block;
+  margin-top: 1em;
+}
+/* line 6, ../_sass/module/_form.scss */
+form input, form textarea {
+  width: 80%;
+  max-width: 20em;
+}
+/* line 11, ../_sass/module/_form.scss */
+form textarea {
+  max-width: 30em;
+}
+/* line 14, ../_sass/module/_form.scss */
+form input[type="submit"] {
+  margin: 2em 0;
 }
 
 /* =============================================================================
