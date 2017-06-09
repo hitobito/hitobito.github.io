@@ -1,0 +1,47 @@
+---
+permalink: /signup/
+layout: default
+path: ..
+---
+{% include header-minimal.html %}
+
+<main id="main" role="main">
+  <div id="open">
+    <div class="container">
+      <h1>Signup</h1>
+
+      <form action="https://formspree.io/roland@hitobito.com"
+            method="POST">
+          <label for="first-name" required>First name</label>
+          <input type="text" name="first-name" id="first-name" value="">
+
+          <label for="last-name" required>Last name</label>
+          <input type="text" name="last-name" id="last-name" value="">
+
+          <label>E-Mail</label>
+          <input type="email" name="_replyto" value="" required>
+
+          <label>Subdomain</label>
+          <input type="text" name="subdomain" value="" required>.hitobito.com
+
+          <label>Phone Number (optional)</label>
+          <input type="text" name="phone" value="">
+
+          <label>Additional notes</label>
+          <textarea name="note" rows="4"></textarea>
+
+
+
+          <input type="hidden" name="_subject" value="hitobito Sign-Up!" />  
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="hidden" name="_next" value="http://localhost:4000/signup/thanks/" />
+
+          <p>You are free to use the trial, we will contact you about your payment information in time.</p>  
+          
+          <div><input type="submit" value="Sign up" class="btn btn-purple"></div>
+      </form>
+
+    </div>
+
+  </div>
+</main>
