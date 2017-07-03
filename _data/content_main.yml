@@ -1,0 +1,129 @@
+tagline:
+  de: Die Open Source Webapplikation für das Verwalten von Mitgliedern, Events und mehr...
+  fr: "L'application web open source pour gérer les membres, cours, évènements, et bien plus encore..."
+  en: "The Open Source web application for managing members, events and more ..."
+
+
+hero:
+  hero-title:
+    de: Die individuelle Mitgliederverwaltung
+    fr: Gestion de membres personnalisée
+    en: Customizable Membership Management
+  image-alt: 
+    de: Schön auf Desktop und Tablet
+    fr: Tout aussi chouette sur votre ordinateur que sur votre smartphone
+    en: Beautiful on desktop and tablets
+
+features:
+  title: 
+    de: Was kann hitobito?
+    fr: "hitobito, ça sert à quoi?"
+    en: What hitobito can do for you…
+  list:
+    -
+      title: 
+        de: Mitglieder- und Vereinsverwaltung
+        fr: "Gérer votre association et tous ses membres"
+        en: Membership and club administration
+      image_path: /images/feature-manage.svg
+    -
+      title:
+        de: Kurse administrieren inkl. Qualifikationen
+        fr: Gérer des cours et certifications
+        en: Administration of courses and qualifications
+      image_path: /images/feature-course.svg
+    -
+      title: 
+        de: Events mit Online-Anmeldung
+        fr: Organiser des évènements, avec inscription en ligne
+        en: Events with online registration
+      image_path: /images/feature-event.svg
+    -
+      title: 
+        de: Newsletter- und Mailingsystem
+        fr: Envoyer des Emails et Newsletters
+        en: Newsletter and Mailings
+      image_path: /images/feature-mail.svg
+    -
+      title:
+        de: Import und Export über standardisierte Schnittstellen
+        fr: Importer et Exporter vos données (formats standards)
+        en: Import and export of data through standardized interfaces
+      image_path: /images/feature-data.svg
+
+strengths:
+  title:
+    de: Stärken
+    fr: Points forts
+    en: Key strengths
+  summary: 
+    de:
+      html: "<p>hitobito lässt sich flexibel auf eure Organisationsstruktur anpassen, damit auch sehr komplexe Strukturen und Berechtigungen abgebildet werden können. Als Webapplikation ist der Zugriff von überall her möglich, auch mit dem Smartphone.</p><p>Dank der zentralen Datenhaltung gibt es keine Redundanzen. Wir haben bei der Entwicklung grossen Wert auf eine intuitive und einfache Bedienbarkeit gelegt. So finden sich auch Gelegenheitsnutzer einfach zurecht.</p>"
+    fr:
+      html: "<p> hitobito a une architecture flexible qui s'adapte aux plus complexes des structures. Une fois personalisée, elle correspond ainsi à celle de votre organisation. Application web responsive, hitobito est accessible depuis n'importe quel appareil connecté, comme votre smartphone.</p><p>Grâce à l'hébergement centralisé des données, il n'y a pas de redondances. De plus, lors du développement, nous avons prêter une attention particulière à l'interface qui se veut intuitive et simple à utiliser, même pour un utilisateur occasionnel. </p>"
+    en:
+      html: "<p>hitobito is flexibly customizable to your organizational structure, so that even very complex structures and permissions can be decipted. As a web application, accessability from anywhere is granted, even with your smartphone.</p><p>Thanks to the central data storage, there are no redundancies. We have placed great emphasis on an intuitive and easy operability during the development. So even occasional users will find hitobito easy to master.</p>"
+
+  list:
+    -
+      title:
+        de: Komplexe Strukturen und Berechtigungen abbilden
+        fr: Structures complexes et gestion des droits
+        en: Depiction of complex structures and permissions
+      benefit:
+        de: Individuelle Anpassung auf Ihre Organisationsstruktur
+        fr: S'adapte à la structure unique de votre organisation
+        en: Adjustment to your individual organizational structure
+      image_path: /images/slide01_01.svg
+    -
+      title:
+        de: Komplexe Strukturen und Berechtigungen abbilden
+        fr: Structures complexes et gestion des droits
+        en: Depiction of complex structures and permissions
+      benefit:
+        de: Flexibles Rollen- und Berechtigungssystem
+        fr: Système flexible de gestion des rôles et persmissions
+        en: Flexible role and authorization system
+      image_path: /images/slide01_02.png
+    - 
+      title: 
+        de: Zentrale Datenhaltung
+        fr: Stockage de données centralisé
+        en: Centralized data storage
+      benefit: 
+        de: "Keine Redundanzen: Mitglieder können eigene Daten selber verwalten"
+        fr: "Pas de redondance: Les membres peuvent gérer eux-mêmes leurs propres données"
+        en: "No redundancies: members can manage their own data"
+      image_path: /images/slide02_01.png
+    - 
+      title: 
+        de: Zentrale Datenhaltung
+        fr: Stockage de données centralisé
+        en: Centralized data storage
+      benefit: 
+        de: "Zugriff von überall her möglich, auch mit dem Smartphone"
+        fr: "Accessible de n'importe où, même depuis votre smartphone"
+        en: "Responsive Design, accessible with any device"
+      image_path: /images/slide02_02.png
+    -
+      title: 
+        de: User Experience
+        fr: User Experience
+        en: User Experience
+      benefit:
+        de: Intuitive und einfache Bedienbarkeit
+        fr: Utilisation simple et intiutive
+        en: Intuitive and easy operability
+      image_path: /images/slide03_01.png
+    -
+      title: 
+        de: User Experience
+        fr: User Experience
+        en: User Experience
+      benefit:
+        de: Ansprechendes Design
+        fr: Interface agréable à l'oeil
+        en: Appealing design
+      image_path: /images/slide03_02.png
+
+
