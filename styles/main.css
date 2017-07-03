@@ -2364,21 +2364,21 @@ body.blurred > * {
   }
 }
 /* line 2, ../_sass/module/_form.scss */
-form label {
+.form label {
   display: block;
   margin-top: 1em;
 }
 /* line 6, ../_sass/module/_form.scss */
-form input, form textarea {
+.form input, .form textarea {
   width: 80%;
   max-width: 20em;
 }
 /* line 11, ../_sass/module/_form.scss */
-form textarea {
+.form textarea {
   max-width: 30em;
 }
 /* line 14, ../_sass/module/_form.scss */
-form input[type="submit"] {
+.form input[type="submit"] {
   margin: 2em 0;
 }
 
