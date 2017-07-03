@@ -1,45 +1,25 @@
+{% assign content = site.data.content_main.hero %}
+
 <section id="hero">
   <div class="container">
     <h1 class="hero-title">
-      {{page.hero-title}}
+      {{content.hero-title[page.language]}}
     </h1>
     <img alt="{{page.hero-illus-alt}}" class="hero-illus" src="{{path}}/images/hero.svg" width="799" height="384" />
   </div>
 </section>
 <section id="features">
   <div class="container">
-    <h2>{{page.features-title}}</h2>
+    <h2>{{site.data.content_main.features.title[page.language]}}</h2>
     <ul class="features-list">
+    {% for feature in site.data.content_main.features.list %}
       <li class="features-item break-small">
-        <img alt="{{page.feature-manage}}" src="{{path}}/images/feature-manage.svg" width="220" height="220" />
+        <img alt="" src="{{feature.image_path}}" width="220" height="220" />
         <p>
-          {{page.feature-manage}}
+          {{feature.title[page.language]}}
         </p>
       </li>
-      <li class="features-item">
-        <img alt="{{page.feature-course}}" src="{{path}}/images/feature-course.svg" width="220" height="220" />
-        <p>
-          {{page.feature-course}}
-        </p>
-      </li>
-      <li class="features-item break-small">
-        <img alt="{{page.feature-event}}" src="{{path}}/images/feature-event.svg" width="220" height="220" />
-        <p>
-          {{page.feature-event}}
-        </p>
-      </li>
-      <li class="features-item break-medium">
-        <img alt="{{page.feature-mail}}" src="{{path}}/images/feature-mail.svg" width="220" height="220" />
-        <p>
-          {{page.feature-mail}}
-        </p>
-      </li>
-      <li class="features-item break-small">
-        <img alt="{{page.feature-data}}" src="{{path}}/images/feature-data.svg" width="220" height="220" />
-        <p>
-          {{page.feature-data}}
-        </p>
-      </li>
+    {% endfor %}
     </ul>
   </div>
 </section>

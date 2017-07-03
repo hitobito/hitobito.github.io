@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<!--[if IE 7]><html lang="{{post.language}}" class="no-js ie7 oldie"><![endif]--><!--[if IE 8]><html lang="{{post.language}}" class="no-js ie8 oldie"><![endif]-->
-<html class="no-js" lang="{{post.language}}">
-  <!--<![endif]-->
-  <head>
-    <meta charset="utf-8" />
-    <title>hitobito - Online Open Source Mitgliederverwaltung, Lager, Events, Mailinglisten</title>
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta content="meta-desc" name="description" />
-    <meta content="meta-keywords" name="Keywords" />
-    <link href="{{post.path}}/images/favicon.ico" type="image/png" rel="shortcut icon" />
-    <link href="{{post.path}}/images/apple-touch-icon.png" rel="apple-touch-icon" />
-    <link href="{{post.path}}/images/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
-    <link href="{{post.path}}/images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
-    <link href="{{post.path}}/images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <link href="{{post.path}}/styles/main.css" media="screen" rel="stylesheet" />
-    <link href="{{post.path}}/styles/print.css" media="print" rel="stylesheet" />
-    <link rel="alternate" type="application/atom+xml" title="RSS Feed for hitobito.com" href="/feed.xml" />
-    <!--[if IE]><link href="{{post.path}}/styles/ie.css" rel="stylesheet" media="screen"><![endif]-->
-    <script src="{{post.path}}/scripts/vendor/modernizr.min.js"></script>
-    <link href="https://plus.google.com/108865436255615110323" rel="publisher" />
-    {% include organization.jsonld.html %}
-  </head>
-  <body role="document">
+{% include html_start.html %}
+
     <div id="page">
     {% include header-minimal.html %}
 
@@ -43,8 +17,8 @@
 
 
     </div>
-    <script src="{{post.path}}/scripts/vendor/jquery.min.js" defer></script>
-    <script src="{{post.path}}/scripts/vendor/responsiveslides.min.js" defer></script>
-    <script src="{{post.path}}/scripts/main.min.js" defer></script>
+    <script src="/scripts/vendor/jquery.min.js" defer></script>
+    <script src="/scripts/vendor/responsiveslides.min.js" defer></script>
+    <script src="/scripts/main.min.js" defer></script>
   </body>
 </html>

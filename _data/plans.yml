@@ -1,6 +1,6 @@
 list:
   -
-    title: Selbst Gehosted
+    title: Selbst gehosted
     short_description: hitobito herunterladen und selbst betreiben.
     long_description:  Dank AGPL Lizenz darf hitobito frei verwendet werden.
     cost_per_month: 0 CHF

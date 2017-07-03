@@ -4,11 +4,6 @@
       Angebot <!-- {{page.services-title}} -->
     </h2>
 
-    <p>hitobito kann entsprechend Ihren Bedürfnissen und Fähigkeiten gratis und auf eigene Verantwortung, als Cloud-Lösung mit Service und Support oder als eigene Instanz mit individuellen Anpassungen und Erweiterungen bezogen werden.
-Bei der Gratisversion tragen Sie die Verantwortung für Sicherheitsupdates und die Datenhaltung. hitobito gewährt keine Garantieleistungen und der Support ist kostenp ichtig.
-Die Cloud-Lösung deckt eine allgemeine Organisationsstruktur ab. Die Funktionalität wird laufend Weiterentwickelt und entspricht der Demoversion (http://demo.hitobito.ch).
-Kostenpunkt: CHF 90.-/Monat.
-Die Individuallösung schneidern wir in einem Projekt auf Ihre Bedürfnisse zu. Kostenpunkt für das Projekt: ab CHF 8‘000.-.</p>
 
     <div class="planngs-container">
       {% assign plans = site.data.plans %}
@@ -21,7 +16,7 @@ Die Individuallösung schneidern wir in einem Projekt auf Ihre Bedürfnisse zu
         <tbody>
           <tr>
             {% for plan in plans.list %}
-              <td>{{planlong_description}}</td>
+              <td>{{plan.short_description}}<br>{{plan.long_description}}</td>
             {% endfor %}
           </tr>
           <tr>
@@ -47,7 +42,7 @@ Die Individuallösung schneidern wir in einem Projekt auf Ihre Bedürfnisse zu
         </tbody>
         <tfoot>
           <tr>{% for plan in plans.list %}
-            <th><div class="plans-price">{{plan.cost_per_month}}<br>pro Monat</div>für maximal {{plan.max_users}} Mitglieder / Benutzer</th>
+            <th><div class="plans-price">{{plan.cost}}</th>
           {% endfor %}</tr>
         </tfoot>
       </table>
