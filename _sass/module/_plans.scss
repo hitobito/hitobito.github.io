@@ -2,10 +2,8 @@
   border: none;
   border-collapse: separate;
   border-spacing: 1em 0;
-  margin: 0.5em;
   font-size: 0.9em;
-
-
+  
   thead {
     padding: 0.5em;
   }
@@ -42,7 +40,13 @@
     background-color: darken($orangeDark, 5%);
   }
   .plans-price {
-    font-size: 1.3em;
+    font-size: 1.2em;
+    padding: 1em;
+
+    strong {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
   }
 
   .plans-cell-title {
@@ -53,4 +57,19 @@
     margin-bottom: 0.3em;
   }
 
+  &.is-single-plan {
+    display: none;
+  }
+
 }
+
+@media all and (max-width:900px){
+  .plans.is-single-plan {
+    display: table;
+    border-spacing: 0;
+  }
+  .plans.is-multiple-plans {
+    display: none;
+  }
+}
+

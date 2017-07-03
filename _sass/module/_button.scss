@@ -1,0 +1,15 @@
+a.btn.btn-orange {
+  background-color: $orange;
+
+  &:hover {
+    background-color: white;
+    color: $orange;
+  }
+}
+
+a.btn {
+  &.is-important {
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+}
