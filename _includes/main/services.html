@@ -7,6 +7,7 @@
 
     <div class="planngs-container">
       {% assign plans = site.data.plans %}
+      {% assign content = site.data.content_main.services %}
       {% assign lang = page.language %}
       <table class="plans is-multiple-plans">
         <thead class="plans-head">
@@ -85,10 +86,10 @@
       {% endfor %}
     </div>
 
-    <h2>Free Trial</h2>
+    <h2>{{content.free-trial[lang]}}</h2>
 
     <a href="/signup/" class="btn btn-orange is-important" style="display: block;">
-        <div>Try 30 days completely free!</div>
+        <div>{{content.call-to-action[lang]}}!</div>
     </a>
     <p>{{plans.cost_comment[lang]}}</p>
 

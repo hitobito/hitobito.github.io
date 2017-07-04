@@ -126,4 +126,12 @@ strengths:
         en: Appealing design
       image_path: /images/slide03_02.png
 
-
+services:
+  free-trial:
+    de: Kostenlos testen
+    fr: Essai gratuit
+    en: Free trial
+  call-to-action:
+    de: Jetzt 30 Tage ausprobieren
+    fr: Essaye hitobito pour 30 jours
+    en: Try hitobito for 30 days

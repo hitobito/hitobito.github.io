@@ -1,10 +1,9 @@
 cost_comment:
-  de: Melde dich bei uns, falls du Interesse hat, aber deine Orgnisation diese Kosten nicht tragen kann. Wir finden bestimmt eine Lösung
+  de: Melde dich bei uns, falls du Interesse hat, aber deine Organisation diese Kosten nicht tragen kann. Wir finden bestimmt eine Lösung
   fr: Contactez-nous, si les offres sont trop cher pour vous.
-  en: Contact us, if the prices are too high for your organzisation, we will find a solution!
+  en: Contact us, if the prices are too high for your organisation, we will find a solution!
 list:
   -
-    id: self hosted
     title: 
       de: Selbst gehosted
       fr: Self-hosted
@@ -18,30 +17,32 @@ list:
       fr: <strong>Free</strong>
       en: <strong>Free</strong>
     hosting: 
-      de: Eigener Server
+      de: Eigener Server oder gemieteter server.
       fr: Ton serveur web
+      en: Your own server of choice
     customization: 
-      de: Anpassungen frei möglich, aber Programmierkenntnisse nötig.
+      de: Eigene Anpassungen möglich, aber Programmierkenntnisse nötig.
+      fr: Possible mais nécessite connaissances en programmation.
       en: Full customization, but needs some programming knowledge.
     support: Forum
     weiterentwicklung: 
-      de: Via Github kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
-      en: Contribute ideas via Github
+      de: Via GitHub kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
+      fr: Contribue tes idées via GitHub
+      en: Contribute ideas via GitHub
     custom_domain: true
   -
-    id: cloud
     title: 
       de: Cloud
       fr: Cloud
       en: Cloud
     short_description:  
       de: Die ideale Lösung für Verbände mit kleinem Budget
-      fr: La solution idéale pour organisation avec un petit budget
+      fr: La solution idéale pour organisations avec un petit budget
       en: The ideal solution for organisations with a small budget
     cost:
-      de: <strong>90</strong> CHF pro Monat (bis 5000 Benutzer)
-      fr: <strong>90</strong> CHF par mois (< 5000 utilisateur)
-      en: <strong>90</strong> CHF per moneth (up to 5000 users)
+      de: <strong>90 CHF pro Monat</strong><br>(bis 5000 Mitglieder)
+      fr: <strong>90 CHF par mois(< 5000 membres)
+      en: <strong>90 CHF per month</strong><br>(up to 5000 members)
     hosting: 
       de: Datencenter in der Schweiz, ISO und FINMA zertifiziert.
       fr: Tous les données sur notre serveur en Suisse
@@ -50,13 +51,13 @@ list:
       de: Die verfügbaren Rollen und Berechtigungen sind vorgegeben.
       fr: Rôles disponibles et les autorisations sont prédéfinies
       en: Available roles and permissions are predefined.
-    support: Forum/Email
+    support: Forum/E-Mail
     weiterentwicklung: 
-      de: Via Github kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
-      en: Contribute ideas via Github
+      de: Via GitHub kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
+      fr: Contribue tes idées via GitHub
+      en: Contribute ideas via GitHub
     custom_domain: false
   -
-    id: custom
     title: 
       de: Custom
       fr: Custom
@@ -64,15 +65,15 @@ list:
     short_description:
       de: Massgeschneiderte Lösung für deine Organisation
       fr: Solution sur mesure pour votre organisation
-      en: Fully customized solution for you organisation
+      en: Fully customized solution for your organisation
     cost:
-      de: Auf Anfrage
-      fr: Sur demande
-      en: On demand
+      de: <strong>Auf Anfrage</strong>
+      fr: <strong>Sur demande</strong>
+      en: <strong>On demand</strong>
     customization: 
-      de: Feinste Abstimmung auf deine Organisation möglich.
-      fr: Tout es possible.
-      en: Fine grained adjustment to you organisation is possible.
+      de: Feinste Abstimmung auf deine Organisation möglich, beliebig erweiterbar.
+      fr: Tout est possible.
+      en: Fine grained adjustment to your organisation is possible.
     hosting: 
       de: Datencenter in der Schweiz, ISO und FINMA zertifiziert.
       fr: Tous les données sur notre serveur en Suisse
