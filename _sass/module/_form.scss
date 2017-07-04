@@ -7,6 +7,9 @@
     width: 80%;
     max-width: 20em;
   }
+  input.short {
+    max-width: 10em;
+  }
 
   textarea {
     max-width: 30em;
@@ -14,4 +17,10 @@
   input[type="submit"] {
     margin: 2em 0;
   }
+  .well {
+    border-radius: 4px;
+    background-color: lighten(#9D6CA1,10%);
+    max-width: 18em;
+  }
+
 }

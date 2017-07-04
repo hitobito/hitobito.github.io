@@ -2373,13 +2373,23 @@ body.blurred > * {
   width: 80%;
   max-width: 20em;
 }
-/* line 11, ../_sass/module/_form.scss */
+/* line 10, ../_sass/module/_form.scss */
+.form input.short {
+  max-width: 10em;
+}
+/* line 14, ../_sass/module/_form.scss */
 .form textarea {
   max-width: 30em;
 }
-/* line 14, ../_sass/module/_form.scss */
+/* line 17, ../_sass/module/_form.scss */
 .form input[type="submit"] {
   margin: 2em 0;
+}
+/* line 20, ../_sass/module/_form.scss */
+.form .well {
+  border-radius: 4px;
+  background-color: #b28bb5;
+  max-width: 18em;
 }
 
 /* line 1, ../_sass/module/_button.scss */
