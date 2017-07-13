@@ -22,6 +22,10 @@ audio:not([controls]),
     height: 0;
 }
 
+a {
+    color: inherit;
+}
+
 a:focus {
     outline: thin dotted;
 }

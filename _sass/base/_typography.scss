@@ -30,13 +30,13 @@ body {
 /*  LINKS
   ----------------- */
 a {
-  color: $linkColor;
+  color: inherit;
 
   @include transition-property(background-color, border-color, color);
   @include transition-duration(0.3s);
 
   &:visited {
-    color: $linkColor;
+    color: inherit;
   }
   &:hover {
     color: $linkHover;

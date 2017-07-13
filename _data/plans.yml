@@ -24,7 +24,7 @@ list:
       de: Eigene Anpassungen möglich, aber Programmierkenntnisse nötig.
       fr: Possible mais nécessite connaissances en programmation.
       en: Full customization, but needs some programming knowledge.
-    support: Forum
+    support: <a href="https://hitobito.discoursehosting.net/">Forum</a>
     weiterentwicklung: 
       de: Via GitHub kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
       fr: Contribue tes idées via GitHub
@@ -51,7 +51,7 @@ list:
       de: Die verfügbaren Rollen und Berechtigungen sind vorgegeben.
       fr: Rôles disponibles et les autorisations sont prédéfinies
       en: Available roles and permissions are predefined.
-    support: Forum/E-Mail
+    support: <a href="https://hitobito.discoursehosting.net/">Forum</a>/E-Mail
     weiterentwicklung: 
       de: Via GitHub kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
       fr: Contribue tes idées via GitHub
@@ -78,7 +78,7 @@ list:
       de: Datencenter in der Schweiz, ISO und FINMA zertifiziert.
       fr: Tous les données sur notre serveur en Suisse
       en: Datacenter in Switzerland, certified by ISO and FINMA
-    support: Priority 2nd und 3rd Level Support E-Mail & Phone
+    support: <a href="https://hitobito.discoursehosting.net/">Forum</a> & Priority 2nd und 3rd Level Support E-Mail & Phone
     weiterentwicklung: 
       de: In Community Meetings legen wir zusammen die Roadmap fest.
       fr: Dans les réunions de la communauté nous decison le Roadmap.
