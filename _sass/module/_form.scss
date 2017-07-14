@@ -3,6 +3,11 @@
     display: block;
     margin-top: 1em;
   }
+  label.inline {
+    display: inline;
+    margin: 0;
+    font-weight: normal;
+  }
   input,textarea {
     width: 80%;
     max-width: 20em;
@@ -17,6 +22,10 @@
   input[type="submit"] {
     margin: 2em 0;
   }
+  input[type="checkbox"] {
+    width: auto;
+  }
+
   .well {
     border-radius: 4px;
     background-color: lighten(#9D6CA1,10%);

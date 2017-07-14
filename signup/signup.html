@@ -19,17 +19,20 @@ path: ..
           <label for="last-name" required>Last name</label>
           <input type="text" name="last-name" id="last-name" value="">
 
-          <label>E-Mail</label>
-          <input type="email" name="_replyto" value="" required>
+          <label for="email" >E-Mail</label>
+          <input type="email" id="email" name="_replyto" value="" required>
 
-          <label>Desired URL</label>
-          <div class="well purple"><input type="text" name="subdomain" value="" class="short" required> .hitobito.com</div>
+          <label for="subdomain">Desired URL</label>
+          <div class="well purple"><input type="text" name="subdomain" id="subdomain" value="" class="short" required> .hitobito.com</div>
 
-          <label>Phone Number (optional)</label>
-          <input type="text" name="phone" value="">
+          <label for="newsletter">Newsletter</label>
+          <input type="checkbox" name="newsletter" id="newsletter" required><label for="newsletter" class="inline">Newsletter abonnieren</label>
 
-          <label>Additional notes</label>
-          <textarea name="note" rows="4"></textarea>
+          <label for="phone">Phone Number (optional)</label>
+          <input type="text" name="phone" id="phone" value="">
+
+          <label for="note">Additional notes</label>
+          <textarea name="note" id="note" rows="4"></textarea>
 
 
 

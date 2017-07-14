@@ -2374,23 +2374,33 @@ body.blurred > * {
   margin-top: 1em;
 }
 /* line 6, ../_sass/module/_form.scss */
+.form label.inline {
+  display: inline;
+  margin: 0;
+  font-weight: normal;
+}
+/* line 11, ../_sass/module/_form.scss */
 .form input, .form textarea {
   width: 80%;
   max-width: 20em;
 }
-/* line 10, ../_sass/module/_form.scss */
+/* line 15, ../_sass/module/_form.scss */
 .form input.short {
   max-width: 10em;
 }
-/* line 14, ../_sass/module/_form.scss */
+/* line 19, ../_sass/module/_form.scss */
 .form textarea {
   max-width: 30em;
 }
-/* line 17, ../_sass/module/_form.scss */
+/* line 22, ../_sass/module/_form.scss */
 .form input[type="submit"] {
   margin: 2em 0;
 }
-/* line 20, ../_sass/module/_form.scss */
+/* line 25, ../_sass/module/_form.scss */
+.form input[type="checkbox"] {
+  width: auto;
+}
+/* line 29, ../_sass/module/_form.scss */
 .form .well {
   border-radius: 4px;
   background-color: #b28bb5;
