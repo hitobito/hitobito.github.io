@@ -2,7 +2,8 @@
 title: Automatisierte Tests auf Pull Requests mit Travis
 date: 2017-03-16 10:00:00 GMT
 layout: post
-published: true
+authors:
+    - Roland
 ---
 
 Contributions für neuen Code werden in Open Source Projekten mit

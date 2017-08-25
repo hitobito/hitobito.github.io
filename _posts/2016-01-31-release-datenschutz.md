@@ -3,7 +3,8 @@
 title: Mehr Datenschutz dank Anfrageprozedur
 date: 2016-01-31 17:00:00 GMT
 layout: post
-
+authors:
+    - Roland
 ---
 
 ## Neues Feature: Optionales Anfrageverfahren.

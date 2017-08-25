@@ -1,5 +1,7 @@
 ---
 published: true
+authors:
+    - Roland
 ---
 ## Es geht los!
 Die Gründung der [hitobito AG](https://be.chregister.ch/cr-portal/auszug/auszug.xhtml;jsessionid=6f891a39790500baf0b4657896af?uid=CHE-208.334.687#) ist bald zwei Monate her. In der Zwischenzeit haben wir uns regelmässig getroffen, um die Grundlagen für unsere Zusammenarbeit zu regeln und die nächsten Arbeiten zu planen. Mit einem Arbeitspaket für den Dachverband Schweizerischer Jugendparlamente (DSJ) startet nun das erste Projekt in der neuen Organisation.

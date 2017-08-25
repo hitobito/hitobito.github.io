@@ -1,6 +1,8 @@
 ---
 published: true
 title: hitobito neu auch als Mitgliederverwaltung as a Service
+authors:
+    - Roland
 ---
 
 

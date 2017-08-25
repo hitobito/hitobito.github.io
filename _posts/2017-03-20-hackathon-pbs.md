@@ -3,6 +3,8 @@ title: hitobito/MiData Hackathon
 date: 2017-03-20 17:00:00 GMT
 layout: post
 published: true
+authors:
+    - Roland
 ---
 
 Am Wochenende vom 18./19. März 2017 fand der erste hitobito/MiData Hackathon der [Pfadibewegung Schweiz (PBS)](http://www.scout.ch/de/verband) statt. Ein Dutzend Freiwillige trafen sich, um ihre Bedürfnissse einzubringen, bestehende [Issues](https://github.com/hitobito/hitobito/issues) zu bearbeiten und sich mit Gleichgesinnten auszutauschen.
