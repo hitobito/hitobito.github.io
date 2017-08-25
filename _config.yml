@@ -21,7 +21,7 @@ gems:
 - jekyll-compass
 
 collections:
-  people:
+  authors:
     output: false
 
 defaults:

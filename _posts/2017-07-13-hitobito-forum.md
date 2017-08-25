@@ -1,7 +1,7 @@
 ---
 published: true
 title: hitobito Forum
-people:
+authors:
     - Roland
 ---
 
