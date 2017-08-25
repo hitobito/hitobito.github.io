@@ -20,6 +20,9 @@ markdown: kramdown
 gems:
 - jekyll-compass
 
+collections:
+  people:
+    output: false
 
 defaults:
   -

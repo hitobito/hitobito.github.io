@@ -10,7 +10,7 @@ Mixed with  :
 */
 /*  GENERIC
   ----------------- */
-/* line 20, ../../_sass/print.scss */
+/* line 20, ../_sass/print.scss */
 * {
   color: #000 !important;
   box-shadow: none !important;
@@ -20,7 +20,7 @@ Mixed with  :
   background-color: transparent !important;
 }
 
-/* line 31, ../../_sass/print.scss */
+/* line 31, ../_sass/print.scss */
 body {
   margin: 0 !important;
   padding: 0 !important;
@@ -28,12 +28,12 @@ body {
   font-size: 12pt;
 }
 
-/* line 41, ../../_sass/print.scss */
+/* line 41, ../_sass/print.scss */
 h1, h2, h3, h4, h5, h6 {
   page-break-after: avoid;
 }
 
-/* line 45, ../../_sass/print.scss */
+/* line 45, ../_sass/print.scss */
 h1, h2, h3, h4, h5, h6,
 blockquote,
 code, pre,
@@ -42,38 +42,38 @@ img {
   page-break-inside: avoid;
 }
 
-/* line 55, ../../_sass/print.scss */
+/* line 55, ../_sass/print.scss */
 p {
   orphans: 3;
   widows: 3;
 }
 
-/* line 61, ../../_sass/print.scss */
+/* line 61, ../_sass/print.scss */
 thead {
   display: table-header-group;
 }
 
-/* line 66, ../../_sass/print.scss */
+/* line 66, ../_sass/print.scss */
 a:link {
   text-decoration: underline;
 }
 
-/* line 71, ../../_sass/print.scss */
+/* line 71, ../_sass/print.scss */
 a[href]:after {
   content: " (" attr(href) ")";
 }
 
-/* line 75, ../../_sass/print.scss */
+/* line 75, ../_sass/print.scss */
 a[href^="#"]:after {
   content: "";
 }
 
-/* line 80, ../../_sass/print.scss */
+/* line 80, ../_sass/print.scss */
 abbr[title]:after {
   content: " (" attr(title) ")";
 }
 
-/* line 85, ../../_sass/print.scss */
+/* line 85, ../_sass/print.scss */
 img {
   max-width: 100% !important;
 }
