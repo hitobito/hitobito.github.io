@@ -19,4 +19,6 @@ Die Community rund um ein Open Source Projekt l&auml;sst sich in einem Zwiebelmo
 
 ## Gesch&auml;ftsmodelle
 
-Dass mit freier Software auch Geld verdient wird, ist aus meiner Sicht kein Widerspruch. Im Gegenteil: Es gibt "Jobs to be done", die entweder nur wenig attraktiv f&uuml;r freiwillige Mitarbeitende sind oder die auch aus Kundensicht von einer professionellen Instanz &uuml;bernommen werden sollten. So gesehen lassen sich die meisten Gesch&auml;ftsmodelle aus der "alten" Welt auch in der "Open &Auml;ra" anwenden. Einzig mit dem Unterschied, dass der Kunde respektive der Benutzer nicht von einem Anbieter abh&auml;ngig ist.&nbsp;
+Dass mit freier Software auch Geld verdient wird, ist aus meiner Sicht kein Widerspruch. Im Gegenteil: Es gibt "Jobs to be done", die entweder nur wenig attraktiv f&uuml;r freiwillige Mitarbeitende sind oder die auch aus Kundensicht von einer professionellen Instanz &uuml;bernommen werden sollten. So gesehen lassen sich die meisten Gesch&auml;ftsmodelle aus der "alten" Welt auch in der "Open &Auml;ra" anwenden. Einzig mit dem Unterschied, dass der Kunde respektive der Benutzer nicht von einem Anbieter abh&auml;ngig ist.
+
+&nbsp;
