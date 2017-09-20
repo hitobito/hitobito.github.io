@@ -15,6 +15,6 @@ Die Konferenz wird von der [Forschungsstelle Digitale Nachhaltigkeit der Univers
 
 ## Einladung zum Workshop an der DINAcon
 
-<br>Im Rahmen der DINAcon werden wir von hitobito einen [**Workshop zu nachhaltigem Vereins- und Verbandsmanagement**](https://dinacon.ch/sessions/hitobito/)durchf&uuml;hren. Wir zeigen die Idee von Gemeinschaftsl&ouml;sungen auf und teilen das Wissen zum Communitymanagement und der kollaborativen Entwicklung. Die Teilnehmenden erfahren an einem konkreten Beispiel den Prozess von der ersten Idee bis zur laufenden Software. Zum Abschluss gibt es auf Wunsch noch eine Demo von hitobito.
+<br>Im Rahmen der DINAcon werden wir von hitobito einen [**Workshop zu nachhaltigen Vereins- und Verbandsmanagementl&ouml;sungen&nbsp;**](https://dinacon.ch/sessions/hitobito/)durchf&uuml;hren. Wir zeigen die Idee von Gemeinschaftsl&ouml;sungen auf und teilen das Wissen zum Communitymanagement und der kollaborativen Entwicklung. Die Teilnehmenden erfahren an einem konkreten Beispiel den Prozess von der ersten Idee bis zur laufenden Software. Zum Abschluss gibt es auf Wunsch noch eine Demo von hitobito.
 
 Wir laden Sie herzlich an die DINAcon und an unseren Workshop ein. **Dazu verschenken wir den ersten zehn Interessentinnen und Interessenten an unserem Workshop einen Eintritt im Wert von CHF 50.-**. Melden Sie sich noch heute per Mail an andre@hitobito.com. Wir freuen uns auf Ihren Besuch!
