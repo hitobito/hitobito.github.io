@@ -1,14 +1,15 @@
+{% assign plans = site.data.plans %}
+{% assign content = site.data.content_main.services %}
+{% assign lang = page.language %}
+
+
 <section id="services">
   <div class="container">
     <h2>
-      Angebot <!-- {{page.services-title}} -->
+      {{ site.data.content_main.services.title[lang] }} <!-- {{page.services-title}} -->
     </h2>
 
-
     <div class="planngs-container">
-      {% assign plans = site.data.plans %}
-      {% assign content = site.data.content_main.services %}
-      {% assign lang = page.language %}
       <table class="plans is-multiple-plans">
         <thead class="plans-head">
           <tr>{% for plan in plans.list %}
@@ -98,13 +99,11 @@
 <!-- Responsive Table Solution: http://stackoverflow.com/questions/26090244/responsive-table-by-columns -->
 
     <div class="info-text">
-      <h2>Custom Solution</h2>
+      <h2>{{ content.custom-solution.title[lang] }}</h2>
       <ul class="services-list">
-        <li>{{page.service-custom}}</li>
-        <li>{{page.service-enhance}}</li>
-        <li>{{page.service-support}}</li>
-        <li>{{page.sercice-community}}</li>
-        <li>{{page.sercice-updates}}</li>
+        {% for point in content.custom-solution.list %}
+        <li>{{point[lang]}}</li>
+        {% endfor %}
       </ul>
     </div>
     <div class="info-who">

@@ -127,6 +127,10 @@ strengths:
       image_path: /images/slide03_02.png
 
 services:
+  title: 
+    de: Angebot
+    en: Offerings
+    fr: Offres
   free-trial:
     de: Kostenlos testen
     fr: Essai gratuit
@@ -135,3 +139,29 @@ services:
     de: Jetzt 30 Tage ausprobieren
     fr: Essaye hitobito pour 30 jours
     en: Try hitobito for 30 days
+  custom-solution:
+    title:
+      de: Massgeschneiderte Lösung
+      en: Custom solution
+      fr: Solution personnalisée
+    list:
+      -
+        de: Anpassen von hitobito auf eure individuellen Bedürfnisse
+        en: "Customizing hitobito to your individual needs"
+        fr: "Modification d'hitobito en fonction de vos besoins"
+      -
+        de: Erweiterungen der Lösung nach euren Wünschen
+        en: "Developing the solution according to your wishes"
+        fr: "Extention de la solution selon vos envies"
+      -
+        de: Betrieb der Lösung inkl. Backup, Support und Wartung
+        en: "Hosting incl. backup, support and maintenance"
+        fr: "Hébergement avec Backup, Support et maintenance"
+      -
+        de: Pflege der Kunden-Community und des Partnernetzwerks
+        en: "Taking care of the customer community and the partner network"
+        fr: "Soutien de la communauté et des solutions collectives"
+      -
+        de: Regelmässige Sicherheitsupdates und Aktualisierungen der Gemeinschaftslösung
+        en: Regular security and solution updates 
+        fr: Mise à jour de sécurité et de nouvelles versions
