@@ -19,10 +19,8 @@ Im Forum sammeln wir fachliche Anforderungen an hitobito, damit wir das Interess
 * [Anwesenheits- oder Abwesenheitsliste](https://hitobito.discoursehosting.net/t/anwesenheitsliste-abwesenheitsliste/39)
 * [hitobito-Login f&uuml;r andere Services nutzen](https://hitobito.discoursehosting.net/t/hitobito-login-fuer-andere-services-nutzen/40)
 
-&nbsp;
+Weiter steht auch noch das Thema "Case Management" auf der Liste. Falls ihr selber W&uuml;nsche und Anforderungen habt, tragt ihr diese am besten gleich selber ein.
 
-Weiter steht auch noch das Thema "Case Management" auf der Liste. Falls ihr weitere W&uuml;nsche und Anforderungen habt, tragt ihr diese am besten gleich selber ein.
-
-Wie immer: Feedback und Anregungen sind herzlich willkommen. Als n&auml;chstes werden wir....
+Wie immer: Feedback und Anregungen sind herzlich willkommen. Wir k&uuml;mmern uns momentan um den Abschluss der Arbeiten 2017 - unter anderem mit der Rechnungsstellung - und werden die Anforderungen im Q1/2018 vertiefen.
 
 &nbsp;
