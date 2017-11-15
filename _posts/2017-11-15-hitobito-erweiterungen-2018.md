@@ -8,7 +8,7 @@ authors:
 
 *hitobito wird laufend auf die Bed&uuml;rfnisse der Community hin erweitert. Diverse m&ouml;gliche Erweiterungen stehen momentan zur Diskussion. Nutzt die Gelegenheit und kommentiert im Forum, was im n&auml;chsten Jahr wie umgesetzt werden soll.*
 
-Im Forum sammeln wir fachliche Anforderungen an hitobito, damit wir das Interesse daran erkennen- &nbsp;und eine grobe Sch&auml;tzung f&uuml;r die Kosten abgeben k&ouml;nnen. Aus dem [Treffen mit den Kinder- und Jugendverb&auml;nden](https://hitobito.discoursehosting.net/t/erweiterungen-2018/31) haben sich folgende W&uuml;nsche f&uuml;r die n&auml;chsten Erweiterungen ergeben:&nbsp;
+Im [Forum](https://hitobito.discoursehosting.net/) sammeln wir fachliche Anforderungen an hitobito, damit wir das Interesse daran erkennen- &nbsp;und eine grobe Sch&auml;tzung f&uuml;r die Kosten abgeben k&ouml;nnen. Aus dem [Treffen mit den Kinder- und Jugendverb&auml;nden](https://hitobito.discoursehosting.net/t/erweiterungen-2018/31) haben sich folgende W&uuml;nsche f&uuml;r die n&auml;chsten Erweiterungen ergeben:&nbsp;
 
 * [Massenoperationen auf Personen](https://hitobito.discoursehosting.net/t/massenmanipulationen-auf-personenlisten/33)
 * [Konfigurierbare Listen](https://hitobito.discoursehosting.net/t/konfigurierbare-listen/34)&nbsp;und [flexiblere Personenfilter](https://hitobito.discoursehosting.net/t/flexiblere-personenfilter/41)
