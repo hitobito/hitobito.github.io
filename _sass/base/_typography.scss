@@ -190,11 +190,11 @@ pre {
 }
 
 code {
-  background: #ffff99;
-  color: #990;
-  font-size: 0.688em; // 11px;
-  line-height: 1.2em;
-  padding: rhythm(.2);
+  background: $grayLighter;
+  color: $black;
+  display: inline-block;
+  padding: 0.1em;
+  margin: 0.1em;
 }
 
 ins {

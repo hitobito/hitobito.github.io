@@ -1,0 +1,27 @@
+{% include html_start.html %}
+
+    <div id="docs">
+
+
+        <main>
+            <h1><small>{{ page.date | date: "%-d. %-m. %Y" }}</small><br>
+              {{page.title}}<br></h1>
+            {{ content }}
+            <p>
+                {% for author in page.authors %}
+                    {% for person in site.authors %}
+                        {% if author == person.title %}
+                            {{person.given_name | capitalize }}{% unless forloop.last %}, {% endunless %} 
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </p>
+        </main>
+
+        {% include docs_navigation.html %}
+
+    </div>
+    <script src="/scripts/vendor/jquery.min.js" defer></script>
+    <script src="/scripts/main.min.js" defer></script>
+  </body>
+</html>

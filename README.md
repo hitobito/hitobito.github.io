@@ -31,3 +31,12 @@ For documentation of Jekyll see https://jekyllrb.com
 - By default saving is with `published: false`, so it will not publish the post, to actually publish it set the meta data `publised: true`
 - Customize longer titles and titles with special characters can be set as meta-data `title: My !!! Superfancy Title !!! & stuff"
 - Images have to added normally via Git, put them in the images folder in a subdirectory that makes sense to you (the prose upload functionality is not helpful, because the image will not be in the right directory.
+
+## Docs / Wiki Integration
+
+There are some rake tasks, to pull the wiki pages from github, to build the documentation:
+
+    rake wiki # sync your wiki updates
+
+    rake wikisub # links your Wiki to your repository as a submodule
+    rake wikibuild # builds wiki for the first time

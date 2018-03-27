@@ -15,7 +15,7 @@ url: "http://hitobito.com" # the base hostname & protocol for your site
 permalink: /blog/:categories/:year/:month/:title.html
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 
 gems:
 - jekyll-compass
@@ -36,3 +36,20 @@ defaults:
       path: ""
     values: 
       layout: 'default'
+
+redcarpet:
+  extensions: [with_toc_data]
+
+wikiToJekyll:
+  user_name: rolandstuder
+  repository_name: 'hitobito'
+  # deploy_remote: "origin"
+  # deploy_branch: "gh-pages"
+  wiki_repository_url: https://github.com/hitobito/hitobito.wiki.git
+  # wiki submodule folder
+  # the underscore makes sure that this folder is ignored by Jekyll
+  wiki_source: "_wiki"
+  # wiki Jekyll generated pages destination folder
+  wiki_dest: "docs"
+  # commit and push to Jekyll repository after wiki synchronisation
+  commit_and_push: false

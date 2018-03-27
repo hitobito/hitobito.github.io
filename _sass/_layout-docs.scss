@@ -1,0 +1,71 @@
+#docs {
+	$nav-width: 20rem;
+	color: black;
+
+	h1 {
+		font-size: 1rem;
+		font-weight: bold;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin-top: 2rem;
+		font-weight: bold;
+		font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	}
+
+	nav.docs {
+		position: fixed;
+		width: $nav-width;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		padding: 1rem;
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			li {
+				a {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	main {
+		margin: 1rem 1rem 1rem $nav-width;
+		background-color: white;
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+		padding: 1rem;
+		overflow: hidden;
+
+		h1{
+			font-size: 1.5rem;
+			margin: -2rem -1rem 1rem -1rem; 
+			padding: 1rem;
+			color: $grayDarker;
+			border-bottom: solid 1px $gray;
+		}
+
+		h2 {
+			font-size: 1.5rem;
+		}
+
+		h3 {
+			font-size: 1rem;
+			border-top: solid 1px $gray;
+			padding-top: 0.5rem;
+		}
+
+		
+
+		img {
+			box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+			max-width: 30rem;
+			width: auto;
+			max-height: 20rem;
+			height: auto;
+		}	
+	}
+}

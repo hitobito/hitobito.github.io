@@ -385,11 +385,11 @@ pre {
 
 /* line 192, ../_sass/base/_typography.scss */
 code {
-  background: #ffff99;
-  color: #990;
-  font-size: 0.688em;
-  line-height: 1.2em;
-  padding: 0.3em;
+  background: #f8f9fa;
+  color: #4a4a4a;
+  display: inline-block;
+  padding: 0.1em;
+  margin: 0.1em;
 }
 
 /* line 200, ../_sass/base/_typography.scss */
@@ -1038,6 +1038,75 @@ hr.lightborder {
 /* line 148, ../_sass/_layout.scss */
 .blog-preview-post {
   margin-top: 3em;
+}
+
+/* line 1, ../_sass/_layout-docs.scss */
+#docs {
+  color: black;
+}
+/* line 5, ../_sass/_layout-docs.scss */
+#docs h1 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* line 10, ../_sass/_layout-docs.scss */
+#docs h1, #docs h2, #docs h3, #docs h4, #docs h5, #docs h6 {
+  margin-top: 2rem;
+  font-weight: bold;
+  font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/* line 16, ../_sass/_layout-docs.scss */
+#docs nav.docs {
+  position: fixed;
+  width: 20rem;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 1rem;
+}
+/* line 24, ../_sass/_layout-docs.scss */
+#docs nav.docs ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 29, ../_sass/_layout-docs.scss */
+#docs nav.docs ul li a {
+  text-decoration: none;
+}
+/* line 36, ../_sass/_layout-docs.scss */
+#docs main {
+  margin: 1rem 1rem 1rem 20rem;
+  background-color: white;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  overflow: hidden;
+}
+/* line 43, ../_sass/_layout-docs.scss */
+#docs main h1 {
+  font-size: 1.5rem;
+  margin: -2rem -1rem 1rem -1rem;
+  padding: 1rem;
+  color: #797e89;
+  border-bottom: solid 1px #d8dbe1;
+}
+/* line 51, ../_sass/_layout-docs.scss */
+#docs main h2 {
+  font-size: 1.5rem;
+}
+/* line 55, ../_sass/_layout-docs.scss */
+#docs main h3 {
+  font-size: 1rem;
+  border-top: solid 1px #d8dbe1;
+  padding-top: 0.5rem;
+}
+/* line 63, ../_sass/_layout-docs.scss */
+#docs main img {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  max-width: 30rem;
+  width: auto;
+  max-height: 20rem;
+  height: auto;
 }
 
 /* =============================================================================
