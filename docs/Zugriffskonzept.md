@@ -5,8 +5,6 @@ wikiPageName: Zugriffskonzept
 menu: wiki
 ---
 
-# Strukturbasierte Zugriffsrechte
-
 ## Karin ist Geschäftsleiter direkt im Dachverband
 _technisch: layer_and_below_full direkt in Dachverband, inkl. contactData_
 ### Karin sieht: 
@@ -68,16 +66,13 @@ Jonas sieht keine weiteren Personen.
 ### Jonas sehen
 Jonas ist für Personen in der Ortsgruppe sichtbar, falls diese das Recht besitzen, Personen innerhalb der ganzen Ebene zu sehen. Personen oberhalb der Ortsgruppe können Jonas nicht sehen. 
 
-# Kumulierung von Rollen innerhalb der Struktur
+## Kumulierung von Rollen innerhalb der Struktur
 Die Zugriffe durch mehrere Rollen kumulieren sich. So ist ein Mitglied einer Ortsgruppe, das gleichzeitig in der Region aktiv ist, trotzdem für die Regionsleitung sichtbar,. 
 
-# Daten in Anlässen (Lagern, Kursen)
+## Daten in Anlässen (Lagern, Kursen)
 Teilnehmer in einem Anlass können die Teilnehmerliste einsehen und sehen dort ihre gegenseitigen Kontaktdaten. Die Daten sind nur im Kontext "Anlass" sichtbar, wenn über die Teilnehmerliste zur Person navigiert wird. 
 Im Kontext einer "Gruppe", wenn über die Gruppenhierarchie zur Person navigiert wird, gelten die Zugriffsrechte gemäss den strukturbasierten Rechten oben. 
 
-# Spezialfall Contact_Data
+## Spezialfall Contact_Data
 Ist die Rolle einer Person als kontaktrelevant markiert, so hat diese Person auf alle anderen Personen mit kontaktrelevanten Rollen Zugriff. Gleichzeitig ist sie auch für alle anderen Personen mit kontaktrelevanten Rollen sichtbar. 
 Dies umfasst Rollen, welche häufig im Austausch mit Personen aus anderen Ortsgruppen stehen. 
-
-# Rollenübersicht
---> Mandatenspezifisch
