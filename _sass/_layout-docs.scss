@@ -1,5 +1,5 @@
 #docs {
-	$nav-width: 20rem;
+	$nav-width: 15rem;
 	color: black;
 
 	h1 {
@@ -14,7 +14,6 @@
 	}
 
 	nav.docs {
-		position: fixed;
 		width: $nav-width;
 		left: 0;
 		top: 0;
@@ -31,21 +30,38 @@
 				}
 			}
 		}
+		@include at-breakpoint($breakDesktop) {
+			position: fixed;
+		}
+
 	}
 
+
 	main {
-		margin: 1rem 1rem 1rem $nav-width;
+		max-width: 60rem;
+		margin: 1rem 1rem 1rem 1rem;
 		background-color: white;
 		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 		padding: 1rem;
 		overflow: hidden;
 
-		h1{
+		@include at-breakpoint($breakDesktop) {
+			margin: 1rem 1rem 1rem $nav-width;
+		}
+
+
+		h1 {
 			font-size: 1.5rem;
-			margin: -2rem -1rem 1rem -1rem; 
 			padding: 1rem;
 			color: $grayDarker;
 			border-bottom: solid 1px $gray;
+			border-top: solid 1px $gray;
+			margin: 3rem -1rem 1rem -1rem; 
+		}
+
+		h1:first-child {
+			margin-top: -2rem;
+			border-top: none;
 		}
 
 		h2 {
@@ -68,4 +84,5 @@
 			height: auto;
 		}	
 	}
+
 }
