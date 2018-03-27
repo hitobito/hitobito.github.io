@@ -9,9 +9,9 @@ menu: wiki
 
 **Join our Forum https://hitobito.discoursehosting.net/**
 
-# Anleitungen
+# Dokumentation
 
-Wir bauen unser Anleitungen hier auf. Jeder darf gerne beitragen:
+Wir bauen unser Anleitungen und Dokumentation hier auf. Jeder darf gerne beitragen:
 
 * [Personen filtern](Personen-filtern)
 
