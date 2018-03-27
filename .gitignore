@@ -3,4 +3,5 @@ tmp
 .sass-cache
 Gemfile.lock
 _site
+_wiki
 *.log
