@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name  :  Hitobito
 Version     :  1.0
@@ -109,7 +110,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 106, ../../../usr/local/bundle/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em;
@@ -222,7 +223,7 @@ h1, .h1 {
     line-height: 1em;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie h1, .oldie .h1 {
   font-size: 3em;
   line-height: 1em;
@@ -242,7 +243,7 @@ h2, .h2 {
     line-height: 1.2em;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie h2, .oldie .h2 {
   font-size: 2.5em;
   line-height: 1.2em;
@@ -834,7 +835,7 @@ hr.lightborder {
   -webkit-background-clip: content;
   background-clip: content-box;
 }
-/* line 38, ../../../usr/local/bundle/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after {
   content: "";
   display: table;
@@ -868,7 +869,7 @@ hr.lightborder {
     background-clip: content-box;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .container {
   max-width: 56em;
   _width: 56em;
@@ -910,18 +911,18 @@ hr.lightborder {
   padding: 60px 0;
   color: white;
   text-align: center;
-  background: url('/images/hero-background-small.svg?1522153468') #50b8b7 no-repeat center bottom;
+  background: url('/images/hero-background-small.svg?1522182099') #50b8b7 no-repeat center bottom;
 }
 @media (min-width: 56em) {
   /* line 40, ../_sass/_layout.scss */
   #hero {
-    background-image: url('/images/hero-background.svg?1522153468');
+    background-image: url('/images/hero-background.svg?1522182099');
   }
 }
 @media (min-width: 100em) {
   /* line 40, ../_sass/_layout.scss */
   #hero {
-    background-image: url('/images/hero-background.svg?1522153468');
+    background-image: url('/images/hero-background.svg?1522182099');
     -moz-background-size: 100% auto;
     -o-background-size: 100% auto;
     -webkit-background-size: 100% auto;
@@ -932,7 +933,7 @@ hr.lightborder {
 
 /* line 57, ../_sass/_layout.scss */
 .no-svg #hero {
-  background-image: url('/images/hero-background.png?1522153468');
+  background-image: url('/images/hero-background.png?1522182099');
 }
 
 /* line 61, ../_sass/_layout.scss */
@@ -1049,13 +1050,44 @@ hr.lightborder {
   font-size: 1rem;
   font-weight: bold;
 }
-/* line 10, ../_sass/_layout-docs.scss */
+/* line 8, ../_sass/_layout-docs.scss */
+#docs h1 a {
+  text-decoration: none;
+}
+/* line 13, ../_sass/_layout-docs.scss */
 #docs h1, #docs h2, #docs h3, #docs h4, #docs h5, #docs h6 {
   margin-top: 2rem;
   font-weight: bold;
   font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-/* line 16, ../_sass/_layout-docs.scss */
+/* line 19, ../_sass/_layout-docs.scss */
+#docs .button {
+  color: #6f4073;
+  text-transform: uppercase;
+  font-size: 1rem;
+  float: right;
+  text-decoration: none;
+  position: relative;
+}
+/* line 26, ../_sass/_layout-docs.scss */
+#docs .button:hover {
+  text-decoration: underline;
+}
+/* line 33, ../_sass/_layout-docs.scss */
+#docs .button-wiki-edit:hover:after {
+  display: block;
+  content: "Änderungen werden erst nach Überprüfung übernommen";
+  position: absolute;
+  right: 1em;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 15rem;
+  text-transform: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+}
+/* line 47, ../_sass/_layout-docs.scss */
 #docs nav.docs {
   width: 15rem;
   left: 0;
@@ -1063,23 +1095,23 @@ hr.lightborder {
   bottom: 0;
   padding: 1rem;
 }
-/* line 23, ../_sass/_layout-docs.scss */
+/* line 54, ../_sass/_layout-docs.scss */
 #docs nav.docs ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 28, ../_sass/_layout-docs.scss */
+/* line 59, ../_sass/_layout-docs.scss */
 #docs nav.docs ul li a {
   text-decoration: none;
 }
 @media (min-width: 56em) {
-  /* line 16, ../_sass/_layout-docs.scss */
+  /* line 47, ../_sass/_layout-docs.scss */
   #docs nav.docs {
     position: fixed;
   }
 }
-/* line 40, ../_sass/_layout-docs.scss */
+/* line 71, ../_sass/_layout-docs.scss */
 #docs main {
   max-width: 60rem;
   margin: 1rem 1rem 1rem 1rem;
@@ -1089,12 +1121,12 @@ hr.lightborder {
   overflow: hidden;
 }
 @media (min-width: 56em) {
-  /* line 40, ../_sass/_layout-docs.scss */
+  /* line 71, ../_sass/_layout-docs.scss */
   #docs main {
     margin: 1rem 1rem 1rem 15rem;
   }
 }
-/* line 53, ../_sass/_layout-docs.scss */
+/* line 84, ../_sass/_layout-docs.scss */
 #docs main h1 {
   font-size: 1.5rem;
   padding: 1rem;
@@ -1103,22 +1135,22 @@ hr.lightborder {
   border-top: solid 1px #d8dbe1;
   margin: 3rem -1rem 1rem -1rem;
 }
-/* line 62, ../_sass/_layout-docs.scss */
+/* line 93, ../_sass/_layout-docs.scss */
 #docs main h1:first-child {
-  margin-top: -2rem;
+  margin-top: 0rem;
   border-top: none;
 }
-/* line 67, ../_sass/_layout-docs.scss */
+/* line 98, ../_sass/_layout-docs.scss */
 #docs main h2 {
   font-size: 1.5rem;
 }
-/* line 71, ../_sass/_layout-docs.scss */
+/* line 102, ../_sass/_layout-docs.scss */
 #docs main h3 {
   font-size: 1rem;
   border-top: solid 1px #d8dbe1;
   padding-top: 0.5rem;
 }
-/* line 79, ../_sass/_layout-docs.scss */
+/* line 110, ../_sass/_layout-docs.scss */
 #docs main img {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
   max-width: 30rem;
@@ -1186,7 +1218,7 @@ hr.lightborder {
     margin: 4em auto 2em;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .rslides_tabs {
   margin: 4em auto 2em;
 }
@@ -1202,7 +1234,7 @@ hr.lightborder {
     margin-left: 2em;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .rslides_tabs li {
   margin-left: 2em;
 }
@@ -1250,7 +1282,7 @@ hr.lightborder {
   z-index: 3;
   text-indent: -9999px;
   text-decoration: none;
-  background: url('/images/caret-left.svg?1522153468') transparent no-repeat left center;
+  background: url('/images/caret-left.svg?1522182099') transparent no-repeat left center;
   background-size: 50%;
   -moz-transition: opacity 300ms ease;
   -o-transition: opacity 300ms ease;
@@ -1270,7 +1302,7 @@ hr.lightborder {
     left: -100px;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .rslides_nav {
   background-size: 100%;
   left: -100px;
@@ -1278,7 +1310,7 @@ hr.lightborder {
 
 /* line 113, ../_sass/module/_plugin.scss */
 .no-svg .rslides_nav {
-  background-image: url('/images/caret-left.png?1522153468');
+  background-image: url('/images/caret-left.png?1522182099');
 }
 
 /* line 116, ../_sass/module/_plugin.scss */
@@ -1292,7 +1324,7 @@ hr.lightborder {
   left: auto;
   background-position: right top;
   right: -30px;
-  background: url('/images/caret-right.svg?1522153468') transparent no-repeat right center;
+  background: url('/images/caret-right.svg?1522182099') transparent no-repeat right center;
   background-size: 50%;
 }
 @media (min-width: 27.5em) {
@@ -1308,7 +1340,7 @@ hr.lightborder {
     right: -100px;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .rslides_nav.next {
   background-size: 100%;
   right: -100px;
@@ -1316,7 +1348,7 @@ hr.lightborder {
 
 /* line 134, ../_sass/module/_plugin.scss */
 .no-svg .rslides_nav.next {
-  background-image: url('/images/caret-right.png?1522153468');
+  background-image: url('/images/caret-right.png?1522182099');
 }
 
 /* line 142, ../_sass/module/_plugin.scss */
@@ -1392,34 +1424,34 @@ body.blurred > * {
   left: 50%;
   margin-left: -30px;
   bottom: 0;
-  background-image: url('/images/icon-close.svg?1522153468');
+  background-image: url('/images/icon-close.svg?1522182099');
 }
 
 /* line 205, ../_sass/module/_plugin.scss */
 .no-svg .lightbox-close {
-  background-image: url('/images/icon-close.png?1522153468');
+  background-image: url('/images/icon-close.png?1522182099');
 }
 
 /* line 209, ../_sass/module/_plugin.scss */
 .lightbox-next {
   right: 0;
-  background-image: url('/images/icon-next.svg?1522153468');
+  background-image: url('/images/icon-next.svg?1522182099');
 }
 
 /* line 213, ../_sass/module/_plugin.scss */
 .no-svg .lightbox-next {
-  background-image: url('/images/icon-next.png?1522153468');
+  background-image: url('/images/icon-next.png?1522182099');
 }
 
 /* line 217, ../_sass/module/_plugin.scss */
 .lightbox-previous {
   left: 0;
-  background-image: url('/images/icon-previous.svg?1522153468');
+  background-image: url('/images/icon-previous.svg?1522182099');
 }
 
 /* line 221, ../_sass/module/_plugin.scss */
 .no-svg .lightbox-previous {
-  background-image: url('/images/icon-previous.png?1522153468');
+  background-image: url('/images/icon-previous.png?1522182099');
 }
 
 /* line 225, ../_sass/module/_plugin.scss */
@@ -1436,7 +1468,7 @@ body.blurred > * {
     margin-top: -25px;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .lightbox-next, .oldie
 .lightbox-previous {
   top: 50%;
@@ -1462,7 +1494,7 @@ body.blurred > * {
     margin-left: 16.96429%;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .hero-title {
   width: 65.45455%;
   float: left;
@@ -1487,7 +1519,7 @@ body.blurred > * {
     width: 83.03571%;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .hero-illus {
   width: 83.03571%;
 }
@@ -1529,7 +1561,7 @@ body.blurred > * {
     padding: 0 0.88496%;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .flexbox .features-item {
   width: 30.35714%;
   padding: 0 0.88496%;
@@ -1543,7 +1575,7 @@ body.blurred > * {
     padding: 0 0.88496%;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .no-flexbox .features-item {
   float: left;
   width: 30.35714%;
@@ -1575,7 +1607,7 @@ body.blurred > * {
     margin-left: 30px;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .demo-man {
   position: absolute;
   width: 279px;
@@ -1598,7 +1630,7 @@ body.blurred > * {
     text-align: center;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .demo-teaser {
   padding-left: 0;
   text-align: center;
@@ -1629,7 +1661,7 @@ body.blurred > * {
     margin-right: 1.78571%;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .demo-calltoaction {
   margin-top: 0;
   margin-left: 33.92857%;
@@ -1704,7 +1736,7 @@ body.blurred > * {
     margin-right: 1.78571%;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .desc-teaser {
   width: 32.14286%;
   float: left;
@@ -1734,7 +1766,7 @@ body.blurred > * {
     margin-top: 4em;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .desc-figure {
   margin-top: 4em;
 }
@@ -1757,7 +1789,7 @@ body.blurred > * {
     width: 59.13978%;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .desc-figure img {
   width: 59.13978%;
 }
@@ -1777,7 +1809,7 @@ body.blurred > * {
     text-align: left;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .desc-figure figcaption {
   width: 36.55914%;
   padding: 1em 0 1em 4.30108%;
@@ -1813,7 +1845,7 @@ body.blurred > * {
     text-align: left;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .desc-teaser, .oldie
 .desc-item {
   text-align: left;
@@ -1826,7 +1858,7 @@ body.blurred > * {
     *zoom: 1;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .desc-list {
   overflow: hidden;
   *zoom: 1;
@@ -1846,7 +1878,7 @@ body.blurred > * {
     margin-right: 1.78571%;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .desc-item {
   width: 49.10714%;
   float: left;
@@ -1860,7 +1892,7 @@ body.blurred > * {
     margin-right: 0;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .desc-item.is-even {
   float: right;
   margin-right: 0;
@@ -1884,7 +1916,7 @@ body.blurred > * {
     margin-right: 8.48214%;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .desc-txt {
   width: 83.03571%;
   float: left;
@@ -1905,7 +1937,7 @@ body.blurred > * {
     text-align: left;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .info-text {
   text-align: left;
 }
@@ -1917,7 +1949,7 @@ body.blurred > * {
     margin-right: 1.78571%;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .info-text {
   width: 57.58929%;
   float: left;
@@ -1940,7 +1972,7 @@ body.blurred > * {
     padding: 60px 0 20px;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .info-who {
   width: 40.625%;
   float: right;
@@ -1975,7 +2007,7 @@ body.blurred > * {
     min-height: 430px;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .info-contact {
   padding-bottom: 20px;
   margin-bottom: 0;
@@ -2089,7 +2121,7 @@ body.blurred > * {
     margin-right: 1.78571%;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .partner-item {
   width: 49.10714%;
   float: left;
@@ -2139,7 +2171,7 @@ body.blurred > * {
     line-height: 1em;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .partner-item-text, .oldie
 .partner-contact-text {
   font-size: 1.5em;
@@ -2168,7 +2200,7 @@ body.blurred > * {
     min-height: 2em;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .partner-item-text a, .oldie
 .partner-contact-text a {
   min-height: 2em;
@@ -2197,7 +2229,7 @@ body.blurred > * {
     width: 49.10714%;
   }
 }
-/* line 87, ../../../usr/local/bundle/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .partner-contact {
   width: 49.10714%;
 }

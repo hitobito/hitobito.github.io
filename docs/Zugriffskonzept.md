@@ -5,8 +5,6 @@ wikiPageName: Zugriffskonzept
 menu: wiki
 ---
 
-{:toc}
-
 ## Karin ist Geschäftsleiter direkt im Dachverband
 
 technisch: `layer_and_below_full` direkt in Dachverband, inkl. `contact_data`

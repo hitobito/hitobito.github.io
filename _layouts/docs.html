@@ -4,8 +4,10 @@
 
 
         <main>
-            <h1><small>{{ page.date | date: "%-d. %-m. %Y" }}</small><br>
-              {{page.title}}<br></h1>
+            <h1>
+              {{page.title}} 
+              {% if page.wikiPageName %} <a href="https://github.com/hitobito/hitobito/wiki/{{page.wikiPageName}}/_edit" class="button button-wiki-edit">Bearbeiten</a>{%endif%}
+          </h1>
             {{ content }}
             <p>
                 {% for author in page.authors %}

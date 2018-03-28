@@ -13,7 +13,9 @@ menu: wiki
 
 Wir bauen unser Anleitungen und Dokumentation hier auf. Jeder darf gerne beitragen:
 
+* [Rollen](Rollen)
 * [Personen filtern](Personen-filtern)
+* [Zugriffs- / Berechtigungskonzept](Zugriffskonzept)
 
 # Processes
 
