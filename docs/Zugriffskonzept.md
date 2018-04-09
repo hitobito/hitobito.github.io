@@ -5,6 +5,17 @@ wikiPageName: Zugriffskonzept
 menu: wiki
 ---
 
+## Gruppen / Rollen - Wie funktioniert das?
+
+In hitobito können komplexe hierarchische Organisationen abgebildet werden, alles basiert darauf, dass wir verschiedene Gruppentypen zulassen, welche auch definieren welche Rollen zur Verfügung stehen. 
+
+* Jede Organisation kann aus mehreren Ebenen bestehen, z. B. Dachverband, Kantonalverband (, optionale Zwischenstufen wie Regionen) und Ortsgruppen.
+* Jede Ebene kann intern wieder ihre innere Struktur haben, es gibt einen Vorstand, Arbeitsgruppen, Mitgliederlisten, Kontaktlisten.
+* Jede Person hat eine oder mehrere Rollen, diese Rollen definieren, wen man sehen kann, und von vom man gesehen wird.
+
+Hier einige Beispiel, wie das Aussehen kann.
+
+
 ## Karin ist Geschäftsleiter direkt im Dachverband
 
 technisch: `layer_and_below_full` direkt in Dachverband, inkl. `contact_data`
