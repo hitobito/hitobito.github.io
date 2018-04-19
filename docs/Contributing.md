@@ -15,6 +15,12 @@ As the project is fairly complex, there are some things to look out for.
 * [Local Setup](https://github.com/hitobito/hitobito/blob/master/doc/development/01_setup.md)
 * [Guidelines](https://github.com/hitobito/hitobito/blob/master/doc/development/03_guidelines.md)
 
+# Getting access to the root user
+
+Once the development environment is set up, you'll want to get a login for the root user. This can be achieved by navigating to the 'Forgot password?' page and requesting a new password for the root user, whose email is defined in `config/settings.yml`. This will generate an email containing a link to reset the password. The easiest way to read this email is to set up Mailcatcher as described [here](https://github.com/hitobito/hitobito/blob/master/doc/development/01_setup.md#mailcatcher).
+
+At the moment, this is the way to go. However, there is ongoing discussion about simplifying this process, see [hitobito/hitobito#515](https://github.com/hitobito/hitobito/issues/515).
+
 # Before submitting your pull-request:
 
 * run all tests, see https://github.com/hitobito/hitobito/blob/master/doc/development/01_setup.md#tests (a simple `rake` does not execute all tests for perfomance reasons).

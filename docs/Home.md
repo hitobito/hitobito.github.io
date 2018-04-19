@@ -15,6 +15,7 @@ Wir bauen unser Anleitungen und Dokumentation hier auf. Jeder darf gerne beitrag
 
 * [Rollen](Rollen)
 * [Personen filtern](Personen-filtern)
+* [Abos/Mailinglisten](mailinglists)
 * [Zugriffs- / Berechtigungskonzept](Zugriffskonzept)
 
 # Processes
