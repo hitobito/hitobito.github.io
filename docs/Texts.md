@@ -102,10 +102,5 @@ Wir halten die Software auf dem neusten Stand. Das bedeutet Sicherheitsupdates s
 	
 # SLA: Support- und Antwortzeiten
 	
-# WHY? oder Vision
-rst: hitobito als Standardlösung für Vereine
-ak: "Meta-hitobito": Kombination unterschiedlicher Themen wie TEAL Organizations, "enablement", digitale Entscheidfindung etc. und hitobito ist der Weg dorthin.
-
-
 
 # JOIN THE COMMUNITY
