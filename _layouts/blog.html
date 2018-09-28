@@ -6,21 +6,9 @@
     <main id="blog">
         <section class="blog-list">
             <article class="blog-post">
-                <h1><small>{{ page.date | date: "%-d. %-m. %Y" }}</small><br>
-                  {{page.title}}<br></h1>
+                <h1>Blog</h1>
                 {{ content }}
-                <p>
-                    {% for author in page.authors %}
-                        {% for person in site.authors %}
-                            {% if author == person.title %}
-                                {{person.given_name | capitalize }}{% unless forloop.last %}, {% endunless %} 
-                            {% endif %}
-                        {% endfor %}
-                    {% endfor %}
-                </p>
-                <hr>
             </article>
-            {% include blog-posts-list.html %}
         </section>
     </main>
 

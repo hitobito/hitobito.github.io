@@ -9,7 +9,10 @@
                 <h1><small>{{ page.date | date: "%-d. %-m. %Y" }}</small><br>
                   {{page.title}}<br></h1>
                 {{ content }}
+            </article>
+            {% include blog-posts-list.html %}
         </section>
+
     </main>
 
 
