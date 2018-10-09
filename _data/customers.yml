@@ -7,9 +7,18 @@ locale:
     de: Gruppen
     fr: groupes
     en: groups
-list:
 # pro name mindestens eine Sprache
 # groups_label sind optional
+list:
+  -
+    name:
+      de: Schweizer Blasmusikverband
+    logo_path: /images/logo-sbv.png
+    url: https://www.windband.ch/
+    member_count: 67'000
+    group_count: 1950
+    groups_label:
+      de: Vereine
   -
     name:
       de: Jungwacht Blauring

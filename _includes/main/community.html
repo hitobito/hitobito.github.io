@@ -1,0 +1,56 @@
+{% assign plans = site.data.plans %}
+{% assign content = site.data.content_main.community %}
+{% assign lang = page.language %}
+
+
+<section id="community">
+  <div class="container">
+    <h2 class="partner-title">
+      Community
+    </h2>
+    <p>
+      {{ content.description[page.language] }}
+    </p>
+    {% assign customers = site.data.customers %}
+  </div>
+  <ul class="partner-list">
+    {% for customer in customers.list %}
+       <li class="partner-item">
+         <a class="partner-item-img" href="{{customer.url}}"><img alt="{{customer.name[page.language]}}" src="{{customer.logo_path}}" width="300" height="150" /></a>
+         <h3 class="partner-item-text">
+           <a href="{{customer.url}}">
+            {% if customer.name[page.language] %}
+              {{customer.name[page.language]}}
+            {%else%}
+              {{ customer.name.first }}
+            {% endif %}<br />
+           <small>
+             {{ customer.member_count }}
+             {{ customers.locale.members[page.language] }},
+             {{ customer.group_count }} 
+             {% if customer.groups_label[page.language] %}
+               {{ customer.groups_label[page.language] }}
+             {% else %}
+               {{ customers.locale.groups[page.language] }}
+             {% endif %}
+           </small></a>
+         </h3>
+       </li>  
+    {% endfor %}
+  </ul>
+
+  <div id="partners">      
+    {% assign partners = site.data.partners %}
+    <h2 class="partner-title">
+      {{ partners.locale.title[page.language] }}
+    </h2>
+    <p>
+      {{partners.locale.text[page.language]}}
+    <p>
+    <ul class="partner-list is-dev">
+      {% for partner in site.data.partners.list %}
+        <li class="partner-item-text is-dev"><a href="{{partner.link}}">{{partner.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

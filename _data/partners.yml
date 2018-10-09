@@ -8,7 +8,17 @@ locale:
     fr: "On fait confiance à hitobito"
     en: "We build and rely on hitobito"
   text: 
-    de: "hitobito vereint Kunden, Nutzer und Entwickler in einer Community. Dafür bauen wir unser Netzwerk laufend aus. Zusammen mit professionellen Software-Firmen sorgen wir für qualitativ hochwertige Software, eine stabile und sichere Infrastruktur und Datenhaltung in der Schweiz."
+    de: >-
+      <p>Zusammen mit professionellen Software-Firmen sorgen wir für qualitativ
+      hochwertige Software, eine stabile und sichere Infrastruktur und
+      Datenhaltung in der Schweiz.</p>
+
+      <p>Unseren Partnern bieten wir ein [Partnerschaftsmodell] nach Vorbild
+      kommerzieller Open Source Projekten, welches wir offen und 
+      transparent gestalten. Das Projekt eignet sich sowohl für
+      den Aufbau von Nachwuchs-Entwicklern wie auch als
+      [Sandbox für Innovationen].</p>
+
     en: "hitobito brings customers, users and developers together. To achieve this, we constantly expand our network. In close collaboration with professional software companies we garantee a vaulable software and a stable and secure infrastructure as well as data storage in Switzerland."
 list:
   -

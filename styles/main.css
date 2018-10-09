@@ -990,7 +990,7 @@ hr.lightborder {
 }
 
 /* line 108, ../_sass/_layout.scss */
-#partner {
+#community {
   padding: 60px 0 40px;
   background: #474E5D;
   text-align: center;
@@ -1971,50 +1971,27 @@ body.blurred > * {
   padding: 0;
   padding-bottom: 3em;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-/* line 12, ../_sass/module/_partner.scss */
+/* line 16, ../_sass/module/_partner.scss */
 .partner-item {
   display: block;
+  flex: 1 0 auto;
   margin-top: 3em;
   text-align: left;
+  margin: 2rem 1rem 1rem;
+  max-width: 16rem;
 }
-@media (min-width: 27.5em) and (max-width: 55.938em) {
-  /* line 12, ../_sass/module/_partner.scss */
-  .partner-item {
-    width: 48.18182%;
-    float: left;
-    margin-right: 3.63636%;
-  }
-}
-@media (min-width: 27.5em) {
-  /* line 22, ../_sass/module/_partner.scss */
-  .partner-item:nth-child(odd) {
-    float: right;
-    margin-right: 0;
-  }
-}
-@media (min-width: 56em) {
-  /* line 12, ../_sass/module/_partner.scss */
-  .partner-item {
-    width: 49.10714%;
-    float: left;
-    margin-right: 1.78571%;
-  }
-}
-/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
-.oldie .partner-item {
-  width: 49.10714%;
-  float: left;
-  margin-right: 1.78571%;
-  display: inline;
-}
-/* line 30, ../_sass/module/_partner.scss */
+/* line 24, ../_sass/module/_partner.scss */
 .partner-item img {
   max-height: 100%;
 }
 
-/* line 34, ../_sass/module/_partner.scss */
+/* line 28, ../_sass/module/_partner.scss */
 .partner-item-img,
 .partner-contact-img {
   -moz-box-sizing: border-box;
@@ -2022,13 +1999,13 @@ body.blurred > * {
   box-sizing: border-box;
   display: block;
   width: 100%;
-  height: 200px;
-  padding: 20px;
+  height: 150px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
 }
 
-/* line 44, ../_sass/module/_partner.scss */
+/* line 38, ../_sass/module/_partner.scss */
 .partner-item-img {
   background: white;
   -moz-border-radius: 4px;
@@ -2036,29 +2013,29 @@ body.blurred > * {
   border-radius: 4px;
 }
 
-/* line 48, ../_sass/module/_partner.scss */
+/* line 42, ../_sass/module/_partner.scss */
 .partner-item-text,
 .partner-contact-text {
   display: block;
   margin: 0;
-  font-size: 1.25em;
-  line-height: 1.2em;
+  font-size: 1.125em;
+  line-height: 1.33333em;
 }
 @media (min-width: 56em) {
-  /* line 48, ../_sass/module/_partner.scss */
+  /* line 42, ../_sass/module/_partner.scss */
   .partner-item-text,
   .partner-contact-text {
-    font-size: 1.5em;
-    line-height: 1em;
+    font-size: 1.375em;
+    line-height: 1.09091em;
   }
 }
 /* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .partner-item-text, .oldie
 .partner-contact-text {
-  font-size: 1.5em;
-  line-height: 1em;
+  font-size: 1.375em;
+  line-height: 1.09091em;
 }
-/* line 58, ../_sass/module/_partner.scss */
+/* line 52, ../_sass/module/_partner.scss */
 .partner-item-text a,
 .partner-contact-text a {
   display: block;
@@ -2068,14 +2045,14 @@ body.blurred > * {
   color: #F8F9F9;
 }
 @media (min-width: 27.5em) {
-  /* line 58, ../_sass/module/_partner.scss */
+  /* line 52, ../_sass/module/_partner.scss */
   .partner-item-text a,
   .partner-contact-text a {
     min-height: 5em;
   }
 }
 @media (min-width: 56em) {
-  /* line 58, ../_sass/module/_partner.scss */
+  /* line 52, ../_sass/module/_partner.scss */
   .partner-item-text a,
   .partner-contact-text a {
     min-height: 2em;
@@ -2086,26 +2063,29 @@ body.blurred > * {
 .partner-contact-text a {
   min-height: 2em;
 }
-/* line 72, ../_sass/module/_partner.scss */
+/* line 66, ../_sass/module/_partner.scss */
 .partner-item-text.is-dev a,
 .partner-contact-text.is-dev a {
   min-height: 0;
   padding: 0.5em;
+  border-radius: 6px;
+  border: 1px solid;
+  padding: 20px;
 }
 
-/* line 77, ../_sass/module/_partner.scss */
+/* line 74, ../_sass/module/_partner.scss */
 .partner-contact {
   display: inline-block;
   margin-top: 20px;
 }
 @media (min-width: 27.5em) and (max-width: 55.938em) {
-  /* line 77, ../_sass/module/_partner.scss */
+  /* line 74, ../_sass/module/_partner.scss */
   .partner-contact {
     width: 48.18182%;
   }
 }
 @media (min-width: 56em) {
-  /* line 77, ../_sass/module/_partner.scss */
+  /* line 74, ../_sass/module/_partner.scss */
   .partner-contact {
     width: 49.10714%;
   }

@@ -46,7 +46,14 @@
         <tfoot>
           <tr>{% for plan in plans.list %}
             <th>
-              <div class="plans-price">{{plan.cost[lang]}}</div>
+              <div class="plans-price">
+                {{plan.cost[lang]}}
+                {% if plan.trial_link %}
+                  <a href="/signup/" class="btn btn-orange" style="display: block; line-height: 100%; text-decoration: none; padding: 0.5rem;">
+                      <div>{{content.call-to-action[lang]}}!</div>
+                  </a>
+                {% endif %}
+              </div>
             </th>
           {% endfor %}</tr>
         </tfoot>
@@ -93,22 +100,6 @@
         <div>{{content.call-to-action[lang]}}!</div>
     </a>
     <p>{{plans.cost_comment[lang]}}</p>
-
-
-
-<!-- Responsive Table Solution: http://stackoverflow.com/questions/26090244/responsive-table-by-columns -->
-
-    <div class="info-text">
-      <h2>{{ content.custom-solution.title[lang] }}</h2>
-      <ul class="services-list">
-        {% for point in content.custom-solution.list %}
-        <li>{{point[lang]}}</li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="info-who">
-      <img src="{{path}}/images/logo-white.svg" alt="hitobito logo" width="310" height="81">
-    </div>
   </div>
 </section>
 <section id="demo">

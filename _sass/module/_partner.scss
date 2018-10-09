@@ -7,25 +7,19 @@
   @include reset-list;
   padding-bottom: 3em;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .partner-item {
   display: block;
+  flex: 1 0 auto;
   margin-top: 3em;
   text-align: left;
-
-
-  @include at-breakpoint(27.5em $breakTablet 55.938em) {
-    @include span-columns(3, 6);
-  }
-  @include at-breakpoint(27.5em $breakTablet) {
-    &:nth-child(odd) {
-      @include omega;
-    }
-  }
-  @include at-breakpoint($breakDesktop oldie) {
-    @include span-columns(6, 12);
-  }
+  margin: 2rem 1rem 1rem;
+  max-width: 16rem;
 
   img {
     max-height: 100%;
@@ -36,8 +30,8 @@
   @include box-sizing(border-box);
   display: block;
   width: 100%;
-  height: 200px;
-  padding: 20px;
+  height: 150px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
 }
@@ -49,10 +43,10 @@
 .partner-contact-text {
   display: block;
   margin: 0;
-  @include adjust-font-size-to(20px, 1);
+  @include adjust-font-size-to(18px, 1);
 
   @include at-breakpoint($breakDesktop oldie) {
-    @include adjust-font-size-to(24px, 1);
+    @include adjust-font-size-to(22px, 1);
   }
 
   a {
@@ -72,6 +66,9 @@
   &.is-dev a{
     min-height: 0;
     padding: 0.5em;
+    border-radius: 6px;
+    border: 1px solid;
+    padding: 20px;
   }
 }
 .partner-contact{
