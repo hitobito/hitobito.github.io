@@ -5,7 +5,7 @@ cost_comment:
 list:
   -
     title: 
-      de: Selbst gehosted
+      de: Selber betreiben
       fr: Self-hosted
       en: self-hosted
     short_description:
@@ -13,9 +13,9 @@ list:
       fr: Télécharge hitobito et mets le sur ton serveur web.
       en: Download hitobito and run it on your own server
     cost: 
-      de: <strong>Gratis</strong>
-      fr: <strong>Free</strong>
-      en: <strong>Free</strong>
+      de: "Blood, sweat & tears"
+      fr: "Blood, sweat & tears"
+      en: "Blood, sweat & tears"
     hosting: 
       de: Eigener Server oder gemieteter server.
       fr: Ton serveur web
@@ -57,6 +57,7 @@ list:
       fr: Contribue tes idées via GitHub
       en: Contribute ideas via GitHub
     custom_domain: false
+    trial_link: true
   -
     title: 
       de: Custom
@@ -67,9 +68,9 @@ list:
       fr: Solution sur mesure pour votre organisation
       en: Fully customized solution for your organisation
     cost:
-      de: <strong>Auf Anfrage</strong>
-      fr: <strong>Sur demande</strong>
-      en: <strong>On demand</strong>
+      de: <strong><a href="mailto:andre@hitobito.com">Auf Anfrage</a></strong>
+      fr: <strong><a href="mailto:andre@hitobito.com">Sur demande</a></strong>
+      en: <strong><a href="mailto:andre@hitobito.com">On demand</a></strong>
     customization: 
       de: Feinste Abstimmung auf deine Organisation möglich, beliebig erweiterbar.
       fr: Tout est possible.

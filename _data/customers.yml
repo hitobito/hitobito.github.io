@@ -7,9 +7,18 @@ locale:
     de: Gruppen
     fr: groupes
     en: groups
-list:
 # pro name mindestens eine Sprache
 # groups_label sind optional
+list:
+  -
+    name:
+      de: Schweizer Blasmusikverband
+    logo_path: /images/logo-sbv.png
+    url: https://www.windband.ch/
+    member_count: 67'000
+    group_count: 1950
+    groups_label:
+      de: Vereine
   -
     name:
       de: Jungwacht Blauring
@@ -51,3 +60,27 @@ list:
       de: Vereine
       en: societies
       fr: clubs
+  - name:
+      de: Dachverband Schweizer Jugendparlamente
+      fr: Fédération Suisse des Parlements des Jeunes
+      it: Federazione Svizzera dei Parlamenti dei Giovani
+    logo_path: /images/customers/logo-dsj.svg
+    url: https://www.dsj.ch
+    group_count: 70
+    groups_label:
+      de: Jugendparlamente
+      fr: parlements des jeunes
+      it: parlamenti dei giovani
+  - name:
+      de: Pro Natura Jugend
+    logo_path: /images/customers/pro_natura_logo.png
+    url: https://www.pronatura.ch/de/jugend
+    group_count: 35
+    groups_label:
+      de: Jugendgruppen
+  - name:
+      de: ch/open
+    logo_path: /images/customers/logo_chopen_web_big.png
+# IWI
+# Kadetten
+# IVE
