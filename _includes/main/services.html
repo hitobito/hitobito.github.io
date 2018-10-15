@@ -47,12 +47,13 @@
           <tr>{% for plan in plans.list %}
             <th>
               <div class="plans-price">
-                {{plan.cost[lang]}}
                 {% if plan.trial_link %}
                   <a href="/signup/" class="btn btn-orange" style="display: block; line-height: 100%; text-decoration: none; padding: 0.5rem;">
                       <div>{{content.call-to-action[lang]}}!</div>
                   </a>
+                  <br>
                 {% endif %}
+                {{plan.cost[lang]}}
               </div>
             </th>
           {% endfor %}</tr>
@@ -86,6 +87,12 @@
         <tfoot>
           <tr>
             <th>
+              {% if plan.trial_link %}
+                <a href="/signup/" class="btn btn-orange" style="display: block; line-height: 100%; text-decoration: none; padding: 0.5rem;">
+                    <div>{{content.call-to-action[lang]}}!</div>
+                </a>
+                <br>
+              {% endif %}
               <div class="plans-price">{{plan.cost[lang]}}</div>
             </th>
           </tr>

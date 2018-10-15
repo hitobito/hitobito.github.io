@@ -1980,112 +1980,119 @@ body.blurred > * {
 /* line 16, ../_sass/module/_partner.scss */
 .partner-item {
   display: block;
-  flex: 1 0 auto;
-  margin-top: 3em;
+  flex: 1 1 auto;
+  margin-top: 1em;
   text-align: left;
-  margin: 2rem 1rem 1rem;
+  margin: 0.5rem 1rem;
+  width: 8rem;
   max-width: 16rem;
+  line-height: unset;
 }
-/* line 24, ../_sass/module/_partner.scss */
+/* line 25, ../_sass/module/_partner.scss */
 .partner-item img {
   max-height: 100%;
 }
+@media (min-width: 56em) {
+  /* line 16, ../_sass/module/_partner.scss */
+  .partner-item {
+    width: 16rem;
+    margin: 1rem 1rem;
+  }
+}
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+.oldie .partner-item {
+  width: 16rem;
+  margin: 1rem 1rem;
+}
 
-/* line 28, ../_sass/module/_partner.scss */
+/* line 35, ../_sass/module/_partner.scss */
 .partner-item-img,
 .partner-contact-img {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
-  width: 100%;
-  height: 150px;
+  height: 80px;
   padding: 10px;
   text-align: center;
   text-decoration: none;
 }
+@media (min-width: 56em) {
+  /* line 35, ../_sass/module/_partner.scss */
+  .partner-item-img,
+  .partner-contact-img {
+    height: 120px;
+    width: 100%;
+  }
+}
+/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
+.oldie .partner-item-img, .oldie
+.partner-contact-img {
+  height: 120px;
+  width: 100%;
+}
 
-/* line 38, ../_sass/module/_partner.scss */
+/* line 48, ../_sass/module/_partner.scss */
 .partner-item-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: white;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
 
-/* line 42, ../_sass/module/_partner.scss */
+/* line 55, ../_sass/module/_partner.scss */
 .partner-item-text,
 .partner-contact-text {
   display: block;
   margin: 0;
-  font-size: 1.125em;
-  line-height: 1.33333em;
+  font-size: 1rem;
 }
 @media (min-width: 56em) {
-  /* line 42, ../_sass/module/_partner.scss */
+  /* line 55, ../_sass/module/_partner.scss */
   .partner-item-text,
   .partner-contact-text {
-    font-size: 1.375em;
-    line-height: 1.09091em;
+    font-size: 1.2rem;
   }
 }
 /* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
 .oldie .partner-item-text, .oldie
 .partner-contact-text {
-  font-size: 1.375em;
-  line-height: 1.09091em;
+  font-size: 1.2rem;
 }
-/* line 52, ../_sass/module/_partner.scss */
+/* line 65, ../_sass/module/_partner.scss */
 .partner-item-text a,
 .partner-contact-text a {
   display: block;
-  min-height: 3em;
-  padding: 1em 0;
+  padding: 0.5rem 0;
   text-decoration: none;
   color: #F8F9F9;
 }
-@media (min-width: 27.5em) {
-  /* line 52, ../_sass/module/_partner.scss */
-  .partner-item-text a,
-  .partner-contact-text a {
-    min-height: 5em;
-  }
-}
-@media (min-width: 56em) {
-  /* line 52, ../_sass/module/_partner.scss */
-  .partner-item-text a,
-  .partner-contact-text a {
-    min-height: 2em;
-  }
-}
-/* line 87, ../../../../.rvm/gems/ruby-2.3.0/gems/susy-2.1.2/sass/susy/language/susyone/_media.scss */
-.oldie .partner-item-text a, .oldie
-.partner-contact-text a {
-  min-height: 2em;
-}
-/* line 66, ../_sass/module/_partner.scss */
+/* line 72, ../_sass/module/_partner.scss */
 .partner-item-text.is-dev a,
 .partner-contact-text.is-dev a {
   min-height: 0;
   padding: 0.5em;
   border-radius: 6px;
-  border: 1px solid;
   padding: 20px;
+  background-color: #313640;
 }
 
-/* line 74, ../_sass/module/_partner.scss */
+/* line 81, ../_sass/module/_partner.scss */
 .partner-contact {
   display: inline-block;
   margin-top: 20px;
 }
 @media (min-width: 27.5em) and (max-width: 55.938em) {
-  /* line 74, ../_sass/module/_partner.scss */
+  /* line 81, ../_sass/module/_partner.scss */
   .partner-contact {
     width: 48.18182%;
   }
 }
 @media (min-width: 56em) {
-  /* line 74, ../_sass/module/_partner.scss */
+  /* line 81, ../_sass/module/_partner.scss */
   .partner-contact {
     width: 49.10714%;
   }
