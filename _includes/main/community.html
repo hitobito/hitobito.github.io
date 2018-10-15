@@ -29,11 +29,13 @@
                {{ customer.member_count }}
                {{ customers.locale.members[page.language] }},
              {% endif %}
-             {{ customer.group_count }} 
-             {% if customer.groups_label[page.language] %}
-               {{ customer.groups_label[page.language] }}
-             {% else %}
-               {{ customers.locale.groups[page.language] }}
+             {% if customer.group_count %}
+               {{ customer.group_count }} 
+               {% if customer.groups_label[page.language]  %}
+                 {{ customer.groups_label[page.language] }}
+               {% else %}
+                 {{ customers.locale.groups[page.language] }}
+               {% endif %}
              {% endif %}
            </small></a>
          </h3>
