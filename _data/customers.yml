@@ -7,53 +7,46 @@ locale:
     de: Gruppen
     fr: groupes
     en: groups
-# pro name mindestens eine Sprache
-# groups_label sind optional
 list:
-  -
-    name:
+  - name:
       de: Schweizer Blasmusikverband
     logo_path: /images/logo-sbv.png
-    url: https://www.windband.ch/
+    url: 'https://www.windband.ch/'
     member_count: 67'000
     group_count: 1950
     groups_label:
       de: Vereine
-  -
-    name:
+  - name:
       de: Jungwacht Blauring
     logo_path: /images/logo-jubla.svg
-    url: https://www.jubla.ch/
+    url: 'https://www.jubla.ch/'
     member_count: 29'000
     group_count: 429
     groups_label:
       de: Scharen
       fr: bandes
-  -
-    name: 
+  - name:
       de: Pfadibewegung Schweiz
       fr: Scout de Suisse
       en: Swiss Guide and Scout Movement
     logo_path: /images/logo-pbs.svg
-    url: http://www.scout.ch/
+    url: 'http://www.scout.ch/'
     member_count: 42'000
     group_count: 550
     groups_label:
       de: Abteilungen
-  -
-    name:
+  - name:
       de: Cevi Schweiz
     logo_path: /images/logo-cevi.svg
-    url: https://www.cevi.ch/
+    url: 'https://www.cevi.ch/'
     member_count: 14'000
     group_count: 200
     groups_label:
       de: Vereine
-  -
-    name:
+  - name:
       de: insieme Schweiz
     logo_path: /images/logo_insieme.svg
-    url: http://www.insieme.ch/
+    url: 'http://www.insieme.ch/'
     member_count: 8'500
     group_count: 51
     groups_label:
@@ -65,7 +58,7 @@ list:
       fr: Fédération Suisse des Parlements des Jeunes
       it: Federazione Svizzera dei Parlamenti dei Giovani
     logo_path: /images/customers/logo-dsj.svg
-    url: https://www.dsj.ch
+    url: 'https://www.dsj.ch'
     group_count: 70
     groups_label:
       de: Jugendparlamente
@@ -74,13 +67,10 @@ list:
   - name:
       de: Pro Natura Jugend
     logo_path: /images/customers/pro_natura_logo.png
-    url: https://www.pronatura.ch/de/jugend
+    url: 'https://www.pronatura.ch/de/jugend'
     group_count: 35
     groups_label:
       de: Jugendgruppen
   - name:
-      de: ch/open
+      de: CH Open
     logo_path: /images/customers/logo_chopen_web_big.png
-# IWI
-# Kadetten
-# IVE
