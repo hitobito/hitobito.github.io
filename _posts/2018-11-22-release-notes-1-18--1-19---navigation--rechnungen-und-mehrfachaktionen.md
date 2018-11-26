@@ -73,4 +73,5 @@ Mehr Informationen findest du in der [Dokumentation](https://hitobito.readthedoc
 * Grosse Exports werden im Hintergrund heruntergeladen.
 * In Teilnehmerlisten kann man jetzt direkt nach bestimmten Personen suchen.
 * Anl&auml;sse, welche externe Anmeldung zulassen, k&ouml;nnen jetzt ohne Login angeschaut werden (mit dem direkten Link).
+* M&ouml;glichkeit Service API Tokens zu erstellen.
 * Technische Information: Ab Version 1.18.9 ben&ouml;tigt die Applikation mindestens Ruby 2.2
