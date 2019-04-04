@@ -30,9 +30,9 @@ collections: # A list of collections the CMS should be able to edit
                 name: "Name"
                 widget: "object"
                 fields:
-                  - { name: "de", widget: "string" }
-                  - { name: "fr", widget: "string" }
-                  - { name: "it", widget: "string" }
+                  - { label: "de", name: "de", widget: "string" }
+                  - { label: "fr", name: "fr", widget: "string" }
+                  - { label: "en", name: "en", widget: "string" }
               - label: "Website"
                 name: "url"
                 widget: "string"
@@ -53,7 +53,6 @@ collections: # A list of collections the CMS should be able to edit
                 widget: "list"
                 hint: "Bezeichnung für Gruppen (z. B. Abteilungen), Einträge hier können kann auch gelöscht werden"
                 fields: 
-                  - { name: "de", widget: "string" }
-                  - { name: "fr", widget: "string" }
-                  - { name: "it", widget: "string" }
-
+                  - { label: "de", name: "de", widget: "string" }
+                  - { label: "fr", name: "fr", widget: "string" }
+                  - { label: "en", name: "en", widget: "string" }
