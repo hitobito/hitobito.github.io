@@ -24,4 +24,4 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - label: "name"
             name: "name"
-            widtet: "string"
+            widget: "string"
