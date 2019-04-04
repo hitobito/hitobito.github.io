@@ -37,10 +37,3 @@ collections: # A list of collections the CMS should be able to edit
                 name: "url"
                 widget: "string"
                 required: false
-              - label: "Logo"
-                name: "logo_path"
-                widget: "image"
-              - label: "Anzahl Mitglieder"
-                name: "member_count"
-                widget: "string"
-                required: false
