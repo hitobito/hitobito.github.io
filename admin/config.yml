@@ -26,7 +26,33 @@ collections: # A list of collections the CMS should be able to edit
             name: "list"
             widget: "list"
             fields:
-            - label: "Website"
-              name: "url"
-              widget: "string"
-              required: false
+              - label: "Website"
+                name: "url"
+                widget: "string"
+                required: false
+              - label: "name"
+                name: "Name"
+                widget: "object"
+                fields:
+                  - { name: "de", widget: "string" }
+                  - { name: "fr", widget: "string" }
+                  - { name: "it", widget: "string" }
+              - label: "Logo"
+                name: "logo_path"
+                widget: "image"
+              - label: "Anzahl Mitglieder"
+                name: "member_count"
+                widget: "string"
+                required: false
+              - label: "Anzahle Gruppen"
+                name: "group_count"
+                widget: "string"
+                required: false
+              - label: "Gruppenbezeichnung"
+                name: "groups_label"
+                widget: "list"
+                hint: "Bezeichnung für Gruppen (z. B. Abteilungen), Einträge hier können kann auch gelöscht werden"
+                fields: 
+                  - { name: "de", widget: "string" }
+                  - { name: "fr", widget: "string" }
+                  - { name: "it", widget: "string" }
