@@ -22,6 +22,11 @@ collections: # A list of collections the CMS should be able to edit
         label: "Kunden"
         file: '_data/customers.yml'
         fields:
-          - label: "name"
-            name: "name"
-            widget: "string"
+          - label: "Kundenliste"
+            name: "list"
+            widget: "list"
+            fields:
+              - label: "Website"
+                name: "url"
+                widget: "string"
+                required: false
