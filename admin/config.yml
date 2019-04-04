@@ -20,6 +20,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - name: "kunden"
         label: "Kunden"
+        file: '_data/customers.yml'
         fields:
           - label: "name"
             name: "Name"
