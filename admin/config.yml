@@ -27,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "list"
             fields:
               - label: "name"
-                name: "Name"
+                name: "name"
                 widget: "object"
                 fields:
                   - { label: "de", name: "de", widget: "string" }
@@ -35,5 +35,12 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: "en", name: "en", widget: "string" }
               - label: "Website"
                 name: "url"
+                widget: "string"
+                required: false
+              - label: "Logo"
+                name: "logo_path"
+                widget: "image"
+              - label: "Anzahl Mitglieder"
+                name: "member_count"
                 widget: "string"
                 required: false
