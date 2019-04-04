@@ -1,76 +1,40 @@
-locale:
-  members:
-    de: Mitglieder
-    fr: membres
-    en: members
-  groups:
-    de: Gruppen
-    fr: groupes
-    en: groups
 list:
-  - name:
-      de: Schweizer Blasmusikverband
-    logo_path: /images/logo-sbv.png
+  - Name:
+      de: test
+      en: test
+      fr: test
     url: 'https://www.windband.ch/'
-    member_count: 67'000
-    group_count: 1950
-    groups_label:
-      de: Vereine
-  - name:
-      de: Jungwacht Blauring
-    logo_path: /images/logo-jubla.svg
+  - Name:
+      de: test
+      en: test
+      fr: test
     url: 'https://www.jubla.ch/'
-    member_count: 29'000
-    group_count: 429
-    groups_label:
-      de: Scharen
-      fr: bandes
-  - name:
-      de: Pfadibewegung Schweiz
-      fr: Scout de Suisse
-      en: Swiss Guide and Scout Movement
-    logo_path: /images/logo-pbs.svg
+  - Name:
+      de: test
+      en: test
+      fr: test
     url: 'http://www.scout.ch/'
-    member_count: 42'000
-    group_count: 550
-    groups_label:
-      de: Abteilungen
-  - name:
-      de: Cevi Schweiz
-    logo_path: /images/logo-cevi.svg
+  - Name:
+      de: test
+      en: test
+      fr: test
     url: 'https://www.cevi.ch/'
-    member_count: 14'000
-    group_count: 200
-    groups_label:
-      de: Vereine
-  - name:
-      de: insieme Schweiz
-    logo_path: /images/logo_insieme.svg
+  - Name:
+      de: test
+      en: test
+      fr: test
     url: 'http://www.insieme.ch/'
-    member_count: 8'500
-    group_count: 51
-    groups_label:
-      de: Vereine
-      en: societies
-      fr: clubs
-  - name:
-      de: Dachverband Schweizer Jugendparlamente
-      fr: Fédération Suisse des Parlements des Jeunes
-      it: Federazione Svizzera dei Parlamenti dei Giovani
-    logo_path: /images/customers/logo-dsj.svg
+  - Name:
+      de: test
+      en: teset
+      fr: test
     url: 'https://www.dsj.ch'
-    group_count: 70
-    groups_label:
-      de: Jugendparlamente
-      fr: parlements des jeunes
-      it: parlamenti dei giovani
-  - name:
-      de: Pro Natura Jugend
-    logo_path: /images/customers/pro_natura_logo.png
+  - Name:
+      de: teste
+      en: test
+      fr: test
     url: 'https://www.pronatura.ch/de/jugend'
-    group_count: 35
-    groups_label:
-      de: Jugendgruppen
-  - name:
-      de: CH Open
-    logo_path: /images/customers/logo_chopen_web_big.png
+  - Name:
+      de: test
+      en: test
+      fr: test
