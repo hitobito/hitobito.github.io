@@ -10,7 +10,7 @@ title: hitobito
 email: support@hitobito.com
 description: "hitobito ist eine Mitgliederverwaltung für grosse Verbände und Organisation. Open Source!"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://hitobito.com" # the base hostname & protocol for your site
+url: "https://hitobito.com" # the base hostname & protocol for your site
 
 permalink: /blog/:categories/:year/:month/:title.html
 

@@ -11,7 +11,7 @@ Mixed with  :
 /* =============================================================================
 - Base
 ============================================================================= */
-@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700|Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700|Varela+Round);
 /* line 18, ../_sass/_base.scss */
 .reset-list {
   list-style: none;
@@ -1043,7 +1043,7 @@ hr.lightborder {
 /* =============================================================================
 - Modules
 ============================================================================= */
-/*! http://responsiveslides.com v1.54 by @viljamis */
+/*! https://responsiveslides.com v1.54 by @viljamis */
 /* line 5, ../_sass/module/_plugin.scss */
 .rslides {
   position: relative;
