@@ -17,7 +17,7 @@ permalink: /blog/:categories/:year/:month/:title.html
 # Build settings
 markdown: redcarpet
 
-gems:
+plugins:
 - jekyll-compass
 
 collections:
@@ -34,7 +34,7 @@ defaults:
   -
     scope:
       path: ""
-    values: 
+    values:
       layout: 'default'
 
 redcarpet:
