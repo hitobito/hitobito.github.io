@@ -23,7 +23,7 @@
             {% endfor %}
           </tr>
           <tr>
-            {% for plan in plans.list %} 
+            {% for plan in plans.list %}
               <td><h3 class="plans-cell-title">Hosting</h3>{{plan.hosting[lang]}}</td>
             {% endfor %}
           </tr>
@@ -116,7 +116,7 @@
       <h2 class="h3">
         {{page.demo-title}}
       </h2>
-      <form action="http://demo.hitobito.ch/{{language}}/users/sign_in" method="get">
+      <form action="http://demo.hitobito.com/{{language}}/users/sign_in" method="get">
         <ul class="demo-list">
           <li>
             <input type="radio" name="person[email]" value="admin@hitobito.ch" id="demo-role-admin" checked>
