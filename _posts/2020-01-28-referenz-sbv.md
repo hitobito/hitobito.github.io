@@ -4,9 +4,7 @@ title: Neue Mitgliederverwaltungslösung für den Schweizer Blasmusikverband SBV
 ---
 ---
 published: true
----
-# Neue Mitgliederverwaltungslösung für den Schweizer Blasmusikverband SBV
-
+--
 Der Schweizer Blasmusikverband (SBV) ist ein Zusammenschluss von 32 Verbänden, welcher über 1900
 Vereine und rund 67‘000 Musizierende umfasst. Anfang 2019 hat der SBV hitobito als neue
 Verbandsverwaltungssoftware eingeführt. Dies mit dem Ziel, den Aufwand für die Datenpflege zu reduzieren, Redundanzen zu beseitigen und zusätzlichen Nutzen für die Anwender und die angegliederten Verbände zu generieren.
