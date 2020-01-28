@@ -1,5 +1,6 @@
 ---
 published: true
+title: Neue Mitgliederverwaltungslösung für den Schweizer Blasmusikverband SBV
 ---
 ---
 published: true
