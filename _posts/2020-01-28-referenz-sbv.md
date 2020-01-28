@@ -67,4 +67,3 @@ Der generelle Einstieg für die Mitglieder präsentiert sich neu wie folgt (die 
 Mit hitobito hat der SBV eine offene und zukunftsfähige Lösung aufgebaut. Am Beispiel des
 Eidgenössischen Musikfests 2021 zeigt sich, dass eine vereinheitlichte Datenbank mit offenen
 Schnittstellen ein grosses Bedürfnis für Verbände und Organisatoren darstellt. Mit dem lückenlosen Abbilden der verschiedenen Rollen (Mitglied, Vorstand, Kommissionen) besteht auch die Grundlage, um den heute noch in Papierform ausgestellten Musikerpass in Zukunft digital abzubilden. Weiter soll in Zukunft eine Schnittstelle zur SUISA aufgebaut werden, damit Redundanzen in den Werklisten eliminiert werden können.
-
