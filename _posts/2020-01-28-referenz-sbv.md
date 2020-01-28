@@ -16,6 +16,8 @@ Die wichtigsten Anwendungsfälle der Verbandssoftware stellen neben der Mitglied
 Erfassen der SUISA-Leistungen, die Kommunikation mit den Mitgliedern sowie Veranstaltungen und
 Weiterbildungen dar (wobei letztere nicht Bestandteil der Ausschreibungen waren). Die Lösung sollte zudem die Mehrsprachigkeit innerhalb der Verbände sowie einen hohen Datenschutz berücksichtigen.
 
+![SBV_Systemuebersicht.png]({{site.baseurl}}/_posts/SBV_Systemuebersicht.png)
+
 
 ## Lösung/Projekt
 Das Projekt wurde zusammen mit dem Projektteam des SBV und Puzzle ITC als Entwicklungspartner agil umgesetzt. Die Schwerpunkte bildeten das Grundpaket mit dem Abbilden der dezentralen
@@ -37,6 +39,9 @@ tests durchgeführt. Diese brachten wichtige Erkenntnisse mit sich, welche bei d
 eingeflossen sind. Zudem konnte mit den Mockups die verschiedenen Sichten und Bedürfnisse der
 unterschiedlichen Rollen anschaulich diskutiert werden.
 
+![mobile.png]({{site.baseurl}}/_posts/mobile.png)
+
+
 Neben dem Erfassen der Aufführungen wurde der Prozess für das Erinnern, Abschliessen und
 Einreichen der Listen automatisiert und übersichtlich gestaltet.
 
@@ -54,6 +59,9 @@ Das Projekt konnte innerhalb des gegebenen zeitlichen- und finanziellen Rahmens 
 vergleichsweise wenig Aufwand anschliessen können.
 
 Der generelle Einstieg für die Mitglieder präsentiert sich neu wie folgt (die Ansicht variiert je nach Rollen und Berechtigungen einer Person):
+
+![SBV_Screen.png]({{site.baseurl}}/_posts/SBV_Screen.png)
+
 
 ## Fazit und Ausblick
 Mit hitobito hat der SBV eine offene und zukunftsfähige Lösung aufgebaut. Am Beispiel des
