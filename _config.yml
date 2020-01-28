@@ -15,7 +15,7 @@ url: "https://hitobito.com" # the base hostname & protocol for your site
 permalink: /blog/:categories/:year/:month/:title.html
 
 # Build settings
-markdown: redcarpet
+# markdown: redcarpet
 
 plugins:
 - jekyll-compass
