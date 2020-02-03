@@ -13,7 +13,7 @@ Erfassen der SUISA-Leistungen, die Kommunikation mit den Mitgliedern sowie Veran
 Weiterbildungen dar (wobei letztere nicht Bestandteil der Ausschreibungen waren). Die Lösung sollte zudem die Mehrsprachigkeit innerhalb der Verbände sowie einen hohen Datenschutz berücksichtigen.
 
 ![SBV_Systemuebersicht.png]({{site.baseurl}}/_posts/SBV_Systemuebersicht.png)
-![](_posts/SBV_Systemuebersicht.png)
+![](/uploads/desktopdekstop.png)
 
 
 
