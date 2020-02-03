@@ -12,8 +12,7 @@ Die wichtigsten Anwendungsfälle der Verbandssoftware stellen neben der Mitglied
 Erfassen der SUISA-Leistungen, die Kommunikation mit den Mitgliedern sowie Veranstaltungen und
 Weiterbildungen dar (wobei letztere nicht Bestandteil der Ausschreibungen waren). Die Lösung sollte zudem die Mehrsprachigkeit innerhalb der Verbände sowie einen hohen Datenschutz berücksichtigen.
 
-![SBV_Systemuebersicht.png]({{site.baseurl}}/_posts/SBV_Systemuebersicht.png)
-![](/uploads/desktopdekstop.png)
+![](/uploads/SBV_Systemuebersicht.png)
 
 
 
@@ -37,7 +36,7 @@ tests durchgeführt. Diese brachten wichtige Erkenntnisse mit sich, welche bei d
 eingeflossen sind. Zudem konnte mit den Mockups die verschiedenen Sichten und Bedürfnisse der
 unterschiedlichen Rollen anschaulich diskutiert werden.
 
-![mobile.png]({{site.baseurl}}/_posts/mobile.png)
+![](/uploads/mobile.png)
 
 
 Neben dem Erfassen der Aufführungen wurde der Prozess für das Erinnern, Abschliessen und
@@ -58,7 +57,7 @@ vergleichsweise wenig Aufwand anschliessen können.
 
 Der generelle Einstieg für die Mitglieder präsentiert sich neu wie folgt (die Ansicht variiert je nach Rollen und Berechtigungen einer Person):
 
-![SBV_Screen.png]({{site.baseurl}}/_posts/SBV_Screen.png)
+![](/uploads/SBV_Screen.png)
 
 
 ## Fazit und Ausblick
