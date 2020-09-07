@@ -9,7 +9,7 @@ Als Benutzer hatte ich bis heute keine Übersicht, für welche Abos ich mich üb
 
 ## Hilfetexte für Seiten und Formulare
 Die Umsetzung dieses Features zeigt, wie aus der Community Neuerungen selber initiert und mit professioneller Hilfe schliesslich im Core von hitobito landen und somit für alle Nutzergruppen zugänglich werden: 
-Im Rahmen eines Zivi-Einsatzes für die PBS wurde ein erster Wurf einer dynamischen Hilfestellung für Seiten und Felder implementiert. Diese Version wurde danach von den Puzzle-Entwicklern geprüft und nach einem kurzen Austausch und einigen Verbesserungen ausgeliefert. Im Issue auf (Github)[https://github.com/hitobito/hitobito/issues/811] seht ihr die Details dazu und eine kurze Anleitung, wie ihr die Hilfetexte für eure Bedürfnisse anwenden und abfüllen könnt.
+Im Rahmen eines Zivi-Einsatzes für die PBS wurde ein erster Wurf einer dynamischen Hilfestellung für Seiten und Felder implementiert. Diese Version wurde danach von den Puzzle-Entwicklern geprüft und nach einem kurzen Austausch und einigen Verbesserungen ausgeliefert. Im Issue auf [Github](https://github.com/hitobito/hitobito/issues/811) seht ihr die Details dazu und eine kurze Anleitung, wie ihr die Hilfetexte für eure Bedürfnisse anwenden und abfüllen könnt.
 Ein grosses Merci an dieser Stelle an die beteiligten Organisationen!
 
 ## Stack-Upgrade und Ausbau der Schnittstellen
