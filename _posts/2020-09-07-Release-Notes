@@ -5,7 +5,7 @@ Wir haben für die SaaS-Version von hitobito eine neue Version ausgeliefert. Neb
 ##Liste "Meine Abos" auf der Person
 Als Benutzer hatte ich bis heute keine Übersicht, für welche Abos ich mich überhaupt anmelden kann und welche davon ich abonniert habe. Neu findet ihr auf eurem Benutzerprofil einen Tab "Abos" mit jeweils einer Liste von bereits abonnierten Newslettern und einer weiteren mit Newslettern, die ihr zusätzlich abonnieren könnt.
 
-[Bild MeineAbos]
+![](/uploads/meineabos.png)
 
 ##Hilfetexte für Seiten und Formulare
 Die Umsetzung dieses Features zeigt, wie aus der Community Neuerungen selber initiert und mit professioneller Hilfe schliesslich im Core von hitobito landen und somit für alle Nutzergruppen zugänglich werden: 
