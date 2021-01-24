@@ -26,9 +26,9 @@ list:
       en: Full customization, but needs some programming knowledge.
     support: <a href="https://hitobito.discoursehosting.net/">Forum</a>
     weiterentwicklung: 
-      de: Via GitHub kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
-      fr: Contribue tes idées via GitHub
-      en: Contribute ideas via GitHub
+      de: Via <a href="https://github.com/hitobito/hitobito">GitHub< kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
+      fr: Contribue tes idées via <a href="https://github.com/hitobito/hitobito">GitHub<
+      en: Contribute ideas via <a href="https://github.com/hitobito/hitobito">GitHub<
     custom_domain: true
   -
     title: 
@@ -68,9 +68,9 @@ list:
       fr: Solution sur mesure pour votre organisation
       en: Fully customized solution for your organisation
     cost:
-      de: <strong><a href="mailto:andre@hitobito.com">Auf Anfrage</a></strong>
-      fr: <strong><a href="mailto:andre@hitobito.com">Sur demande</a></strong>
-      en: <strong><a href="mailto:andre@hitobito.com">On demand</a></strong>
+      de: <strong><a href="mailto:info@hitobito.com">Auf Anfrage</a></strong>
+      fr: <strong><a href="mailto:info@hitobito.com">Sur demande</a></strong>
+      en: <strong><a href="mailto:info@hitobito.com">On demand</a></strong>
     customization: 
       de: Feinste Abstimmung auf deine Organisation möglich, beliebig erweiterbar.
       fr: Tout est possible.
