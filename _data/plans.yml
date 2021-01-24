@@ -26,9 +26,9 @@ list:
       en: Full customization, but needs some programming knowledge.
     support: <a href="https://hitobito.discoursehosting.net/">Forum</a>
     weiterentwicklung: 
-      de: Via <a href="https://github.com/hitobito/hitobito">GitHub< kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
-      fr: Contribue tes idées via <a href="https://github.com/hitobito/hitobito">GitHub<
-      en: Contribute ideas via <a href="https://github.com/hitobito/hitobito">GitHub<
+      de: Via <a href="https://github.com/hitobito/hitobito">GitHub kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
+      fr: Contribue tes idées via <a href="https://github.com/hitobito/hitobito">GitHub
+      en: Contribute ideas via <a href="https://github.com/hitobito/hitobito">GitHub
     custom_domain: true
   -
     title: 
@@ -53,9 +53,9 @@ list:
       en: Available roles and permissions are predefined.
     support: <a href="https://hitobito.discoursehosting.net/">Forum</a>/E-Mail
     weiterentwicklung: 
-      de: Via GitHub kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
-      fr: Contribue tes idées via GitHub
-      en: Contribute ideas via GitHub
+      de: Via <a href="https://github.com/hitobito/hitobito">GitHub kannst du deine Wünsche einbringen und deine Anliegen diskutieren.
+      fr: Contribue tes idées via <a href="https://github.com/hitobito/hitobito">GitHub
+      en: Contribute ideas via <a href="https://github.com/hitobito/hitobito">GitHub
     custom_domain: false
     trial_link: true
   -
