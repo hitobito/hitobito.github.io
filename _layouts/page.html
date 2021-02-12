@@ -13,7 +13,7 @@
                     {% for author in page.authors %}
                         {% for person in site.authors %}
                             {% if author == person.title %}
-                                {{person.given_name | capitalize }}{% unless forloop.last %}, {% endunless %} 
+                                {{person.given_name | capitalize }}{% unless forloop.last %}, {% endunless %}
                             {% endif %}
                         {% endfor %}
                     {% endfor %}
@@ -28,5 +28,6 @@
     <script src="/scripts/vendor/jquery.min.js" defer></script>
     <script src="/scripts/vendor/responsiveslides.min.js" defer></script>
     <script src="/scripts/main.min.js" defer></script>
+    {% include tracking.html %}
   </body>
 </html>
