@@ -21,18 +21,17 @@ Das Programm beinhaltet einige Session. Diese können bei Interesse besucht werd
 09:30 Uhr - Eintrudeln, Zmorgen :-)<br>
 10:00 Uhr - Offizieller Start, Austausch, Ideen<br>
 10:30 Uhr - Session: Codebase, Wagons, technische Besonderheiten hitobito (Carlo)<br>
-12:00 Uhr - <br>
+11:45 Uhr - Vor dem Mittag Austausch<br>
 14:00 Uhr - Session: Neuste Features in hitobito (Olivier)<br>
 16:00 Uhr - Session: Konzept Haushalte (Safari)<br>
-18:00 Uhr - <br>
+18:00 Uhr - Session: Familien/Gruppenmanagement?
 
 
 ### Sonntag 7. März 2021
 09:30 Uhr - Eintrudeln, Zmorgen :-)<br>
 10:00 Uhr - Refinement<br>
 11:00 Uhr - Session: hitobito 2.0 (Vento)<br>
+11:45 Uhr - Vor dem Mittag Austausch<br>
 14:00 Uhr - Final-Session, Retro<br>
-
-tbd: Session: Hitobito Community (-> Daria anfragen, alternativ PBS)
 
 Natürlich kann sich dieses Programm kurzfristig und nach Bedarf noch ändern.
