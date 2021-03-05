@@ -24,7 +24,7 @@ Das Programm beinhaltet einige Session. Diese können bei Interesse besucht werd
 11:45 Uhr - Vor dem Mittag Austausch<br>
 14:00 Uhr - Session: Neuste Features in hitobito (Olivier)<br>
 16:00 Uhr - Session: Konzept Haushalte (Safari)<br>
-18:00 Uhr - Session: Familien/Gruppenmanagement?
+18:00 Uhr - Session: Familien/Gruppenmanagement? (Tobias)<br>
 
 
 ### Sonntag 7. März 2021
