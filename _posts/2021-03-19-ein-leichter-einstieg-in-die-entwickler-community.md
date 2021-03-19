@@ -2,7 +2,7 @@ hitobito ist auf dem Weg, „die vielseitigste Community Management Lösung, wel
 
 Meist kommen aus der Community konkrete Anfragen, die erfordern, dass jemand einen tief verschachtelten Teil leicht anpasst. Dabei muss man darauf achten, dass Bisheriges nicht kaputt geht und nachher alle glücklich sind. Es tut mir fast ein wenig leid: das hier wird kein verdientes Lob auf gute Architektur oder testgetriebene Entwicklung. Es ist eine leicht andere Geschichte, die dennoch erzählt werden möchte.
 
-##Eine Contribution als Startschuss
+## Eine Contribution als Startschuss
 
 Viele Softwareprojekte haben das Problem, dass es mit der Zeit immer schwerer wird, auf dem eigenen Rechner eine Entwicklungsumgebung einzurichten. Gerade bei Webprojekten sind eine Menge Bestandteile vorhanden, die miteinander kommunizieren und aufeinander abgestimmt sein müssen. Mit Ruby on Rails ist das durch viele Konventionen und darauf aufbauende Tools meist noch recht leicht. Aber auch hier kommt man irgendwann an die Grenzen.
 
@@ -10,7 +10,7 @@ Im Falle von hitobito haben wir im Jahre 2017 ein <a href="https://github.com/hi
 
 Etwa zwei Jahre später, im Frühjahr 2019, kam wieder Bewegung in diesen erst teilweise erfüllten Wunsch. Mit <code class="EnlighterJSRAW" data-enlighter-language="null">docker</code> kann man einzelne Programme gut isoliert laufen lassen, mit <code class="EnlighterJSRAW" data-enlighter-language="null">docker-compose</code> kann man diese Solisten zu einem gemeinsamen Song animieren. Ein <a href="https://github.com/hitobito/hitobito/pull/774" target="_blank" rel="noopener">Pull Request</a> hat dies teilweise umgesetzt. Es fehlten jedoch noch einige Teile, sodass es nicht direkt übernommen wurde.
 
-##Mit Docker einen Schritt weiter
+## Mit Docker und einem professionellen Partner einen Schritt weiter
 
 Dann kam aus einer anderen, eher unerwarteten Ecke, weiterer Rückenwind für diese Idee. Puzzle hat mit <a href="https://nxt.engineering/">nxt Engineering</a> zusammen an Erweiterungen für hitobito-insieme gearbeitet. Dort hat im Sommer 2019 der <code class="EnlighterJSRAW" data-enlighter-language="null">docker-compose</code>-Ansatz sehr konkrete Formen angenommen und auch ein neues, eigenes Zuhause auf Github bekommen: <a href="https://github.com/nxt-engineering/hitobito-docker/" target="_blank" rel="noopener">nxt-engineering/hitobito-docker</a>.
 
@@ -18,7 +18,7 @@ Nachdem wir intern immer mal wieder mit diesem Code gearbeitet und Erfahrungen g
 
 Doch endet es da? Fast: Es wird von einigen Entwicklern verwendet und ist stabil. Es hat alles, was man zum Start braucht. Der Applikationsserver läuft, die Hintergrundjobs werden abgearbeitet, abgeschickte Mails werden aufgefangen und auch der Suchserver und der Cache laufen diesmal. Der komplizierte Teil ist jetzt, die richtigen Wagons auszuwählen, damit hitobito dem gewünschten Kunden entspricht. Die Fragen, die man sich stellt, sind aber eher inhaltlich, der technische Setup rückt in den Hintergrund. Ein <a href="https://github.com/hitobito/development/blob/master/README.md" target="_blank" rel="noopener">freundliches README</a> lädt ein, hitobito bei sich einzurichten und hilft durch diese ersten Schritte.
 
-##Gemeinsam zum einfachen Setup
+## Gemeinsam zum einfachen Setup
 
 Bisher wurde hier häufig der Integrationsserver genutzt, der für uns und Kunden das gemeinsame Testen ermöglicht. Jetzt kann man mit vorrangig inhaltlichem Wissen aber selbst eine Entwicklungsumgebung starten und so leichter Anpassungen vornehmen und beitragen. Die Trittleiter, die über die bisherigen Hürden hinweg hilft, ist dabei nicht von einer Person alleine, sondern von vielen gemeinsam <a href="https://github.com/diegosteiner" target="_blank" rel="noopener">ausgesucht</a>, <a href="https://github.com/cimnine" target="_blank" rel="noopener">beschafft</a>, <a href="https://github.com/carlobeltrame" target="_blank" rel="noopener">zusammengebaut</a>, <a href="https://github.com/Michael-Schaer" target="_blank" rel="noopener">angepasst</a>, <a href="https://github.com/psunix" target="_blank" rel="noopener">hingestellt</a>, <a href="https://github.com/maede97" target="_blank" rel="noopener">mehrfach</a> <a href="https://github.com/Vento-Nuenenen" target="_blank" rel="noopener">hinterfragt</a>, <a href="https://github.com/hupf" target="_blank" rel="noopener">verbessert</a> und <a href="https://github.com/olibrian" target="_blank" rel="noopener">ausprobiert</a> worden.
 Sicher, die verwendeten Verben entsprechen eher dem Vergleich mit einer Trittleiter und passen nicht 100%ig auf die jeweiligen Beiträge zu der aktuellen Lösung. Da man jetzt aber eine Einsteigshürde weniger bei der Entwicklung hat, will ich darüber mal hinwegsehen und einfach nur dankbar für die Beiträge aus der Community sein.
