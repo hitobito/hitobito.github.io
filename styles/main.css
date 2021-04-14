@@ -2475,6 +2475,12 @@ a.btn.is-important:hover {
     bottom: 50px;
   }
 }
+@media only screen and (max-width: 1200px) {
+  /* line 42, ../_sass/module/_demo-session-teaser.scss */
+  .demo-session-teaser {
+    display: none;
+  }
+}
 /* =============================================================================
 - State
 ============================================================================= */

@@ -38,3 +38,8 @@
     to {bottom:50px;}
   }
   
+  @media only screen and (max-width: 1200px) {
+    .demo-session-teaser {
+        display: none;
+    }
+  }
