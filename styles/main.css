@@ -2430,7 +2430,7 @@ a.btn.is-important:hover {
 
 /* line 1, ../_sass/module/_demo-session-teaser.scss */
 .demo-session-teaser {
-  position: fixed;
+  position: absolute;
   bottom: 50px;
   right: 50px;
   width: 300px;
