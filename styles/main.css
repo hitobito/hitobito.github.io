@@ -2467,7 +2467,7 @@ a.btn.is-important:hover {
 /* line 36, ../_sass/module/_demo-session-teaser.scss */
 .hide {
   visibility: hidden;
-  transition-delay: 1s;
+  transition-delay: 0s;
   transition-timing-function: ease-out;
 }
 
