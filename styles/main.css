@@ -2430,7 +2430,7 @@ a.btn.is-important:hover {
 
 /* line 1, ../_sass/module/_demo-session-teaser.scss */
 .demo-session-teaser {
-  position: absolute;
+  position: fixed;
   bottom: 50px;
   right: 50px;
   width: 300px;
@@ -2464,19 +2464,26 @@ a.btn.is-important:hover {
   font-weight: 700;
 }
 
+/* line 36, ../_sass/module/_demo-session-teaser.scss */
+.hide {
+  visibility: hidden;
+  transition-delay: 1s;
+  transition-timing-function: ease-out;
+}
+
 @keyframes flyin {
-  /* line 37, ../_sass/module/_demo-session-teaser.scss */
+  /* line 44, ../_sass/module/_demo-session-teaser.scss */
   from {
     bottom: 900px;
   }
 
-  /* line 38, ../_sass/module/_demo-session-teaser.scss */
+  /* line 45, ../_sass/module/_demo-session-teaser.scss */
   to {
     bottom: 50px;
   }
 }
 @media only screen and (max-width: 1200px) {
-  /* line 42, ../_sass/module/_demo-session-teaser.scss */
+  /* line 49, ../_sass/module/_demo-session-teaser.scss */
   .demo-session-teaser {
     display: none;
   }
