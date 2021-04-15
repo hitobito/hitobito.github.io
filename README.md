@@ -15,7 +15,7 @@ You'll need to have the following items installed before continuing.
 
 While you're working on your project, run:
 
-To develop: `jekyll serve`
+To develop: `bundle exec jekyll serve`
 and to deploy: `git push origin master`
 
 Make sure, you are working with Ruby Version 2.6.6 or similar. Ruby 3.0.0 may not work!

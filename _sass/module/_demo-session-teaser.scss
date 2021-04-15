@@ -1,0 +1,52 @@
+.demo-session-teaser {
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    width:300px;
+    background-color: #208887;
+    border-radius: 12px;
+    padding: 24px;
+    animation-name: flyin;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    z-index: 50;
+
+    h3 {
+        color:white;
+    }
+
+    a{
+        background-color:  #50b8b7;
+        padding: 0.5rem; 
+        text-decoration: none;
+        display: block;
+        margin-top: 0.8rem;
+        border-radius: 6px;
+        color:white;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    strong {
+        color:white;
+        font-weight: 700;
+    }
+}
+
+.hide {
+    visibility: hidden;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+    
+}
+
+@keyframes flyin {
+    from {bottom:900px;}
+    to {bottom:50px;}
+  }
+  
+@media only screen and (max-width: 1200px) {
+    .demo-session-teaser {
+        display: none;
+    }
+}
