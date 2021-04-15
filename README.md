@@ -15,7 +15,7 @@ You'll need to have the following items installed before continuing.
 
 While you're working on your project, run:
 
-To develop: `jekyll serve`
+To develop: `bundle exec jekyll serve`
 and to deploy: `git push origin master`
 
 And you're set!
