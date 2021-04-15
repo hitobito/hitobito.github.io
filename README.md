@@ -18,6 +18,8 @@ While you're working on your project, run:
 To develop: `jekyll serve`
 and to deploy: `git push origin master`
 
+Make sure, you are working with Ruby Version 2.6.6 or similar. Ruby 3.0.0 may not work!
+
 And you're set!
 
 For documentation of Jekyll see https://jekyllrb.com
