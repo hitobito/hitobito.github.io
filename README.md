@@ -20,6 +20,9 @@ and to deploy: `git push origin master`
 
 Make sure, you are working with Ruby Version 2.6.6 or similar. Ruby 3.0.0 may not work!
 
+If you are using rbenv: `rbenv shell 2.6.6`
+check version: `rbenv versions`
+
 And you're set!
 
 For documentation of Jekyll see https://jekyllrb.com
