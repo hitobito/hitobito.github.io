@@ -4,7 +4,7 @@ betrachtet. Vor kurzem konnte [Matthias Viehweger](https://www.puzzle.ch/de/blog
 ## hitobito in einem Podcast
 Die Idee zum Podcast wurde in einem Meeting zu einem festen Vorhaben: um das Wissen rund um hitobito in die Welt zu tragen, wollten wir den Running in Production-Podcast nutzen. Dort stellen Entwickler ihre Webapplikationen vor und erläutern, wie diese betrieben wird. Dabei gibt es kaum Einschränkungen, was die Thematik betrifft. Entsprechend breit ist das Spektrum der Gäste und der vorgestellten Technologien.
 
-![](/Hitobito%Podcast.png)
+![](/Podcast%Hitobito.png)
 
 Nachdem ich das Podcast-Team kontaktiert hatte, ging es recht schnell. Nachdem wir die Zeitzonen geklärt und einen Termin vereinbart hatten, bekam ich die Liste mit den üblichen Themen und ein paar Tips, um die Aufnahme gut zu meistern. Die Diskussionsthemen kannte ich grösstenteils schon, da ich selbst ein Hörer des Podcasts bin. Wer allgemein mal über den Tellerrand schauen (naja, hören) möchte, dem empfehle ich den [Podcast](https://runninginproduction.com) sehr.
 
