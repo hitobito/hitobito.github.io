@@ -1,12 +1,10 @@
 Wie man hitobito für kurze Tests oder in der Entwicklung laufen lassen kann, haben wir ja schonmal in einem anderen Blogpost über [die hitobito Community](https://hitobito.com/blog/2021/03/ein-leichter-einstieg-in-die-entwickler-community.html)
-betrachtet. Vor kurzem konnte [Matthias Viehweger](https://www.puzzle.ch/de/blog/articles/author/mviehweger) dem [Running in Production](https://runninginproduction.com) Podcast ein wenig darüber erzählen, wie das im produktiv-Umfeld aussieht:
+betrachtet. Vor kurzem konnte [Matthias Viehweger](https://www.puzzle.ch/de/blog/articles/author/mviehweger) dem [Running in Production](https://runninginproduction.com) Podcast ein wenig darüber erzählen, wie das im Produktiv-Umfeld aussieht:
 
 ## hitobito in einem Podcast
-Die Idee zum Podcast wurde in einem Meeting zu einem festen Vorhaben: um das Wissen rund um hitobito in die Welt zu tragen, wollten wir den Running in Production-Podcast nutzen. Dort stellen Entwickler ihre Webapplikationen vor und erläutern, wie diese betrieben wird. Dabei gibt es kaum Einschränkungen, was die Thematik betrifft. Entsprechend breit ist das Spektrum der Gäste und der vorgestellten Technologien.
+Die Idee zum Podcast wurde in einem Meeting zu einem festen Vorhaben: um das Wissen rund um hitobito in die Welt zu tragen, wollten wir den Running in Production-Podcast nutzen. Dort stellen Entwickler ihre Webapplikation vor und erläutern, wie diese betrieben wird. Dabei gibt es kaum Einschränkungen, was die Thematik betrifft. Entsprechend breit ist das Spektrum der Gäste und der vorgestellten Technologien.
 
-![](/Podcast%Hitobito.png)
-
-Nachdem ich das Podcast-Team kontaktiert hatte, ging es recht schnell. Nachdem wir die Zeitzonen geklärt und einen Termin vereinbart hatten, bekam ich die Liste mit den üblichen Themen und ein paar Tips, um die Aufnahme gut zu meistern. Die Diskussionsthemen kannte ich grösstenteils schon, da ich selbst ein Hörer des Podcasts bin. Wer allgemein mal über den Tellerrand schauen (naja, hören) möchte, dem empfehle ich den [Podcast](https://runninginproduction.com) sehr.
+Nach der Kontaktaufnahme mit dem Podcast-Team ging es recht schnell. Nachdem wir die Zeitzonen geklärt und einen Termin vereinbart hatten, bekam ich die Liste mit den üblichen Themen und ein paar Tips, um die Aufnahme gut zu meistern. Die Diskussionsthemen kannte ich grösstenteils schon, da ich selbst ein Hörer des Podcasts bin. Wer allgemein mal über den Tellerrand schauen (naja, hören) möchte, dem empfehle ich den [Podcast](https://runninginproduction.com) sehr.
 
 ## Ein Podcast und seine Herausforderungen
 Dank der Audio-Hinweise habe ich mich zunächst auf die Suche nach einem Mikrofon begeben. Nach vielen Fehlversuchen, USB-verbundene externe Mikrofone zu verbinden, habe ich aufgegeben und mich auf das im Laptop eingebaute Mikrofon verlassen. Um Echos zu vermeiden, habe ich aber mein Bluetooth-Headset eingesetzt. Im Kern also das Setup, welches ich schon für Jitsi und Google Meet verwende. Manchmal ist das Erprobte das Beste. :-) Sowohl der Podcast-Host Nick wie auch ich haben unsere Tonspur jeweils lokal aufgenommen, in meinem Fall habe ich es mit Audacity gemacht.
@@ -25,7 +23,7 @@ Im Nachgang habe ich dann noch Links zu den genannten Libraries geliefert. Natur
 
 - Habe ich irgendwas falsch dargestellt? Lustigerweise nicht viel. Ich habe kleinere, aber eher unwichtige Fehler gemacht. Wer sie bemerkt, darf sie gerne mit mir ausführlich diskutieren.
 
-- Wie lang wird die Episode nachher sein? Aus den etwa 3 Stunden Hangout wurden dann eine 1:46h lange Episode.
+- Wie lang wird die Episode nachher sein? Aus den etwa 3 Stunden Hangout wurde dann eine 1:46h lange Episode.
 
 - Kommt es gut an? Tja, schwer zu sagen. Hört am besten selbst mal rein:
 [Hitobito Helps You Manage Communities with Complex Group Hierarchies](https://runninginproduction.com/podcast/96-hitobito-helps-you-manage-communities-with-complex-group-hierarchies) 
