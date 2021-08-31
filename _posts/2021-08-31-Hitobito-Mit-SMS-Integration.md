@@ -12,7 +12,7 @@ In Europa wurden 2003 über 115 Milliarden Kurzmitteilungen versendet. Die schon
 
 ## Hitobito ergänzt Kommunikationskanal mit SMS
 Viele Unternehmen in den unterschiedlichsten Branchen nutzen SMS bis heute in ihren täglichen Abläufen. Die Kommunikation mittels SMS ist schnell sowie zuverlässig und persönlicher als andere Kommunikationsmittel wie WhatsApp und Co. 
-Unser Partner ASPSMS betont: „Fast jede SMS wird sofort gelesen und fast immer umgehend beantwortet. SMS können in der Unternehmenskommunikation vielfältig und umfangreich eingesetzt werden“ (https://www.aspsms.com/de/).
+Unser Partner [ASPSMS](https://www.aspsms.com/de/) betont: „Fast jede SMS wird sofort gelesen und fast immer umgehend beantwortet. SMS können in der Unternehmenskommunikation vielfältig und umfangreich eingesetzt werden“ .
 
 Hitobito ist zukunftsorientiert und vielseitig. Auf Basis unserer modernen Architektur verfolgen wir immer das Ziel, spezifische Applikationen in unser Ökosystem einzubinden und zu integrieren. Natürlich lassen wir uns die Vorteile der SMS-Integration nicht entgehen. Weitere Kommunikationskanäle sind bereits angedacht.
 Wir haben in Zusammenarbeit mit ASPSMS die Nutzung der SMS in Hitobito integriert und somit unser Partnernetzwerk sowie unser Ökosystem wertvoll erweitert. Hitobito ermöglicht den Usern die Mitglieder über Veranstaltungen per SMS zu informieren, das Interesse für Events zu erhöhen und die Anwesenheitsquoten zu verbessern.
@@ -33,6 +33,6 @@ Mit keinem anderen Kanal können derart viele Empfänger unkompliziert erreicht 
 
 
 ## Über ASPSMS
-ASPSMS ist das Produkt der Firma VADIAN.NET AG aus St. Gallen. Schon seit 1997 betreibt das Internet- und Mobile Solution Unternehmen eines der weltweit ersten internationalen SMS Portalen und gehört heute zu den führenden Anbietern von SMS-Lösungen für Geschäfts-und Privatkunden. https://www.vadian.net/de/milestones/
+ASPSMS ist das Produkt der Firma [VADIAN.NET]https://www.vadian.net/de/milestones/ AG aus St. Gallen. Schon seit 1997 betreibt das Internet- und Mobile Solution Unternehmen eines der weltweit ersten internationalen SMS Portalen und gehört heute zu den führenden Anbietern von SMS-Lösungen für Geschäfts-und Privatkunden. 
 
 Wir sind offen, für dich den nächsten Kommunikationskanal anzubinden. Was fehlt dir? Komm auf uns zu.
