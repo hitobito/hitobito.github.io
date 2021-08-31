@@ -33,6 +33,6 @@ Mit keinem anderen Kanal können derart viele Empfänger unkompliziert erreicht 
 
 
 ## Über ASPSMS
-ASPSMS ist das Produkt der Firma [VADIAN.NET]https://www.vadian.net/de/milestones/ AG aus St. Gallen. Schon seit 1997 betreibt das Internet- und Mobile Solution Unternehmen eines der weltweit ersten internationalen SMS Portalen und gehört heute zu den führenden Anbietern von SMS-Lösungen für Geschäfts-und Privatkunden. 
+ASPSMS ist das Produkt der Firma [VADIAN.NET](https://www.vadian.net/de/milestones/) AG aus St. Gallen. Schon seit 1997 betreibt das Internet- und Mobile Solution Unternehmen eines der weltweit ersten internationalen SMS Portalen und gehört heute zu den führenden Anbietern von SMS-Lösungen für Geschäfts-und Privatkunden. 
 
 Wir sind offen, für dich den nächsten Kommunikationskanal anzubinden. Was fehlt dir? Komm auf uns zu.
