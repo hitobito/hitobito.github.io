@@ -1,8 +1,8 @@
 Bei Hitobito steht die Community im Zentrum. Wir sind überzeugt, dass wir als Puzzle zusammen mit unseren Kundinnen und Kunden mehr erreichen. Gemeinsam können wir neue Projekte anpacken und den zukünftigen Herausforderungen mit Zuversicht begegen. Unsere Roadmap wird nicht von uns festgelegt, sondern von der Community. Auch über den Releasezyklus entscheiden die Kundinnen und Kunden.
 
-Um unsere Philosophie in die Tat umzusetzen, fanden im September zwei Community-Events statt. 
-
 ![](/uploads/Hitobito community Blog.png)
+
+Um unsere Philosophie in die Tat umzusetzen, fanden im September zwei Community-Events statt. 
 
 ## Über Spamfilter und Datenschutz
 Am Montag, 06. September 2021, trafen sich Vertreter der Community zum halbjährlichen Austausch. Nebst Diskussionen über die neuesten Entwicklungen wurde auch ein Spamfilter vorgestellt, der neu in Hitobito integriert ist. 
