@@ -1,15 +1,15 @@
 <div class="demo-session-teaser" id="demo-session-teaser">
-    <h3>Demo-Session</h3>
-    <strong>21. Oktober 2021 13:00 - 14:00</strong>
-    <a href="https://www.puzzle.ch/de/blog/articles/2021/09/16/hitobito-demo-session-4" target="_blank">Jetzt anmelden</a>
+    <div class="demo-session-teaser-infos">
+      <h3>Demo-Session</h3>
+      <strong>21. Oktober 2021 <br> 13:00 - 14:00</strong>
+    </div>
+    <div class="demo-session-teaser-action">
+      <a href="https://www.puzzle.ch/de/blog/articles/2021/09/16/hitobito-demo-session-4" target="_blank">Jetzt anmelden</a>
+      <button type="button" onclick="document.getElementById('demo-session-teaser').classList.add('hide-me');" class="close-button">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 8L16 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M16 8L8 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
 </div>
-<script>
-    window.onscroll = () => {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            document.getElementById("demo-session-teaser").className = "demo-session-teaser hide";
-        } else {
-            document.getElementById("demo-session-teaser").className = "demo-session-teaser";
-        }
-    }
-
-</script>
