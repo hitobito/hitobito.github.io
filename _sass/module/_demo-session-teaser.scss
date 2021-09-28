@@ -1,52 +1,131 @@
 .demo-session-teaser {
+    box-sizing: border-box;
     position:fixed;
-    bottom:50px;
-    right:50px;
-    width:300px;
+    bottom: 50px;
+    right: 50px;
+    width: 300px;
     background-color: #208887;
     border-radius: 12px;
     padding: 24px;
-    animation-name: flyin;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
     z-index: 50;
+    opacity: 100;
+    transition: 300ms all ease-out;
+    animation: flyin 500ms ease-in-out;
+    box-shadow: 1px 1px 20px 0px rgba(0,0,0,.2);
 
     h3 {
         color:white;
     }
 
-    a{
+    a {
         background-color:  #50b8b7;
-        padding: 0.5rem; 
+        padding: 0.8rem;
         text-decoration: none;
         display: block;
-        margin-top: 0.8rem;
-        border-radius: 6px;
-        color:white;
+        border-radius: 4px;
+        color: white;
         text-align: center;
         font-weight: 700;
+        transition: 300ms all ease;
+
+        &:hover {
+            background-color: #99bf62;
+        }
     }
 
     strong {
-        color:white;
+        color: white;
         font-weight: 700;
     }
 }
 
-.hide {
-    visibility: hidden;
-    transition-delay: 0s;
-    transition-timing-function: ease-out;
-    
+.demo-session-teaser-infos {
+  margin-bottom: 1rem;
+}
+
+.close-button {
+  background: transparent;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::after {
+    display: block;
+    content: "Schliessen";
+  }
+
+  &:hover {
+    // color: red;
+    text-decoration: underline;
+    background: transparent;
+  }
+}
+
+.hide-me {
+  opacity: 0;
+  transform: scale(0);
+  transform-origin: center right;
 }
 
 @keyframes flyin {
-    from {bottom:900px;}
-    to {bottom:50px;}
-  }
-  
+    from {bottom:-200px;opacity:0;}
+    to {bottom:0;opacity:100%;}
+}
+
+@keyframes flyin-mobile {
+    0% {bottom:-200px;opacity:0;}
+    60% {bottom:30px;opacity:100%;}
+    100% {bottom:0;opacity:100%;}
+}
+
 @media only screen and (max-width: 1200px) {
     .demo-session-teaser {
-        display: none;
+        width: 100%;
+        margin: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 0;
+        display: flex;
+        padding: 24px;
+        align-items: center;
+        animation-name: flyin-mobile;
     }
+    .demo-session-teaser-infos {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      width: 100%;
+      margin-bottom: 0;
+    }
+    .demo-session-teaser-action {
+      min-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  .demo-session-teaser {
+    padding: 12px;
+    margin-bottom: 0;
+  }
+  .demo-session-teaser-infos {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .demo-session-teaser-action {
+    min-width: inherit;
+    display: flex;
+  }
+  .close-button {
+    padding: 0 6px 0 24px;
+
+    &::after {
+      display: block;
+      content: "";
+    }
+  }
 }
