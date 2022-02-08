@@ -12,11 +12,14 @@ layout: page
 
 ## Programm
 
-Freitag: Start um 20:00 Uhr, einrichten und Hacken 
-Samstag: Hacken, ev. Workshops
-Sonntag: Hacken, Abschluss ca um 15:00 Uhr
+Unser Programm für den diesjährigen Hitobito Hackathon sieht wie folgt aus. Es soll ein offener Rahmen sein und für alle möglichen Ideen und Umsetzungen platz bieten.
 
-Die genauen Details zum Programm werden in Kürze bekannt gegeben. Das Programm wird einige Sessions beinhalten, welche je nach Interesse besucht werden können. 
+**Freitag:** Start um 20:00 Uhr, einrichten und Hacken 
 
+**Samstag:** Hacken, ev. Workshops und Session
+
+**Sonntag:** Hacken, Abschluss ca um 15:00 Uhr
+
+Falls du gerne ein Workshop oder eine Session anbieten möchtest, melde dich!
 
 **Wir freuen uns auf euch!** 
