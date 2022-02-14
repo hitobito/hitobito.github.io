@@ -5,7 +5,7 @@ layout: page
 
 # Community Meeting Frühling 2022
 
-Bei Hitobito steht die Community im Zentrum. Wir sind überzeugt, dass wir als Puzzle zusammen mit unseren Kundinnen und Kunden mehr erreichen. Gemeinsam können wir neue Projekte anpacken, Ideen sammeln und gemeinsam herausfinden, welche Features von den Hitobito-Kunden gewünscht werden. Wir laden dich herzlich zu unserem Community Meetingein. 
+Bei Hitobito steht die Community im Zentrum. Wir sind überzeugt, dass wir als Puzzle zusammen mit unseren Kundinnen und Kunden mehr erreichen. Gemeinsam können wir neue Projekte anpacken, Ideen sammeln und gemeinsam herausfinden, welche Features von den Hitobito-Kunden gewünscht werden. Wir laden dich herzlich zu unserem Community Meeting ein. 
 
 **Datum:** 31. März 2022 um 17:00 Uhr 
 
