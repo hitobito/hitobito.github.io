@@ -26,4 +26,22 @@ Unser Programm für den diesjährigen Hitobito Hackathon sieht wie folgt aus. Es
 
 Falls du gerne einen Workshop oder eine Session anbieten möchtest, melde dich!
 
+
+
+## Du bringst mit
+- Interesse an Hitobito
+- Eigener Computer
+- Weekendausrüstung, Schlafsack, Fixleintuch
+
+## Gesorgt ist für
+- Unterkunft
+- Ganze Verpflegung am Samstag, Frühstück am Sonntag (bitte Allergien / Unverträglichkeiten per E-Mail melden)
+- Internetzugang
+- Unterstützung beim Programmierstart
+
+## Hitobito Entwicklung
+- Wenn möglich die Entwicklungsumgebung im Voraus aufsetzen:
+https://github.com/hitobito/development/
+Achtung: Das Dockerfile ist für Ubuntu geschrieben. Besonders mit Windows gelingt das Setup nicht wie beschrieben. Wir empfehlen Linux oder Mac für die Entwicklung.
+
 **Wir freuen uns auf dich!** 
