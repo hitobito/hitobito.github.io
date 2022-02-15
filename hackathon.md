@@ -40,7 +40,7 @@ Falls du gerne einen Workshop oder eine Session anbieten möchtest, melde dich!
 - Unterstützung beim Programmierstart
 
 ## Hitobito Entwicklung
-- Wenn möglich die Entwicklungsumgebung im Voraus aufsetzen:
+Wenn möglich die Entwicklungsumgebung im Voraus aufsetzen:
 [https://github.com/hitobito/development/](https://github.com/hitobito/development/)
 Achtung: Das Dockerfile ist für Ubuntu geschrieben. Besonders mit Windows gelingt das Setup nicht wie beschrieben. Wir empfehlen Linux oder Mac für die Entwicklung.
 
