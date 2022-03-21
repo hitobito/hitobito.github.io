@@ -14,11 +14,23 @@ Puzzle ITC<br>
 Belpstrasse 37<br>
 3007 Bern<br>
 
+oder remote: meet.google.com/xwr-wuje-dtx
 
 **Anmeldung:** [https://puzzle.hitobito.com/de/groups/1/public_events/39](https://puzzle.hitobito.com/de/groups/1/public_events/39)
 
 ## Agenda
-Wird noch erarbeitet. 
-Gerne nehmen wir deine Inputs mit auf. Melde dich bei uns.
+
+* Vorstellungsrunde
+* News rund um Hitobito
+* Themen in und aus der Community
+    * Wartung und Bugs
+    * Alternative zu Mailchimp
+    * Raisenow
+    * Opencircle
+* Deine Themen für die Community (offene Runde)
+* Varia
+
+
+Hast du selber noch ein Thema welches du gerne mit der Community besprechen möchtest? Melde dich doch kurz bei uns, dann nehmen ich es gerne in die Agenda mit auf.
 
 **Wir freuen uns auf dich!** 
