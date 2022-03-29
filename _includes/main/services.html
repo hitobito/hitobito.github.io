@@ -47,13 +47,14 @@
           <tr>{% for plan in plans.list %}
             <th>
               <div class="plans-price">
+                
+                {{plan.cost[lang]}}
                 {% if plan.trial_link %}
-                  <a href="/signup/" class="btn btn-orange" style="display: block; line-height: 100%; text-decoration: none; padding: 0.5rem;">
+                  <a href="/signup/" class="btn btn-orange" style="display: block; line-height: 100%; text-decoration: none; padding: 0.5rem; margin-top:1.5rem;">
                       <div>{{content.call-to-action[lang]}}!</div>
                   </a>
                   <br>
                 {% endif %}
-                {{plan.cost[lang]}}
               </div>
             </th>
           {% endfor %}</tr>
@@ -87,13 +88,13 @@
         <tfoot>
           <tr>
             <th>
-              {% if plan.trial_link %}
-                <a href="/signup/" class="btn btn-orange" style="display: block; line-height: 100%; text-decoration: none; padding: 0.5rem;">
-                    <div>{{content.call-to-action[lang]}}!</div>
-                </a>
-                <br>
-              {% endif %}
               <div class="plans-price">{{plan.cost[lang]}}</div>
+            {% if plan.trial_link %}
+              <a href="/signup/" class="btn btn-orange" style="display: block; line-height: 100%; text-decoration: none; padding: 0.5rem;">
+                  <div>{{content.call-to-action[lang]}}!</div>
+              </a>
+              <br>
+            {% endif %}
             </th>
           </tr>
         </tfoot>
@@ -101,12 +102,12 @@
       {% endfor %}
     </div>
 
-    <h2>{{content.free-trial[lang]}}</h2>
+    <!-- <h2>{{content.free-trial[lang]}} blabla</h2>
 
     <a href="/signup/" class="btn btn-orange is-important" style="display: block;">
         <div>{{content.call-to-action[lang]}}!</div>
     </a>
-    <p>{{plans.cost_comment[lang]}}</p>
+    <p>{{plans.cost_comment[lang]}}</p> -->
   </div>
 </section>
 <section id="demo">

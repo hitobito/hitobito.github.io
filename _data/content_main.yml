@@ -147,9 +147,9 @@ services:
     fr: Essai gratuit
     en: Free trial
   call-to-action:
-    de: Jetzt 30 Tage ausprobieren
-    fr: Essaye hitobito pour 30 jours
-    en: Try hitobito for 30 days
+    de: Jetzt 30 Tage kostenlos ausprobieren
+    fr: Essaye hitobito gratuitement pour 30 jours
+    en: Try hitobito 30 days for free
 community:
   description:
     de: >-
