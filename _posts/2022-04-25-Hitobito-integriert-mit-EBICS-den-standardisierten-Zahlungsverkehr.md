@@ -18,6 +18,6 @@ Für 'Die Mitte' wurde Hitobito so programmiert, dass nun die Möglichkeit beste
 ## Implementation und Benutzeranleitung
 Die Implementation von EBICS in Hitobito verlief nicht ganz reibungslos. Besonders herausfordernd war, dass die Dokumentationen der Banken nicht lückenlos waren. Dazu kam bei der PostFinance die Differenz zwischen der EBICS Anbindung der Testplattform und der finalen Liveversion, welche für Verwirrung sorgte. Erst nach der Anbindung und der Liveschaltung wurden bisher unbemerkte Fehler entdeckt, die es zu lösen galt. Die Implementation dauerte länger als ursprünglich geplant. Nach mehreren Wochen intensivem Austausch zwischen dem Hitobito Team und der Mitte läuft das Feature bei der Partei seit Januar 2022 wie geplant. Die Kommunikation zwischen Hitobito und der Bank erfolgt seither einfach, direkt und standardisiert. 
 
-Die Benutzeranleitung für alle Hitobito User befindet sich hier: https://hitobito.readthedocs.io/de/latest/ebics.html
+Die Benutzeranleitung für alle Hitobito User befindet sich hier: <a href="https://hitobito.readthedocs.io/de/latest/ebics.html" target="_blank">https://hitobito.readthedocs.io/de/latest/ebics.html</a>
 
 Registriert innerhalb Hitobito sind bis heute die PostFinance und die Raiffeisen Bank. Möchtest du auch deine Bank innerhalb Hitobito mit EBICS anbinden? Unsere Entwickler helfen dir gerne. 
