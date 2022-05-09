@@ -18,4 +18,5 @@ Nils beschreibt die Umsetzung des Projekts als Highlight seiner IPA: "Ich konnte
 
 Nils hat seine IPA natürlich mit Bravur bestanden. Herzlichen Glückwunsch, Nils! 
 
-Die Benutzeranleitung zu 2FA findest du hier: <a href=https://hitobito.readthedocs.io/de/latest/two_factor_authentication.html" target="_blank">https://hitobito.readthedocs.io/de/latest/two_factor_authentication.html</a>
+Die Benutzeranleitung zu 2FA findest du hier: 
+<a href="https://hitobito.readthedocs.io/de/latest/two_factor_authentication.html" target="_blank">https://hitobito.readthedocs.io/de/latest/two_factor_authentication.html</a>
