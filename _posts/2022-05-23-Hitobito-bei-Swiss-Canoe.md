@@ -1,6 +1,6 @@
 Durch die Kontaktaufnahme eines Puzzle Members, welcher selbst im Kanusport aktiv ist, fand im Januar 2021 der erste Austausch mit Swiss Canoe statt. Innerhalb des Kanuverbands wurden die Daten der 46 Clubs mit 4’328 Mitgliedern unabhängig voneinander verwaltet. Dabei gab es von Excel- oder Accesslösungen bis hin zu einer Online-Datenbank verschiedene Anwendungsformen. 
 
-![](/uploads/HitobitoKanu.png)
+![](/uploads/HItobitoKanu.png)
 
 Mit der Präsentation der Open Source Lösung Hitobito wurde das Interesse an einer nationalen Lösung mit einer zentralen Mitgliederverwaltung geweckt.
 
