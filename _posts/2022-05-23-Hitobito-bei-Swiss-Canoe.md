@@ -1,4 +1,4 @@
-Durch die Kontaktaufnahme eines Puzzle Members, welcher selbst im Kanusport aktiv ist, fand im Januar 2021 der erste Austausch mit [Swiss Canoe](www.swisscanoe.ch) statt. Innerhalb des Kanuverbands wurden die Daten der 46 Clubs mit 4’328 Mitgliedern unabhängig voneinander verwaltet. Dabei gab es von Excel- oder Accesslösungen bis hin zu einer Online-Datenbank verschiedene Anwendungsformen. 
+Durch die Kontaktaufnahme eines Puzzle Members, welcher selbst im Kanusport aktiv ist, fand im Januar 2021 der erste Austausch mit [Swiss Canoe](https://www.swisscanoe.ch) statt. Innerhalb des Kanuverbands wurden die Daten der 46 Clubs mit 4’328 Mitgliedern unabhängig voneinander verwaltet. Dabei gab es von Excel- oder Accesslösungen bis hin zu einer Online-Datenbank verschiedene Anwendungsformen. 
 
 ![](/uploads/HItobitoKanu.png)
 
@@ -26,5 +26,5 @@ Weitere von Swiss Canoe eingesetzte Hitobito-Funktionen sind:
 Das Projekt wurde erfolgreich umgesetzt und im Januar 2022 produktiv geschaltet. Swiss Canoe freut sich nun auf das Onboarding aller Kanuclubs und deren Mitglieder in der Schweiz.
 
 ## Über Swiss Canoe
-[Swiss Canoe](www.swisscanoe.ch) wurde 1925 in Brugg mit 31 Mitgliedern gegründet. Der Dachverband der Schweizer Kanuclubs und Paddelsportler*innen bemüht sich um die Förderung des Freizeit- und Wettkampfsports sowie die Nachwuchsförderung. Swiss Canoe setzt sich für die Erhaltung der Befahrbarkeit der Schweizer Gewässer ein und organisiert Aus- und Weiterbildungen für Kanu-Leiter*innen.
+[Swiss Canoe](https://www.swisscanoe.ch) wurde 1925 in Brugg mit 31 Mitgliedern gegründet. Der Dachverband der Schweizer Kanuclubs und Paddelsportler*innen bemüht sich um die Förderung des Freizeit- und Wettkampfsports sowie die Nachwuchsförderung. Swiss Canoe setzt sich für die Erhaltung der Befahrbarkeit der Schweizer Gewässer ein und organisiert Aus- und Weiterbildungen für Kanu-Leiter*innen.
 
